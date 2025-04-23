@@ -2,18 +2,18 @@ const hbs = require('express-handlebars');
 const express = require("express")
 const app = express()
 const PORT = 3000;
-const path = require("path")
+const path = require("path");
+const { handlebars } = require('hbs');
 
 app.set('views', path.join(__dirname, 'views'));
 app.engine('hbs', hbs({ 
     defaultLayout: 'base.hbs',
     extname: '.hbs',
-    partialsDir: "views/partials",
+    partialsDir  : [
+        path.join(__dirname, '/views/partials'),
+    ]
 
 }));
-
-Handlebars.registerPartial('sideBar', '{{sidebae}}');
-Handlebars.registerPartial('navbar', '{{nave}}');
 
 app.set('view engine', 'hbs');
 app.use(express.static(__dirname + '/public'));
