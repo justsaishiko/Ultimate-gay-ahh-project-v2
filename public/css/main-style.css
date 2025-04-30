@@ -17,7 +17,7 @@ body{
 .gayMain{
     width:90vw;
     height: 100vh;
-    border: 5px salmon solid;
+    border: 3px solid aqua;
 }
 
 .normalMode{
@@ -28,15 +28,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url('../images/windrise.jpg') no-repeat;
+    background-size: cover;
 }
 .gameArea{
     width: 80%;
     height: 60%;
     border: 5px solid darkcyan;
+    background-color: rgba(48, 48, 48, 0.7);
 }
 .characterDisplay{
     width:80%;
     height: 20%;
     border: 5px solid chartreuse;
     margin-top: 20px;
+    background-color: rgba(48, 48, 48, 0.7);
 }
