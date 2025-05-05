@@ -2294,7 +2294,7 @@
             "id" : 55,
             "name" : "Xilonen",
             "image": "xilonen.png",
-            "splashArt": "itto-wish.png",
+            "splashArt": "xilonen-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2330,8 +2330,1153 @@
                 "passive": "Tour of Tepeilhuitl",
                 "extra": "Blessing of Forge-Fire"
             }
-        }
+        },
+        {
+            "id": 56,
+            "name": "Navia",
+            "image": "navia.png",
+            "splashArt": "navia-wish.png",
+            "properties": {
+                "element": "geo",
+                "rarity": "5⭐",
+                "weapon": "claymore",
+                "region": "fontaine",
+                "version": "4.3",
+                "stat": "crit damage",
+                "talentBook": "equity",
+                "boss": "coppelius",
+                "specialty": "spring of the first dewdrop",
+                "weeklyBoss": "narwhal",
+                "mob": "fontemer aberrant"
+            },
+            "cons": {
+                "conName": "Rosa Multiflora",
+                "c1": "A Lady’s Rules for Keeping a Courteous Distance",
+                "c2": "The President’s Pursuit of Victory",
+                "c3": "Businesswoman’s Broad Vision",
+                "c4": "The Oathsworn Never Capitulate",
+                "c5": "Negotiator's Resolute Negotiations",
+                "c6": "The Flexible Finesse of the Spina's President"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Blunt Refusal",
+                "eSkill": "Ceremonial Crystalshot",
+                "burst": "As the Sunlit Sky’s Singing Salute",
+                "firstAsc": "Undisclosed Distribution Channels",
+                "secondAsc": "Mutual Assistance Network",
+                "passive": "Painstaking Transaction",
+                "extra": null
+            }
+        },
+        {
+            "id": 57,
+            "name": "Zhongli",
+            "image": "zhongli.png",
+            "splashArt": "zhongli-wish.png",
+            "properties": {
+                "element": "geo",
+                "rarity": "5⭐",
+                "weapon": "polearm",
+                "region": "liyue",
+                "version": "1.1",
+                "stat": "geo damage bonus",
+                "talentBook": "gold",
+                "boss": "basalt pillar",
+                "specialty": "cor lapis",
+                "weeklyBoss": "childe",
+                "mob": "slime"
+            },
+            "cons": {
+                "conName": "Lapis Dei",
+                "c1": "Rock, the Backbone of Earth",
+                "c2": "Stone, the Cradle of Jade",
+                "c3": "Jade, Shimmering through Darkness",
+                "c4": "Topaz, Unbreakable and Fearless",
+                "c5": "Lazuli, Herald of the Order",
+                "c6": "Chrysos, Bounty of Dominator"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Rain of Stone",
+                "eSkill": "Dominus Lapidis",
+                "burst": "Planet Befall",
+                "firstAsc": "Resonant Waves",
+                "secondAsc": "Dominance of Earth",
+                "passive": "Arcanum of Crystal",
+                "extra": null
+            }
+        },
+        {
+            "id": 58,
+            "name": "Yun Jin",
+            "image": "yunjin.png",
+            "splashArt": "yunjin-wish.png",
+            "properties": {
+                "element": "geo",
+                "rarity": "4⭐",
+                "weapon": "polearm",
+                "region": "liyue",
+                "version": "2.4",
+                "stat": "energy recharge",
+                "talentBook": "diligence",
+                "boss": "riftborn regalia",
+                "specialty": "glaze lily",
+                "weeklyBoss": "signora",
+                "mob": "treasure hoarders"
+            },
+            "cons": {
+                "conName": "Opera Grandis",
+                "c1": "Thespian Gallop",
+                "c2": "Myriad Mise-En-Scène",
+                "c3": "Seafaring General",
+                "c4": "Flower and a Fighter",
+                "c5": "Famed Throughout the Land",
+                "c6": "Decorous Harmony"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Cloud-Grazing Strike",
+                "eSkill": "Opening Flourish",
+                "burst": "Cliffbreaker's Banner",
+                "firstAsc": "True to Oneself",
+                "secondAsc": "Breaking Conventions",
+                "passive": "Light Nourishment",
+                "extra": null
+            }
+        },
 
+        {
+            "id": 59,
+            "name": "Gorou",
+            "image": "gorou.png",
+            "splashArt": "gorou-wish.png",
+            "properties": {
+                "element": "geo",
+                "rarity": "4⭐",
+                "weapon": "bow",
+                "region": "inazuma",
+                "version": "2.3",
+                "stat": "geo damage bonus",
+                "talentBook": "light",
+                "boss": "perpetual heart",
+                "specialty": "sango pearl",
+                "weeklyBoss": "la signora",
+                "mob": "specter"
+            },
+            "cons": {
+                "conName": "Canis Bellatoris",
+                "c1": "Rushing Hound: Swift as the Wind",
+                "c2": "Sitting Hound: Steady as a Clock",
+                "c3": "Mauling Hound: Fierce as Fire",
+                "c4": "Lapping Hound: Warm as Water",
+                "c5": "Striking Hound: Thunderous Force",
+                "c6": "Valiant Hound: Mountainous Fealty"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Ripping Fang Fletching",
+                "eSkill": "Inuzaka All-Round Defense",
+                "burst": "Juuga: Forward Unto Victory",
+                "firstAsc": "Heedless of the Wind and Weather",
+                "secondAsc": "A Favor Repaid",
+                "passive": "Seeker of Shinies",
+                "extra": null
+            }
+        },
+        {
+            "id": 60,
+            "name": "Kachina",
+            "image": "kachina.png",
+            "splashArt": "kachina-wish.png",
+            "properties": {
+                "element": "geo",
+                "rarity": "4⭐",
+                "weapon": "polearm",
+                "region": "natlan",
+                "version": "5.0",
+                "stat": "geo damage bonus",
+                "talentBook": "conflict",
+                "boss": "overripe flamegranate",
+                "specialty": "quenepa berry",
+                "weeklyBoss": "peruere",
+                "mob": "saurian warrior"
+            },
+            "cons": {
+                "conName": "Ochotona Princeps",
+                "c1": "Shards Are Gems Too",
+                "c2": "Never Leave Home Without... Turbo Twirly",
+                "c3": "Improved Stabilizer",
+                "c4": "More Foes, More Caution",
+                "c5": "All I've Collected Till Now",
+                "c6": "This Time, I've Gotta Win"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Cragbiter",
+                "eSkill": "Go, Go Turbo Twirly!",
+                "burst": "Time To Get Serious!",
+                "firstAsc": "Mountain Echoes",
+                "secondAsc": "The Weight Of Stone",
+                "passive": "Boon of Crystal Flame",
+                "extra": "Heart of Unity"
+            }
+        },
+        {
+            "id": 61,
+            "name": "Kaedehara Kazuha",
+            "image": "kazuha.png",
+            "splashArt": "kazuha-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "5⭐",
+                "weapon": "sword",
+                "region": "inazuma",
+                "version": "1.6",
+                "stat": "elemental mastery",
+                "talentBook": "diligence",
+                "boss": "marionette core",
+                "specialty": "sea ganoderma",
+                "weeklyBoss": "azhdaha",
+                "mob": "treasure hoarders"
+            },
+            "cons": {
+                "conName": "Acer Palmatum",
+                "c1": "Scarlet Hills",
+                "c2": "Yamaarashi Tailwind",
+                "c3": "Maple Monogatari",
+                "c4": "Oozora Genpou",
+                "c5": "Wisdom of Bansei",
+                "c6": "Crimson Momiji"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Garyuu Bladework",
+                "eSkill": "Chihayaburu",
+                "burst": "Kazuha Slash",
+                "firstAsc": "Soumon Swordsmanship",
+                "secondAsc": "Poetics of Fuubutsu",
+                "passive": "Cloud Strider",
+                "extra": null
+            }
+        },
+
+        {
+            "id": 62,
+            "name": "Wanderer",
+            "image": "wanderer.png",
+            "splashArt": "wanderer-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "5⭐",
+                "weapon": "catalyst",
+                "region": "sumeru",
+                "version": "3.3",
+                "stat": "crit rate",
+                "talentBook": "praxis",
+                "boss": "perpetual caliber",
+                "specialty": "rukkhashava mushrooms",
+                "weeklyBoss": "scaramouche",
+                "mob": "nobushi"
+            },
+            "cons": {
+                "conName": "Peregrinus",
+                "c1": "Shoban: Ostentatious Plumage",
+                "c2": "Niban: Isle Amidst White Waves",
+                "c3": "Sanban: Moonflower Kusemai",
+                "c4": "Yonban: Set Adrift into Spring",
+                "c5": "Matsuban: Ancient Illuminator From Abroad",
+                "c6": "Shugen: The Curtains' Melancholic Sway"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Yuuban Meigen",
+                "eSkill": "Hanega: Song of the Wind",
+                "burst": "Kyougen: Five Ceremonial Plays",
+                "firstAsc": "Jade-Claimed Flower",
+                "secondAsc": "Gales of Reverie",
+                "passive": "Strum the Swirling Winds",
+                "extra": null
+            }
+        },
+        {
+            "id": 63,
+            "name": "Shikanoin Heizou",
+            "image": "heizou.png",
+            "splashArt": "heizou-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "4⭐",
+                "weapon": "catalyst",
+                "region": "inazuma",
+                "version": "2.8",
+                "stat": "anemo damage bonus",
+                "talentBook": "transience",
+                "boss": "runic fang",
+                "specialty": "onikabuto",
+                "weeklyBoss": "raiden",
+                "mob": "treasure hoarders"
+            },
+            "cons": {
+                "conName": "Cervus Minor",
+                "c1": "Named Juvenile Casebook",
+                "c2": "Investigative Collection",
+                "c3": "Esoteric Puzzle Book",
+                "c4": "Tome of Lies",
+                "c5": "Secret Archive",
+                "c6": "Curious Casefiles"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Fudou Style Martial Arts",
+                "eSkill": "Heartstopper Strike",
+                "burst": "Windmuster Kick",
+                "firstAsc": "Paradoxical Practice",
+                "secondAsc": "Penetrative Reasoning",
+                "passive": "Pre-Existing Guilt",
+                "extra": null
+            }
+        },
+        {
+            "id": 64,
+            "name": "Xiao",
+            "image": "xiao.png",
+            "splashArt": "xiao-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "5⭐",
+                "weapon": "polearm",
+                "region": "liyue",
+                "version": "1.3",
+                "stat": "crit rate",
+                "talentBook": "prosperity",
+                "boss": "juvenile jade",
+                "specialty": "qingxin",
+                "weeklyBoss": "childe",
+                "mob": "slime"
+            },
+            "cons": {
+                "conName": "Alatus Nemeseos",
+                "c1": "Dissolution Eon: Destroyer of Worlds",
+                "c2": "Annihilation Eon: Blossom of Kaleidos",
+                "c3": "Conqueror of Evil: Wrath of Deity",
+                "c4": "Transcension: Extinction of Suffering",
+                "c5": "Evolution Eon: Origin of Ignorance",
+                "c6": "Conqueror of Evil: Guardian Yaksha"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Whirlwind Thrust",
+                "eSkill": "Lemniscatic Wind Cycling",
+                "burst": "Bane of All Evil",
+                "firstAsc": "Conqueror of Evil: Tamer of Demons",
+                "secondAsc": "Dissolution Eon: Heaven Fall",
+                "passive": "Transcension: Gravity Defier",
+                "extra": null
+            }
+        },
+        {
+            "id": 65,
+            "name": "Lynette Snezhnevna",
+            "image": "lynette.png",
+            "splashArt": "lynette-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "4⭐",
+                "weapon": "sword",
+                "region": "fontaine",
+                "version": "4.0",
+                "stat": "anemo damage bonus",
+                "talentBook": "order",
+                "boss": "coppelia",
+                "specialty": "lumidouce bell",
+                "weeklyBoss": "apep",
+                "mob": "meka"
+            },
+            "cons": {
+                "conName": "Felis Alba",
+                "c1": "A Cold Blade Like a Shadow",
+                "c2": "Endless Mysteries",
+                "c3": "Cognition-Inverting Gaze",
+                "c4": "Tacit Coordination",
+                "c5": "Obscuring Ambuguity",
+                "c6": "Watchful Eye"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Rapid Ritesword",
+                "eSkill": "Enigmatic Feint",
+                "burst": "Magic Trick: Astonishing Shift",
+                "firstAsc": "Sophisticated Synergy",
+                "secondAsc": "Props Positively Prepped",
+                "passive": "Loci-Based Mnemonics",
+                "extra": null
+            }
+        },
+
+        {
+            "id": 66,
+            "name": "Xianyun",
+            "image": "xianyun.png",
+            "splashArt": "xianyun-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "5⭐",
+                "weapon": "catalyst",
+                "region": "liyue",
+                "version": "4.4",
+                "stat": "atk",
+                "talentBook": "gold",
+                "boss": "cloudseam scale",
+                "specialty": "clearwater jade",
+                "weeklyBoss": "narwhal",
+                "mob": "samachurl"
+            },
+            "cons": {
+                "conName": "Grus Serena",
+                "c1": "Purifying Wind",
+                "c2": "Aloof From The World",
+                "c3": "Creations of Star and Moon",
+                "c4": "Mystery Millet Gourmet",
+                "c5": "Astride Rose-Colored Clouds",
+                "c6": "They Call Her Cloud Retainer"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Word of Wind and Flower",
+                "eSkill": "White Clouds at Dawn",
+                "burst": "Stars Gather at Dusk",
+                "firstAsc": "Galefeather Pursuit",
+                "secondAsc": "Consider, the Adeptus in Her Realm",
+                "passive": "Crane Form",
+                "extra": null
+            }
+        },
+
+        {
+            "id": 67,
+            "name": "Chasca",
+            "image": "chasca.png",
+            "splashArt": "chasca-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "5⭐",
+                "weapon": "bow",
+                "region": "natlan",
+                "version": "5.2",
+                "stat": "crit rate",
+                "talentBook": "conflict",
+                "boss": "ensnaring gaze",
+                "specialty": "withering purpurbloom",
+                "weeklyBoss": "peruere",
+                "mob": "saurians"
+            },
+            "cons": {
+                "conName": "Vultur Gryphus",
+                "c1": "Cylinder, the Restless Roulette",
+                "c2": "Muzzle, the Searing Smoke",
+                "c3": "Reins, Her Careful Control",
+                "c4": "Sparks, the Sudden Shot",
+                "c5": "Brim, the Sandshadow's Silhouette",
+                "c6": "Showdown, the Glory of Battle"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Phantom Feather Flurry",
+                "eSkill": "Spirit Reins, Shadow Hunt",
+                "burst": "Soul Reaper's Fatal Round",
+                "firstAsc": "Bullet Trick",
+                "secondAsc": "Intent to Cover",
+                "passive": "Mediation's True Meaning",
+                "extra": "Everburning Heart"
+            }
+        },
+        {
+            "id": 68,
+            "name": "Lan Yan",
+            "image": "lanyan.png",
+            "splashArt": "lanyan-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "4⭐",
+                "weapon": "catalyst",
+                "region": "liyue",
+                "version": "5.3",
+                "stat": "atk",
+                "talentBook": "diligence",
+                "boss": "gold inscribed secret source core",
+                "specialty": "clearwater jade",
+                "weeklyBoss": "eroded fire",
+                "mob": "whopperflower"
+            },
+            "cons": {
+                "conName": "Hirundo Lazuli",
+                "c1": "As One Might Stride Betwixt the Clouds",
+                "c2": "Dance Vestments Billow Like Rainbow Jade",
+                "c3": "On White Wings Pierce Through Cloud and Fog",
+                "c4": "With Drakefalcon's Blood-Pearls Adorned",
+                "c5": "Having Met You, My Heart is Gladdened",
+                "c6": "Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Black Pheasant Strides on Water",
+                "eSkill": "Swallow-Wisp Pinion Dance",
+                "burst": "Lustrous Moonrise",
+                "firstAsc": "Four Sealing Divination Charms",
+                "secondAsc": "Skyfeather Evil-Subduing Charm",
+                "passive": "Thought and Intent, Like Silken Scent",
+                "extra": null
+            }
+        },
+        {
+            "id": 69,
+            "name": "Sucrose",
+            "image": "sucrose.png",
+            "splashArt": "sucrose-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "4⭐",
+                "weapon": "catalyst",
+                "region": "mondstadt",
+                "version": "1.0",
+                "stat": "anemo damage bonus",
+                "talentBook": "freedom",
+                "boss": "hurricane seed",
+                "specialty": "windwheel aster",
+                "weeklyBoss": "andrius",
+                "mob": "whopperflower"
+            },
+            "cons": {
+                "conName": "Ampulla",
+                "c1": "Clustered Vacuum Field",
+                "c2": "Beth: Unbound Form",
+                "c3": "Flawless Alchemistress",
+                "c4": "Alchemania",
+                "c5": "Caution: Standard Flask",
+                "c6": "Chaotic Entropy"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Wind Spirit Creation",
+                "eSkill": "Astable Anemohypostasis Creation - 6308",
+                "burst": "Forbidden Creation: Isomer 75 / Type II",
+                "firstAsc": "Catalyst Conversion",
+                "secondAsc": "Mollis Favonius",
+                "passive": "Astable Invention",
+                "extra": null
+            }
+        },
+        {
+            "id": 70,
+            "name": "Sayu",
+            "image": "sayu.png",
+            "splashArt": "sayu-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "4⭐",
+                "weapon": "claymore",
+                "region": "inazuma",
+                "version": "2.0",
+                "stat": "elemental mastery",
+                "talentBook": "light",
+                "boss": "marionette core",
+                "specialty": "crystal marrow",
+                "weeklyBoss": "azdaha",
+                "mob": "whopperflower"
+            },
+            "cons": {
+                "conName": "Nyctereutes Minor",
+                "c1": "Multi-Task no Jutsu",
+                "c2": "Egress Prep",
+                "c3": "Eh, the Bunshin Can Handle It!",
+                "c4": "Skiving: New and Improved",
+                "c5": "Speed Comes First",
+                "c6": "Sleep O'Clock"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Shuumatsuban Ninja Blade",
+                "eSkill": "Yoohoo Art: Fuuin Dash",
+                "burst": "Yoohoo Art: Mujina Flurry",
+                "firstAsc": "Someone More Capable",
+                "secondAsc": "No Work Today!",
+                "passive": "Yoohoo Art: Silencer's Secret",
+                "extra": null
+            }
+        },
+        {
+            "id": 71,
+            "name": "Mika",
+            "image": "mika.png",
+            "splashArt": "mika-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "4⭐",
+                "weapon": "polearm",
+                "region": "mondstadt",
+                "version": "3.5",
+                "stat": "hp",
+                "talentBook": "ballad",
+                "boss": "pseudo-stamens",
+                "specialty": "wolfhook",
+                "weeklyBoss": "scaramouche",
+                "mob": "fatui"
+            },
+            "cons": {
+                "conName": "Palumbus",
+                "c1": "Factor Confluence",
+                "c2": "Companion's Ingress",
+                "c3": "Reconnaissance Experience",
+                "c4": "Sunfrost Encomium",
+                "c5": "Signal Arrow",
+                "c6": "Companion's Counsel"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Spear of Favonius - Arrow's Passage",
+                "eSkill": "Starfrost Swirl",
+                "burst": "Skyfeather Song",
+                "firstAsc": "Suppressive Barrage",
+                "secondAsc": "Topographical Mapping",
+                "passive": "Demarcation",
+                "extra": null
+            }
+        },
+        {
+            "id": 72,
+            "name": "Layla",
+            "image": "layla.png",
+            "splashArt": "layla-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "4⭐",
+                "weapon": "sword",
+                "region": "sumeru",
+                "version": "3.2",
+                "stat": "hp",
+                "talentBook": "ingenuity",
+                "boss": "perpetual caliber",
+                "specialty": "nilotpala lotus",
+                "weeklyBoss": "scaramouche",
+                "mob": "samachurl"
+            },
+            "cons": {
+                "conName": "Luscinia",
+                "c1": "Fortress of Fantasy",
+                "c2": "Light's Remit",
+                "c3": "Secrets of the Night",
+                "c4": "Starry Illumination",
+                "c5": "Stream of Consciousness",
+                "c6": "Radiant Soulfire"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Sword of the Radiant Path",
+                "eSkill": "Nights of Formal Focus",
+                "burst": "Dream of the Star-Stream Shaker",
+                "firstAsc": "Like Nascent Light",
+                "secondAsc": "Sweet Slumber Undisturbed",
+                "passive": "Shadowy Dream-Signs",
+                "extra": null
+            }
+        },
+        {
+            "id": 73,
+            "name": "Faruzan",
+            "image": "faruzan.png",
+            "splashArt": "faruzan-wish.png",
+            "properties": {
+                "element": "anemo",
+                "rarity": "4⭐",
+                "weapon": "bow",
+                "region": "sumeru",
+                "version": "3.3",
+                "stat": "atk",
+                "talentBook": "admonition",
+                "boss": "light guiding tetrahedron",
+                "specialty": "henna berry",
+                "weeklyBoss": "scaramouche",
+                "mob": "eremites"
+            },
+            "cons": {
+                "conName": "Flosculi Implexi",
+                "c1": "Truth by Any Means",
+                "c2": "Overzealous Intellect",
+                "c3": "Spirit-Orchard Stroll",
+                "c4": "Divine Comprehention",
+                "c5": "Wonderland of Rumination",
+                "c6": "The Wondrous path of Truth"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Parthian Shot",
+                "eSkill": "Wind Realm of Nasamjnin",
+                "burst": "The Wind's Secret Ways",
+                "firstAsc": "Impetuous Flow",
+                "secondAsc": "Lost Wisdom of the Seven Caverns",
+                "passive": "Tomes Light the Path",
+                "extra": null
+            }
+        },
+        {
+            "id": 74,
+            "name": "Shenhe",
+            "image": "shenhe.png",
+            "splashArt": "shenhe-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "5⭐",
+                "weapon": "polearm",
+                "region": "liyue",
+                "version": "2.4",
+                "stat": "atk",
+                "talentBook": "prosperity",
+                "boss": "dragonheir's false fin",
+                "specialty": "qingxin",
+                "weeklyBoss": "signora",
+                "mob": "whopperflower"
+            },
+            "cons": {
+                "conName": "Crista Doloris",
+                "c1": "Clarity of Heart",
+                "c2": "Centered Spirit",
+                "c3": "Seclusion",
+                "c4": "Insight",
+                "c5": "Divine Attainment",
+                "c6": "Mystical Abandon"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Dawnstar Piercer",
+                "eSkill": "Spring Spirit Summoning",
+                "burst": "Divine Maiden's Deliverance",
+                "firstAsc": "Deific Embrace",
+                "secondAsc": "Spirit Communion Seal",
+                "passive": "Precise Comings and Goings",
+                "extra": null
+            }
+        },
+        {
+            "id": 75,
+            "name": "Freminet",
+            "image": "freminet.png",
+            "splashArt": "freminet-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "4⭐",
+                "weapon": "claymore",
+                "region": "fontaine",
+                "version": "4.0",
+                "stat": "atk",
+                "talentBook": "justice",
+                "boss": "coppelius",
+                "specialty": "romaritime flower",
+                "weeklyBoss": "apep",
+                "mob": "fontemer aberrant"
+            },
+            "cons": {
+                "conName": "Automaton",
+                "c1": "Dreams of the Foamy Deep",
+                "c2": "Penguins and the Land of Plenty",
+                "c3": "Song of the Eddies and Bleached Snads",
+                "c4": "Dance of Snowy Moon and Flute",
+                "c5": "Nights of Hearth and Happiness",
+                "c6": "Moment of Waking and Resolve"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Flowing Eddies",
+                "eSkill": "Pressurized Floe",
+                "burst": "Shadowhunter's Ambush",
+                "firstAsc": "Saturation Deep Dive",
+                "secondAsc": "Parallel Condensers",
+                "passive": "Deepwater Navigation",
+                "extra": null
+            }
+        },
+
+        {
+            "id": 76,
+            "name": "Ganyu",
+            "image": "ganyu.png",
+            "splashArt": "ganyu-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "5⭐",
+                "weapon": "bow",
+                "region": "liyue",
+                "version": "1.2",
+                "stat": "crit damage",
+                "talentBook": "diligence",
+                "boss": "hoarfrost core",
+                "specialty": "qingxin",
+                "weeklyBoss": "childe",
+                "mob": "whopperflower"
+            },
+            "cons": {
+                "conName": "Sinae Unicornis",
+                "c1": "Dew-Drinker",
+                "c2": "The Auspicious",
+                "c3": "Cloud-Strider",
+                "c4": "Westward Sojourn",
+                "c5": "The Merciful",
+                "c6": "The Clement"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Liutian Archery",
+                "eSkill": "Trail of the Qilin",
+                "burst": "Celestial Shower",
+                "firstAsc": "Undivided Heart",
+                "secondAsc": "Harmony between Heaven and Earth",
+                "passive": "Preserved for the Hunt",
+                "extra": null
+            }
+        },
+        {
+            "id": 77,
+            "name": "Eula",
+            "image": "eula.png",
+            "splashArt": "eula-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "5⭐",
+                "weapon": "claymore",
+                "region": "mondstadt",
+                "version": "1.5",
+                "stat": "crit damage",
+                "talentBook": "resistance",
+                "boss": "crystalline bloom",
+                "specialty": "dandelion seed",
+                "weeklyBoss": "azhdaha",
+                "mob": "hilichurl"
+            },
+            "cons": {
+                "conName": "Aphros Delos",
+                "c1": "Tidal Illusion",
+                "c2": "Lady of Seafoam",
+                "c3": "Lawrence Pedigree",
+                "c4": "The Obstinacy of One's Inferiors",
+                "c5": "Chivalric Quality",
+                "c6": "Noble Obligation"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Favonius Bladework - Edel",
+                "eSkill": "Icetide Vortex",
+                "burst": "Glacial Illumination",
+                "firstAsc": "Roiling Rime",
+                "secondAsc": "Wellspring of War-Lust",
+                "passive": "Aristocratic Introspection",
+                "extra": null
+            }
+        },
+        {
+            "id": 78,
+            "name": "Diona",
+            "image": "diona.png",
+            "splashArt": "diona-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "4⭐",
+                "weapon": "bow",
+                "region": "mondstadt",
+                "version": "1.1",
+                "stat": "cryo damage bonus",
+                "talentBook": "freedom",
+                "boss": "hoarfrost core",
+                "specialty": "calla lily",
+                "weeklyBoss": "childe",
+                "mob": "hilichurl shooter"
+            },
+            "cons": {
+                "conName": "Feles",
+                "c1": "A Lingering Flavor",
+                "c2": "Shaken, Not Purred",
+                "c3": "A-Another Round?",
+                "c4": "Wine Industry Slayer",
+                "c5": "Double Shot, On The Rocks",
+                "c6": "Cat's Tail Closing Time"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Katzlein Style",
+                "eSkill": "Icy Paws",
+                "burst": "Signature Mix",
+                "firstAsc": "Cat's Tail Secret Menu",
+                "secondAsc": "Drunkards' Farce",
+                "passive": "Complimentary Bar Food",
+                "extra": null
+            }
+        },
+        {
+            "id": 79,
+            "name": "Rosaria",
+            "image": "rosaria.png",
+            "splashArt": "rosaria-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "4⭐",
+                "weapon": "polearm",
+                "region": "mondstadt",
+                "version": "1.4",
+                "stat": "atk",
+                "talentBook": "ballad",
+                "boss": "hoarfrost core",
+                "specialty": "valberry",
+                "weeklyBoss": "childe",
+                "mob": "fatui"
+            },
+            "cons": {
+                "conName": "Spinea Corona",
+                "c1": "Unholy Revelation",
+                "c2": "Land Without Promise",
+                "c3": "The Wages of Sin",
+                "c4": "Painful Grace",
+                "c5": "Last Rites",
+                "c6": "Divine Retribution"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Spear of the Church",
+                "eSkill": "Ravaging Confession",
+                "burst": "Rites of Termination",
+                "firstAsc": "Regina Probationum",
+                "secondAsc": "Shadow Samaritan",
+                "passive": "Night Walk",
+                "extra": null
+            }
+        },
+        {
+            "id": 80,
+            "name": "Citlali",
+            "image": "citlali.png",
+            "splashArt": "citlali-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "5⭐",
+                "weapon": "catalyst",
+                "region": "natlan",
+                "version": "5.3",
+                "stat": "elemental mastery",
+                "talentBook": "kindling",
+                "boss": "talisman of the enigmatic land",
+                "specialty": "quenepa berry",
+                "weeklyBoss": "peruere",
+                "mob": "saurians"
+            },
+            "cons": {
+                "conName": "Patina Anavatlaca",
+                "c1": "Radiant Blades of Centzon Mimixcoah",
+                "c2": "Heart Devourer's Travail",
+                "c3": "Cloud Serpent's Feathered Crown",
+                "c4": "Death Defier's Spirit Skull",
+                "c5": "Nemontemi's Hex",
+                "c6": "Teoiztac's Secret Pact"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Shadow-Stealing Spirit Vessel",
+                "eSkill": "Dawnfrost Darkstar",
+                "burst": "Edict of Entwined Splendor",
+                "firstAsc": "Mamaloaco's Frigid Rain",
+                "secondAsc": "Itzpapalotl's Star Garments",
+                "passive": "Smoke, Mirrors and the Flowing Winds",
+                "extra": "Songs of Profound Mystery"
+            }
+        },
+
+        {
+            "id": 81,
+            "name": "Wriothesley",
+            "image": "wriothesley.png",
+            "splashArt": "wriothesley-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "5⭐",
+                "weapon": "catalyst",
+                "region": "fontaine",
+                "version": "4.1",
+                "stat": "crit damage",
+                "talentBook": "order",
+                "boss": "tourbillon device",
+                "specialty": "subdetection unit",
+                "weeklyBoss": "apep",
+                "mob": "meka"
+            },
+            "cons": {
+                "conName": "Cerberus",
+                "c1": "Terror for the Evildoers",
+                "c2": "Shackles for the Arrogant",
+                "c3": "Punishment for the Frauds",
+                "c4": "Redemption for the Suffering",
+                "c5": "Mercy for the Wronged",
+                "c6": "Esteem for the Innocent"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Forceful Fists of Frost",
+                "eSkill": "Icefang Rush",
+                "burst": "Darkgold Wolfbite",
+                "firstAsc": "There Shall Be a Plea for Justice",
+                "secondAsc": "There Shall be a Reckoning for Sin",
+                "passive": "The Duke's Grace",
+                "extra": null
+            }
+        },
+        {
+            "id": 82,
+            "name": "Kamisato Ayaka",
+            "image": "ayaka.png",
+            "splashArt": "ayaka-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "5⭐",
+                "weapon": "sword",
+                "region": "inazuma",
+                "version": "2.0",
+                "stat": "crit damage",
+                "talentBook": "elegance",
+                "boss": "perpetual heart",
+                "specialty": "sakura bloom",
+                "weeklyBoss": "azdaha",
+                "mob": "nobushi"
+            },
+            "cons": {
+                "conName": "Grus Nivis",
+                "c1": "Snowswept Sakura",
+                "c2": "Blizzard Blade Seki no To",
+                "c3": "Frostbloom Kamifubuki",
+                "c4": "Ebb and Flow",
+                "c5": "Blossom Cloud Irutsuki",
+                "c6": "Dance of Suigetsu"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Kamisato Art: Kabuki",
+                "eSkill": "Kamisato Art: Hyouka",
+                "burst": "Kamisato Art: Soumetsu",
+                "firstAsc": "Amatsumi Kunitsumi Sanctification",
+                "secondAsc": "Kanten Senmyou Blessing",
+                "passive": "Fruits of Shinsa",
+                "extra": "Kamisato Art: Senho"
+            }
+        },
+        {
+            "id": 83,
+            "name": "Charlotte",
+            "image": "charlotte.png",
+            "splashArt": "charlotte-wish.png",
+            "properties": {
+                "element": "cryo",
+                "rarity": "4⭐",
+                "weapon": "catalyst",
+                "region": "fontaine",
+                "version": "4.2",
+                "stat": "atk",
+                "talentBook": "justice",
+                "boss": "emperor's_resolution",
+                "specialty": "rainbow_rose",
+                "weeklyBoss": "all-devouring_narwhal",
+                "mob": "clockwork_meka"
+            },
+            "cons": {
+                "conName": "Hibernalis",
+                "c1": "A Scoop of Breaking News",
+                "c2": "Snapshot in Time",
+                "c3": "Frozen in the Frame",
+                "c4": "Truth-Capturing Lens",
+                "c5": "Depth of Field",
+                "c6": "Front Page Exclusive"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Cool-Color Capture",
+                "eSkill": "Framing: Freezing Point Composition",
+                "burst": "Still Photo: Comprehensive Confirmation",
+                "firstAsc": "First-Person Shutterbug",
+                "secondAsc": "Scoop Master",
+                "passive": "Moment of Impact",
+                "extra": null
+            }
+        },
+        {
+            "id": 84,
+            "name": "Mizuki",
+            "image": "mizuki.png",
+            "splashArt": "mizuki-wish.png",
+            "properties": {
+                "element": "hydro",
+                "rarity": "4⭐",
+                "weapon": "bow",
+                "region": "inazuma",
+                "version": "5.2",
+                "stat": "hp",
+                "talentBook": "transience",
+                "boss": "dew_of_repudiation",
+                "specialty": "sea_ganoderma",
+                "weeklyBoss": "thunder_manifestation",
+                "mob": "specter"
+            },
+            "cons": {
+                "conName": "Umigami",
+                "c1": "Tidecaller's Promise",
+                "c2": "Abyssal Lullaby",
+                "c3": "Pearlescent Torrent",
+                "c4": "Mariner's Dirge",
+                "c5": "Kaii's Embrace",
+                "c6": "Oceanid's Finale"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Ripple Dart",
+                "eSkill": "Aqua Veil",
+                "burst": "Tsunami Waltz",
+                "firstAsc": "Foamborne Blessing",
+                "secondAsc": "Tidal Resonance",
+                "passive": "Saltspray Navigator",
+                "extra": null
+            }
+        },
+        {
+            "id": 85,
+            "name": "Varesa",
+            "image": "varesa.png",
+            "splashArt": "varesa-wish.png",
+            "properties": {
+                "element": "pyro",
+                "rarity": "5⭐",
+                "weapon": "claymore",
+                "region": "natlan",
+                "version": "5.4",
+                "stat": "crit_dmg",
+                "talentBook": "song_of_flame",
+                "boss": "obsidian_phoenix_plume",
+                "specialty": "volcanic_bloom",
+                "weeklyBoss": "tepetli_the_undying",
+                "mob": "tlacatl_berserker"
+            },
+            "cons": {
+                "conName": "Xiuhtecuhtli",
+                "c1": "Flame of Conquest",
+                "c2": "Ashen Coronation",
+                "c3": "Obsidian Requiem",
+                "c4": "Sunblood Ascendant",
+                "c5": "Warrior's Pyre",
+                "c6": "Huitzilopochtli's Avatar"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Magma Cleaver",
+                "eSkill": "Lava Whip",
+                "burst": "Volcanic Apotheosis",
+                "firstAsc": "Tlaloc's Fury",
+                "secondAsc": "Sunforge Endurance",
+                "passive": "Blood of the Volcano",
+                "extra": "Path of the Sun Warrior"
+            }
+        }
 
     ]
 }
