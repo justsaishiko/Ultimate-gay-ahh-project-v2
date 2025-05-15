@@ -29,7 +29,7 @@
                 "c6": "Pulsating Witch"
             },
 
-            "colors": ["na razie neh"],
+            "colors": ["#463687", "#F9EEE0", "#FFFEFE", "#D9BEB5", "#5244AC", "#342876", "#E3A9FA", "#2B253A"],
 
             "talents": {
                 "NA": "Lightning Touch",
@@ -41,9 +41,7 @@
                 "extra": null
             }
 
-
         },
-
         {
             "id" : 2,
             "name" : "Razor",
@@ -73,7 +71,7 @@
                 "c6": "Lupus Fulguris"
             },
 
-            "colors": ["na razie neh"],
+            "colors": ["#F0F0F0", "#E0D0F0", "#C0B0F0", "#201010", "#9080F0", "#909050", "#100000", "#403030"],
 
             "talents": {
                 "NA": "Steel Fang",
@@ -87,7 +85,6 @@
 
 
         },
-
         {
             "id" : 3,
             "name" : "Bennett",
@@ -117,8 +114,7 @@
                 "c6": "Fire Ventures With Me"
             },
 
-            "colors": ["na razie neh"],
-
+            "colors": ["#F0EAE8", "#F0F0F0", "#4A4150", "#FEEBCC", "#BD9B73", "#AE6732", "#F86105", "#524A5F"],
             "talents": {
                 "NA": "Strike of Fortune",
                 "eSkill": "Passion Overload",
@@ -131,7 +127,6 @@
 
 
         },
-
         {
             "id" : 4,
             "name" : "Diluc Ragnvindr",
@@ -161,7 +156,7 @@
                 "c6": "Flaming Sword, Nemesis of the Dark"
             },
 
-            "colors": ["na razie neh"],
+            "colors": ["#C64936", "#F5E3C3", "#412923", "#DDC5AF", "#613222", "#C49D7C", "#481A12", "#88170A" ],
 
             "talents": {
                 "NA": "Tempered Sword",
@@ -174,7 +169,6 @@
             }
 
         },
-
         {
             "id" : 5,
             "name" : "Kaeya Alberich",
@@ -204,7 +198,7 @@
                 "c6": "Glacial Whirlwind"
             },
 
-            "colors": ["na razie neh"],
+            "colors": ["#266288", "#E3B790", "#3E2A1A", "#37394D", "#BFBDCD", "#454A5E", "#E0E3E8", "#3B3D54" ],
 
             "talents": {
                 "NA": "Ceremonial Bladework",
@@ -218,7 +212,6 @@
 
 
         },
-
         {
             "id" : 6,
             "name" : "Mona Megistus",
@@ -248,7 +241,7 @@
                 "c6": "Rhetorics of Calamitas"
             },
 
-            "colors": ["na razie neh"],
+            "colors": ["#4F4EAC", "#972844", "#F4D1C7", "#FCF0DC", "#50445D", "#A3B9EE", "#8D6672", "#26223D"],
 
             "talents": {
                 "NA": "Ripple of Fate",
@@ -262,7 +255,6 @@
 
 
         },
-
         {
             "id" : 7,
             "name" : "Fischl",
@@ -292,7 +284,7 @@
                 "c6": "Evernight Raven"
             },
 
-            "colors": ["na razie neh"],
+            "colors": ["#A27482", "#F6E7D9", "#F8D7B1", "#402427", "#61478C", "#BB85D0", "#381975", "#AB6D56" ],
 
             "talents": {
                 "NA": "Bolts of Downfall",
@@ -306,7 +298,6 @@
 
 
         },
-
         {
             "id" : 8,
             "name" : "Jean Gunnhildr",
@@ -348,7 +339,6 @@
                 "extra": null
             }
         },
-        
         {
             "id" : 9,
             "name" : "Barbara Pegg",
@@ -392,7 +382,6 @@
 
 
         },
-
         {
             "id" : 10,
             "name" : "Noelle",
@@ -436,7 +425,6 @@
 
 
         },
-        
         {
             "id" : 11,
             "name" : "Amber",
@@ -480,7 +468,6 @@
 
 
         },
-
         {
             "id" : 12,
             "name" : "Klee",
@@ -523,7 +510,6 @@
             }
 
         },
-
         {
             "id" : 13,
             "name" : "Venti",
@@ -567,7 +553,6 @@
 
 
         },
-
         {
             "id" : 14,
             "name" : "Ningguang",
@@ -609,7 +594,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 15,
             "name" : "Qiqi",
@@ -651,7 +635,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 16,
             "name" : "Xingqiu",
@@ -693,7 +676,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 17,
             "name" : "Keqing",
@@ -735,7 +717,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 18,
             "name" : "Chongyun",
@@ -777,7 +758,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 19,
             "name" : "Xiangling",
@@ -819,7 +799,6 @@
                 "extra": null
             }
         },
-        
         {
             "id" : 20,
             "name" : "Beidou",
@@ -861,7 +840,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 21,
             "name" : "Sangonomiya Kokomi",
@@ -903,7 +881,6 @@
                 "extra": "Flawless Strategy"
             }
         },
-
         {
             "id" : 22,
             "name" : "Nilou",
@@ -945,7 +922,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 23,
             "name" : "Candace",
@@ -987,7 +963,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 24,
             "name" : "Tartaglia",
@@ -1029,7 +1004,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 25,
             "name" : "Neuvilette",
@@ -1071,7 +1045,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 26,
             "name" : "Kamisato Ayato",
@@ -1113,7 +1086,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 27,
             "name" : "Yelan",
@@ -1155,7 +1127,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 28,
             "name" : "Sigewinne",
@@ -1197,7 +1168,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 29,
             "name" : "Furina",
@@ -1239,7 +1209,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 30,
             "name" : "Mualani",
@@ -1281,7 +1250,6 @@
                 "extra": "The Trick Is to Keep Smiling!"
             }
         },
-
         {
             "id" : 31,
             "name" : "Collei",
@@ -1323,7 +1291,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 32,
             "name" : "Alhaitham",
@@ -1365,7 +1332,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 33,
             "name" : "Emilie",
@@ -1407,7 +1373,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 34,
             "name" : "Kirara",
@@ -1449,7 +1414,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 35,
             "name" : "Kaveh",
@@ -1491,7 +1455,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 36,
             "name" : "Kinich",
@@ -1533,7 +1496,6 @@
                 "extra": "Repaid in Full"
             }
         },
-
         {
             "id" : 37,
             "name" : "Baizhu",
@@ -1575,7 +1537,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 38,
             "name" : "Nahida",
@@ -1617,7 +1578,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 39,
             "name" : "Yaoyao",
@@ -1659,7 +1619,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 40,
             "name" : "Tighnari",
@@ -1701,7 +1660,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 41,
             "name" : "Thoma",
@@ -1743,7 +1701,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 42,
             "name" : "Xinyan",
@@ -1785,7 +1742,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 43,
             "name" : "Hu Tao",
@@ -1827,7 +1783,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 44,
             "name" : "Gaming",
@@ -1869,7 +1824,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 45,
             "name" : "Yanfei",
@@ -1911,7 +1865,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 46,
             "name" : "Naganohara Yoimiya",
@@ -1953,7 +1906,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 47,
             "name" : "Dehya",
@@ -1995,7 +1947,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 48,
             "name" : "Chevreuse",
@@ -2037,7 +1988,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 49,
             "name" : "Lyney Sneznevich",
@@ -2079,7 +2029,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 50,
             "name" : "Arlecchino",
@@ -2121,7 +2070,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 51,
             "name" : "Mavuika",
@@ -2163,12 +2111,11 @@
                 "extra": "Night-Shattering Radiance"
             }
         },
-
         {
             "id" : 52,
             "name" : "Albedo Kreideprinz",
             "image": "albedo",
-            "splashArt": "mavuika-wish",
+            "splashArt": "albedo-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2205,7 +2152,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 53,
             "name" : "Chiori",
@@ -2247,7 +2193,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 54,
             "name" : "Arataki Itto",
@@ -2289,7 +2234,6 @@
                 "extra": null
             }
         },
-
         {
             "id" : 55,
             "name" : "Xilonen",
@@ -2445,7 +2389,6 @@
                 "extra": null
             }
         },
-
         {
             "id": 59,
             "name": "Gorou",
@@ -2560,7 +2503,6 @@
                 "extra": null
             }
         },
-
         {
             "id": 62,
             "name": "Wanderer",
@@ -2713,7 +2655,6 @@
                 "extra": null
             }
         },
-
         {
             "id": 66,
             "name": "Xianyun",
@@ -2752,7 +2693,6 @@
                 "extra": null
             }
         },
-
         {
             "id": 67,
             "name": "Chasca",
@@ -3059,7 +2999,7 @@
         },
         {
             "id": 75,
-            "name": "Freminet",
+            "name": "Freminet Snezhnevich",
             "image": "freminet",
             "splashArt": "freminet-wish",
             "properties": {
@@ -3095,7 +3035,6 @@
                 "extra": null
             }
         },
-
         {
             "id": 76,
             "name": "Ganyu",
@@ -3136,7 +3075,7 @@
         },
         {
             "id": 77,
-            "name": "Eula",
+            "name": "Eula Lawrence",
             "image": "eula",
             "splashArt": "eula-wish",
             "properties": {
@@ -3174,7 +3113,7 @@
         },
         {
             "id": 78,
-            "name": "Diona",
+            "name": "Diona Katzlein",
             "image": "diona",
             "splashArt": "diona-wish",
             "properties": {
@@ -3286,7 +3225,6 @@
                 "extra": "Songs of Profound Mystery"
             }
         },
-
         {
             "id": 81,
             "name": "Wriothesley",
@@ -3477,7 +3415,7 @@
                 "extra": "A Torch That Incinerates Evil"
             }
         },
-            {
+        {
         "id": 86,
         "name": "Kujou Sara",
         "image": "kujou_sara",
@@ -3514,425 +3452,424 @@
             "passive": "Land Survey",
             "extra": null
         }
-    },
-    {
-        "id": 87,
-        "name": "Yae Miko",
-        "image": "yaemiko",
-        "splashArt": "yaemiko-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "5⭐",
-            "weapon": "catalyst",
-            "region": "inazuma",
-            "version": "2.5",
-            "stat": "crit rate",
-            "talentBook": "light",
-            "boss": "dragonheir's false fin",
-            "specialty": "sea ganoderma",
-            "weeklyBoss": "raiden",
-            "mob": "nobushi"
         },
-        "cons": {
-            "conName": "Divina Vulpes",
-            "c1": "Yakan Offering",
-            "c2": "Fox's Mooncall",
-            "c3": "The Seven Glamours",
-            "c4": "Sakura Channeling",
-            "c5": "Mischievous Teasing",
-            "c6": "Forbidden Art: Daisesshou"
+        {
+            "id": 87,
+            "name": "Yae Miko",
+            "image": "yaemiko",
+            "splashArt": "yaemiko-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "5⭐",
+                "weapon": "catalyst",
+                "region": "inazuma",
+                "version": "2.5",
+                "stat": "crit rate",
+                "talentBook": "light",
+                "boss": "dragonheir's false fin",
+                "specialty": "sea ganoderma",
+                "weeklyBoss": "raiden",
+                "mob": "nobushi"
+            },
+            "cons": {
+                "conName": "Divina Vulpes",
+                "c1": "Yakan Offering",
+                "c2": "Fox's Mooncall",
+                "c3": "The Seven Glamours",
+                "c4": "Sakura Channeling",
+                "c5": "Mischievous Teasing",
+                "c6": "Forbidden Art: Daisesshou"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Spiritfox Sin-Eater",
+                "eSkill": "Yakan Evocation: Sesshou Sakura",
+                "burst": "Great Secret Art: Tenko Kenshin",
+                "firstAsc": "The Shrine's Sacred Shade",
+                "secondAsc": "Enlightened Blessing",
+                "passive": "Meditations of a Yako",
+                "extra": null
+            }
         },
-        "colors": [],
-        "talents": {
-            "NA": "Spiritfox Sin-Eater",
-            "eSkill": "Yakan Evocation: Sesshou Sakura",
-            "burst": "Great Secret Art: Tenko Kenshin",
-            "firstAsc": "The Shrine's Sacred Shade",
-            "secondAsc": "Enlightened Blessing",
-            "passive": "Meditations of a Yako",
-            "extra": null
+        {
+            "id": 88,
+            "name": "Cyno",
+            "image": "cyno",
+            "splashArt": "cyno-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "5⭐",
+                "weapon": "polearm",
+                "region": "sumeru",
+                "version": "3.1",
+                "stat": "crit damage",
+                "talentBook": "admonition",
+                "boss": "thunderclap fruitcore",
+                "specialty": "scarabs",
+                "weeklyBoss": "raiden",
+                "mob": "samachurl"
+            },
+            "cons": {
+                "conName": "Lupus Aureus",
+                "c1": "Ordinance: Unceasing Vigil",
+                "c2": "Ceremony: Homecoming of Spirits",
+                "c3": "Precept: Lawful Enforcer",
+                "c4": "Austerity: Forbidding Guard",
+                "c5": "Funerary Rite: Passing of Starlight",
+                "c6": "Raiment: Just Scales"
+            },
+            "colors": ["#FFD700", "#00008B"],
+            "talents": {
+                "NA": "Invoker's Spear",
+                "eSkill": "Secret Rite: Chasmic Soulfarer",
+                "burst": "Sacred Rite: Wolf's Swiftness",
+                "firstAsc": "Featherfall Judgment",
+                "secondAsc": "Authority Over the Nine Bows",
+                "passive": "The Gift of Silence",
+                "extra": null
+            }
+        },
+        {
+            "id": 89,
+            "name": "Raiden Ei",
+            "image": "raiden",
+            "splashArt": "raiden-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "5⭐",
+                "weapon": "polearm",
+                "region": "inazuma",
+                "version": "2.1",
+                "stat": "energy recharge",
+                "talentBook": "light",
+                "boss": "storm beads",
+                "specialty": "amakumo fruit",
+                "weeklyBoss": "signora",
+                "mob": "nobushi"
+            },
+            "cons": {
+                "conName": "Imperatrix Umbrosa",
+                "c1": "Ominous Inscription",
+                "c2": "Steelbreaker",
+                "c3": "Shinkage Bygones",
+                "c4": "Pledge of Propriety",
+                "c5": "Shogun's Descent",
+                "c6": "Wishbearer"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Origin",
+                "eSkill": "Transcendence: Baleful Omen",
+                "burst": "Secret Art: Musou Shinsetsu",
+                "firstAsc": "Wishes Unnumbered",
+                "secondAsc": "Enlightened One",
+                "passive": "All-Preserver",
+                "extra": null
+            }
+        },
+        {
+            "id": 90,
+            "name": "Sethos",
+            "image": "sethos",
+            "splashArt": "sethos-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "4⭐",
+                "weapon": "bow",
+                "region": "sumeru",
+                "version": "4.7",
+                "stat": "elemental mastery",
+                "talentBook": "praxis",
+                "boss": "cloudseam scale",
+                "specialty": "trishiraite",
+                "weeklyBoss": "scaramouche",
+                "mob": "eremites"
+            },
+            "cons": {
+                "conName": "Basileos Delta",
+                "c1": "Sealed Shrine's Spiritsong",
+                "c2": "Papyrus Scripture of Silent Secrets",
+                "c3": "Ode to the Moonrise Sage",
+                "c4": "Beneficent Plumage",
+                "c5": "Record of the Desolate God's Burning Sands",
+                "c6": "Pylon of the Sojourning Sun Temple"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Royal Reed Archery",
+                "eSkill": "Ancient Rite: The Thundering Sands",
+                "burst": "Secret Rite: Twilight Shadowpiercer",
+                "firstAsc": "Black Kite's Enigma",
+                "secondAsc": "The Sand King's Boon",
+                "passive": "Thoth's Revelation",
+                "extra": null
+            }
+        },
+        {
+            "id": 91,
+            "name": "Dori Sangemah Bay",
+            "image": "dori",
+            "splashArt": "dori-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "4⭐",
+                "weapon": "claymore",
+                "region": "sumeru",
+                "version": "3.0",
+                "stat": "hp",
+                "talentBook": "ingenuity",
+                "boss": "thunderclap fruitcore",
+                "specialty": "kalpalata lotus",
+                "weeklyBoss": "azhdaha",
+                "mob": "eremites"
+            },
+            "cons": {
+                "conName": "Magicae Lucerna",
+                "c1": "Additional Investment",
+                "c2": "Special Franchise",
+                "c3": "Wonders Never Cease",
+                "c4": "Discretionary Supplement",
+                "c5": "Value for Mora",
+                "c6": "Sprinkling Weight"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Marvelous Sword-Dance (Modified)",
+                "eSkill": "Spirit-Warding Lamp: Troubleshooter Cannon",
+                "burst": "Alcazarzaray's Exactitude",
+                "firstAsc": "An Eye for Gold",
+                "secondAsc": "Compound Interest",
+                "passive": "Unexpected Order",
+                "extra": null
+            }
+        },
+        {
+            "id": 92,
+            "name": "Iansan",
+            "image": "iansan",
+            "splashArt": "iansan-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "5⭐",
+                "weapon": "polearm",
+                "region": "natlan",
+                "version": "5.5",
+                "stat": "atk",
+                "talentBook": "contention",
+                "boss": "ensnaring gaze",
+                "specialty": "dracolite",
+                "weeklyBoss": "peruere",
+                "mob": "saurian warrior"
+            },
+            "cons": {
+                "conName": "Carnotaurus",
+                "c1": "Starting's Never Easy",
+                "c2": "Laziness is the Enemy!",
+                "c3": "Scientific Diet Planning",
+                "c4": "Slow and Steady Wins the Race",
+                "c5": "We Can Push It Further!",
+                "c6": "Teachings of the Collective of Plenty"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Weighted Spike",
+                "eSkill": "Thunderbolt Rush",
+                "burst": "The Three Principles of Power",
+                "firstAsc": "Enhanced Resistance Training",
+                "secondAsc": "Kinetic Energy Gradient Test",
+                "passive": "Caloric Balancing Plan",
+                "extra": "Hard Work and Drive"
+            }
+        },
+        {
+            "id": 93,
+            "name": "Ororon",
+            "image": "ororon",
+            "splashArt": "ororon-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "4⭐",
+                "weapon": "bow",
+                "region": "natlan",
+                "version": "5.2",
+                "stat": "atk",
+                "talentBook": "kindling",
+                "boss": "mark of the binding blessing",
+                "specialty": "glowing hornshroom",
+                "weeklyBoss": "narwhal",
+                "mob": "saurians"
+            },
+            "cons": {
+                "conName": "Vampyrum Spectrum",
+                "c1": "Trails Amidst the Forest Fog",
+                "c2": "King Bee of the Hidden Honeyed Wine",
+                "c3": "Roosting Bat's Spiritcage",
+                "c4": "As the Mysteries of the Night Wind",
+                "c5": "A Gift For the Soul",
+                "c6": "Ode to Deep Springs"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Spiritvessel Snapshot",
+                "eSkill": "Night's Sling",
+                "burst": "Dark Voices Echo",
+                "firstAsc": "Nightshade Synesthesia",
+                "secondAsc": "Aspect Catalyst",
+                "passive": "The Art of Skinchanging",
+                "extra": "Flowing Fog, Spritely Shadows"
+            }
+        },
+        {
+            "id": 94,
+            "name": "Kuki Shinobu",
+            "image": "kuki_shinobu",
+            "splashArt": "kuki_shinobu-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "4⭐",
+                "weapon": "sword",
+                "region": "inazuma",
+                "version": "2.7",
+                "stat": "hp",
+                "talentBook": "elegance",
+                "boss": "runic fang",
+                "specialty": "naku weed",
+                "weeklyBoss": "raiden",
+                "mob": "specter"
+            },
+            "cons": {
+                "conName": "Tribulatio Demptio",
+                "c1": "To Cloister Compassion",
+                "c2": "To Forsake Fortune",
+                "c3": "To Sequester Sorrow",
+                "c4": "To Sever Sealing",
+                "c5": "To Cease Courtesies",
+                "c6": "To Ward Weakness"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Shinobu's Shadowsword",
+                "eSkill": "Sanctifying Ring",
+                "burst": "Gyoei Narukami Kariyama Rite",
+                "firstAsc": "Breaking Free",
+                "secondAsc": "Heart's Repose",
+                "passive": "Protracted Prayers",
+                "extra": null
+            }
+        },
+        {
+            "id": 95,
+            "name": "Clorinde",
+            "image": "clorinde",
+            "splashArt": "clorinde-wish",
+            "properties": {
+                "element": "electro",
+                "rarity": "5⭐",
+                "weapon": "sword",
+                "region": "fontaine",
+                "version": "4.7",
+                "stat": "crit rate",
+                "talentBook": "justice",
+                "boss": "fontemer unihorn",
+                "specialty": "lumitoile",
+                "weeklyBoss": "apep",
+                "mob": "fontemer aberrant"
+            },
+            "cons": {
+                "conName": "Rapperia",
+                "c1": "From This Day, I Pass the Candle's Shadow-Veil",
+                "c2": "Now, As We Face the Perils of the Long Night",
+                "c3": "I Pledge to Remember the Oath of Daylight",
+                "c4": "To Enshrine Tears, Life, and Love",
+                "c5": "Holding Dawn's Coming as My Votive",
+                "c6": "And So Shall I Never Despair"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Oath of Hunting Shadows",
+                "eSkill": "Hunter's Vigil",
+                "burst": "Last Lightfall",
+                "firstAsc": "Dark-Shattering Flame",
+                "secondAsc": "Lawful Remuneration",
+                "passive": "Night Vigil's Harvest",
+                "extra": null
+            }
+        },
+        {
+            "id": 96,
+            "name": "Ifa",
+            "image": "ifa",
+            "splashArt": "ifa-wish",
+            "properties": {
+                "element": "anemo",
+                "rarity": "4⭐",
+                "weapon": "catalyst",
+                "region": "natlan",
+                "version": "5.6",
+                "stat": "elemental mastery",
+                "talentBook": "conflict",
+                "boss": "sparkless statue core",
+                "specialty": "saurian claw succulent",
+                "weeklyBoss": "chessboard",
+                "mob": "saurians"
+            },
+            "cons": {
+                "conName": "Catena Opele",
+                "c1": "Vitiferous Elixir's Concoction",
+                "c2": "Guiding Spirit of Ballistic Prayer",
+                "c3": "Rebuttal in Negotiations With the Night",
+                "c4": "Decayed Vessel's Permutation",
+                "c5": "Vow of Universal Coexistence",
+                "c6": "Oath on a Feathered Knot"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Rite of Dispelling Winds",
+                "eSkill": "Airborne Disease Prevention",
+                "burst": "Compound Sedation Field",
+                "firstAsc": "Field Medic's Vision",
+                "secondAsc": "Mutual Aid Agreement",
+                "passive": "Focused Emergency Rescue",
+                "extra": "Tactical Warm Compress Bandaging"
+            }
+        },
+        {
+            "id": 97,
+            "name": "Escoffier",
+            "image": "escoffier",
+            "splashArt": "escoffier-wish",
+            "properties": {
+                "element": "cryo",
+                "rarity": "5⭐",
+                "weapon": "polearm",
+                "region": "fontaine",
+                "version": "5.6",
+                "stat": "crit rate",
+                "talentBook": "justice",
+                "boss": "secret source airflow accumulator",
+                "specialty": "beryl conch",
+                "weeklyBoss": "eroded fire",
+                "mob": "meka"
+            },
+            "cons": {
+                "conName": "Dulciaria Structura",
+                "c1": "Pre-Dinner Dance for Your Taste Buds",
+                "c2": "Fresh, Fragrant Stew Is an Art",
+                "c3": "The Bakery Magic of Caramel Browning",
+                "c4": "Secret Rosemary Recipe",
+                "c5": "Symphony of a Thousand Sauces",
+                "c6": "Tea Parties Bursting With Color"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Kitchen Skills",
+                "eSkill": "Low-Temperature Cooking",
+                "burst": "Scoring Cuts",
+                "firstAsc": "Better to Salivate Than Medicate",
+                "secondAsc": "Inspiration-Immersed Seasoning",
+                "passive": "Constant Off-the-Cuff Cookery",
+                "extra": null
+            }
         }
-    },
-    {
-        "id": 88,
-        "name": "Cyno",
-        "image": "cyno",
-        "splashArt": "cyno-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "5⭐",
-            "weapon": "polearm",
-            "region": "sumeru",
-            "version": "3.1",
-            "stat": "crit damage",
-            "talentBook": "admonition",
-            "boss": "thunderclap fruitcore",
-            "specialty": "scarabs",
-            "weeklyBoss": "raiden",
-            "mob": "samachurl"
-        },
-        "cons": {
-            "conName": "Lupus Aureus",
-            "c1": "Ordinance: Unceasing Vigil",
-            "c2": "Ceremony: Homecoming of Spirits",
-            "c3": "Precept: Lawful Enforcer",
-            "c4": "Austerity: Forbidding Guard",
-            "c5": "Funerary Rite: Passing of Starlight",
-            "c6": "Raiment: Just Scales"
-        },
-        "colors": ["#FFD700", "#00008B"],
-        "talents": {
-            "NA": "Invoker's Spear",
-            "eSkill": "Secret Rite: Chasmic Soulfarer",
-            "burst": "Sacred Rite: Wolf's Swiftness",
-            "firstAsc": "Featherfall Judgment",
-            "secondAsc": "Authority Over the Nine Bows",
-            "passive": "The Gift of Silence",
-            "extra": null
-        }
-    },
-    {
-        "id": 89,
-        "name": "Raiden Ei",
-        "image": "raiden",
-        "splashArt": "raiden-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "5⭐",
-            "weapon": "polearm",
-            "region": "inazuma",
-            "version": "2.1",
-            "stat": "energy recharge",
-            "talentBook": "light",
-            "boss": "storm beads",
-            "specialty": "amakumo fruit",
-            "weeklyBoss": "signora",
-            "mob": "nobushi"
-        },
-        "cons": {
-            "conName": "Imperatrix Umbrosa",
-            "c1": "Ominous Inscription",
-            "c2": "Steelbreaker",
-            "c3": "Shinkage Bygones",
-            "c4": "Pledge of Propriety",
-            "c5": "Shogun's Descent",
-            "c6": "Wishbearer"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Origin",
-            "eSkill": "Transcendence: Baleful Omen",
-            "burst": "Secret Art: Musou Shinsetsu",
-            "firstAsc": "Wishes Unnumbered",
-            "secondAsc": "Enlightened One",
-            "passive": "All-Preserver",
-            "extra": null
-        }
-    },
-    {
-        "id": 90,
-        "name": "Sethos",
-        "image": "sethos",
-        "splashArt": "sethos-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "4⭐",
-            "weapon": "bow",
-            "region": "sumeru",
-            "version": "4.7",
-            "stat": "elemental mastery",
-            "talentBook": "praxis",
-            "boss": "cloudseam scale",
-            "specialty": "trishiraite",
-            "weeklyBoss": "scaramouche",
-            "mob": "eremites"
-        },
-        "cons": {
-            "conName": "Basileos Delta",
-            "c1": "Sealed Shrine's Spiritsong",
-            "c2": "Papyrus Scripture of Silent Secrets",
-            "c3": "Ode to the Moonrise Sage",
-            "c4": "Beneficent Plumage",
-            "c5": "Record of the Desolate God's Burning Sands",
-            "c6": "Pylon of the Sojourning Sun Temple"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Royal Reed Archery",
-            "eSkill": "Ancient Rite: The Thundering Sands",
-            "burst": "Secret Rite: Twilight Shadowpiercer",
-            "firstAsc": "Black Kite's Enigma",
-            "secondAsc": "The Sand King's Boon",
-            "passive": "Thoth's Revelation",
-            "extra": null
-        }
-    },
-    {
-        "id": 91,
-        "name": "Dori Sangemah Bay",
-        "image": "dori",
-        "splashArt": "dori-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "4⭐",
-            "weapon": "claymore",
-            "region": "sumeru",
-            "version": "3.0",
-            "stat": "hp",
-            "talentBook": "ingenuity",
-            "boss": "thunderclap fruitcore",
-            "specialty": "kalpalata lotus",
-            "weeklyBoss": "azhdaha",
-            "mob": "eremites"
-        },
-        "cons": {
-            "conName": "Magicae Lucerna",
-            "c1": "Additional Investment",
-            "c2": "Special Franchise",
-            "c3": "Wonders Never Cease",
-            "c4": "Discretionary Supplement",
-            "c5": "Value for Mora",
-            "c6": "Sprinkling Weight"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Marvelous Sword-Dance (Modified)",
-            "eSkill": "Spirit-Warding Lamp: Troubleshooter Cannon",
-            "burst": "Alcazarzaray's Exactitude",
-            "firstAsc": "An Eye for Gold",
-            "secondAsc": "Compound Interest",
-            "passive": "Unexpected Order",
-            "extra": null
-        }
-    },
-    {
-        "id": 92,
-        "name": "Iansan",
-        "image": "iansan",
-        "splashArt": "iansan-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "5⭐",
-            "weapon": "polearm",
-            "region": "natlan",
-            "version": "5.5",
-            "stat": "atk",
-            "talentBook": "contention",
-            "boss": "ensnaring gaze",
-            "specialty": "dracolite",
-            "weeklyBoss": "peruere",
-            "mob": "saurian warrior"
-        },
-        "cons": {
-            "conName": "Carnotaurus",
-            "c1": "Starting's Never Easy",
-            "c2": "Laziness is the Enemy!",
-            "c3": "Scientific Diet Planning",
-            "c4": "Slow and Steady Wins the Race",
-            "c5": "We Can Push It Further!",
-            "c6": "Teachings of the Collective of Plenty"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Weighted Spike",
-            "eSkill": "Thunderbolt Rush",
-            "burst": "The Three Principles of Power",
-            "firstAsc": "Enhanced Resistance Training",
-            "secondAsc": "Kinetic Energy Gradient Test",
-            "passive": "Caloric Balancing Plan",
-            "extra": "Hard Work and Drive"
-        }
-    },
-    {
-        "id": 93,
-        "name": "Ororon",
-        "image": "ororon",
-        "splashArt": "ororon-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "4⭐",
-            "weapon": "bow",
-            "region": "natlan",
-            "version": "5.2",
-            "stat": "atk",
-            "talentBook": "kindling",
-            "boss": "mark of the binding blessing",
-            "specialty": "glowing hornshroom",
-            "weeklyBoss": "narwhal",
-            "mob": "saurians"
-        },
-        "cons": {
-            "conName": "Vampyrum Spectrum",
-            "c1": "Trails Amidst the Forest Fog",
-            "c2": "King Bee of the Hidden Honeyed Wine",
-            "c3": "Roosting Bat's Spiritcage",
-            "c4": "As the Mysteries of the Night Wind",
-            "c5": "A Gift For the Soul",
-            "c6": "Ode to Deep Springs"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Spiritvessel Snapshot",
-            "eSkill": "Night's Sling",
-            "burst": "Dark Voices Echo",
-            "firstAsc": "Nightshade Synesthesia",
-            "secondAsc": "Aspect Catalyst",
-            "passive": "The Art of Skinchanging",
-            "extra": "Flowing Fog, Spritely Shadows"
-        }
-    },
-    {
-        "id": 94,
-        "name": "Kuki Shinobu",
-        "image": "kuki_shinobu",
-        "splashArt": "kuki_shinobu-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "4⭐",
-            "weapon": "sword",
-            "region": "inazuma",
-            "version": "2.7",
-            "stat": "hp",
-            "talentBook": "elegance",
-            "boss": "runic fang",
-            "specialty": "naku weed",
-            "weeklyBoss": "raiden",
-            "mob": "specter"
-        },
-        "cons": {
-            "conName": "Tribulatio Demptio",
-            "c1": "To Cloister Compassion",
-            "c2": "To Forsake Fortune",
-            "c3": "To Sequester Sorrow",
-            "c4": "To Sever Sealing",
-            "c5": "To Cease Courtesies",
-            "c6": "To Ward Weakness"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Shinobu's Shadowsword",
-            "eSkill": "Sanctifying Ring",
-            "burst": "Gyoei Narukami Kariyama Rite",
-            "firstAsc": "Breaking Free",
-            "secondAsc": "Heart's Repose",
-            "passive": "Protracted Prayers",
-            "extra": null
-        }
-    },
-    {
-        "id": 95,
-        "name": "Clorinde",
-        "image": "clorinde",
-        "splashArt": "clorinde-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "5⭐",
-            "weapon": "sword",
-            "region": "fontaine",
-            "version": "4.7",
-            "stat": "crit rate",
-            "talentBook": "justice",
-            "boss": "fontemer unihorn",
-            "specialty": "lumitoile",
-            "weeklyBoss": "apep",
-            "mob": "fontemer aberrant"
-        },
-        "cons": {
-            "conName": "Rapperia",
-            "c1": "From This Day, I Pass the Candle's Shadow-Veil",
-            "c2": "Now, As We Face the Perils of the Long Night",
-            "c3": "I Pledge to Remember the Oath of Daylight",
-            "c4": "To Enshrine Tears, Life, and Love",
-            "c5": "Holding Dawn's Coming as My Votive",
-            "c6": "And So Shall I Never Despair"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Oath of Hunting Shadows",
-            "eSkill": "Hunter's Vigil",
-            "burst": "Last Lightfall",
-            "firstAsc": "Dark-Shattering Flame",
-            "secondAsc": "Lawful Remuneration",
-            "passive": "Night Vigil's Harvest",
-            "extra": null
-        }
-    },
-     {
-        "id": 96,
-        "name": "Ifa",
-        "image": "ifa",
-        "splashArt": "ifa-wish",
-        "properties": {
-            "element": "anemo",
-            "rarity": "4⭐",
-            "weapon": "catalyst",
-            "region": "natlan",
-            "version": "5.6",
-            "stat": "elemental mastery",
-            "talentBook": "conflict",
-            "boss": "sparkless statue core",
-            "specialty": "saurian claw succulent",
-            "weeklyBoss": "chessboard",
-            "mob": "saurians"
-        },
-        "cons": {
-            "conName": "Catena Opele",
-            "c1": "Vitiferous Elixir's Concoction",
-            "c2": "Guiding Spirit of Ballistic Prayer",
-            "c3": "Rebuttal in Negotiations With the Night",
-            "c4": "Decayed Vessel's Permutation",
-            "c5": "Vow of Universal Coexistence",
-            "c6": "Oath on a Feathered Knot"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Rite of Dispelling Winds",
-            "eSkill": "Airborne Disease Prevention",
-            "burst": "Compound Sedation Field",
-            "firstAsc": "Field Medic's Vision",
-            "secondAsc": "Mutual Aid Agreement",
-            "passive": "Focused Emergency Rescue",
-            "extra": "Tactical Warm Compress Bandaging"
-        }
-    },
-    {
-        "id": 97,
-        "name": "Escoffier",
-        "image": "escoffier",
-        "splashArt": "escoffier-wish",
-        "properties": {
-            "element": "cryo",
-            "rarity": "5⭐",
-            "weapon": "polearm",
-            "region": "fontaine",
-            "version": "5.6",
-            "stat": "crit rate",
-            "talentBook": "justice",
-            "boss": "secret source airflow accumulator",
-            "specialty": "beryl conch",
-            "weeklyBoss": "eroded fire",
-            "mob": "meka"
-        },
-        "cons": {
-            "conName": "Dulciaria Structura",
-            "c1": "Pre-Dinner Dance for Your Taste Buds",
-            "c2": "Fresh, Fragrant Stew Is an Art",
-            "c3": "The Bakery Magic of Caramel Browning",
-            "c4": "Secret Rosemary Recipe",
-            "c5": "Symphony of a Thousand Sauces",
-            "c6": "Tea Parties Bursting With Color"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Kitchen Skills",
-            "eSkill": "Low-Temperature Cooking",
-            "burst": "Scoring Cuts",
-            "firstAsc": "Better to Salivate Than Medicate",
-            "secondAsc": "Inspiration-Immersed Seasoning",
-            "passive": "Constant Off-the-Cuff Cookery",
-            "extra": null
-        }
-    }
-
 ]
 }
