@@ -3,8 +3,8 @@
         {
             "id" : 1,
             "name" : "Lisa Minci",
-            "image": "lisa.png",
-            "splashArt": "lisa-wish.png",
+            "image": "lisa",
+            "splashArt": "lisa-wish",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -47,8 +47,8 @@
         {
             "id" : 2,
             "name" : "Razor",
-            "image": "razor.png",
-            "splashArt": "razor-wish.png",
+            "image": "razor",
+            "splashArt": "razor-wish",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -91,8 +91,8 @@
         {
             "id" : 3,
             "name" : "Bennett",
-            "image": "bennett.png",
-            "splashArt": "bennett-wish.png",
+            "image": "bennett",
+            "splashArt": "bennett-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -135,8 +135,8 @@
         {
             "id" : 4,
             "name" : "Diluc Ragnvindr",
-            "image": "diluc.png",
-            "splashArt": "diluc-wish.png",
+            "image": "diluc",
+            "splashArt": "diluc-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -178,8 +178,8 @@
         {
             "id" : 5,
             "name" : "Kaeya Alberich",
-            "image": "kaeya.png",
-            "splashArt": "kaeya-wish.png",
+            "image": "kaeya",
+            "splashArt": "kaeya-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -222,8 +222,8 @@
         {
             "id" : 6,
             "name" : "Mona Megistus",
-            "image": "mona.png",
-            "splashArt": "mona-wish.png",
+            "image": "mona",
+            "splashArt": "mona-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -266,8 +266,8 @@
         {
             "id" : 7,
             "name" : "Fischl",
-            "image": "fischl.png",
-            "splashArt": "fischl-wish.png",
+            "image": "fischl",
+            "splashArt": "fischl-wish",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -310,8 +310,8 @@
         {
             "id" : 8,
             "name" : "Jean Gunnhildr",
-            "image": "jean.png",
-            "splashArt": "jean-wish.png",
+            "image": "jean",
+            "splashArt": "jean-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -352,8 +352,8 @@
         {
             "id" : 9,
             "name" : "Barbara Pegg",
-            "image": "barbara.png",
-            "splashArt": "barbara-wish.png",
+            "image": "barbara",
+            "splashArt": "barbara-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "4⭐",
@@ -396,8 +396,8 @@
         {
             "id" : 10,
             "name" : "Noelle",
-            "image": "noelle.png",
-            "splashArt": "noelle-wish.png",
+            "image": "noelle",
+            "splashArt": "noelle-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -440,8 +440,8 @@
         {
             "id" : 11,
             "name" : "Amber",
-            "image": "amber.png",
-            "splashArt": "amber-wish.png",
+            "image": "amber",
+            "splashArt": "amber-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -484,8 +484,8 @@
         {
             "id" : 12,
             "name" : "Klee",
-            "image": "klee.png",
-            "splashArt": "klee-wish.png",
+            "image": "klee",
+            "splashArt": "klee-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -527,8 +527,8 @@
         {
             "id" : 13,
             "name" : "Venti",
-            "image": "venti.png",
-            "splashArt": "venti-wish.png",
+            "image": "venti",
+            "splashArt": "venti-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -571,8 +571,8 @@
         {
             "id" : 14,
             "name" : "Ningguang",
-            "image": "ningguang.png",
-            "splashArt": "ningguang-wish.png",
+            "image": "ningguang",
+            "splashArt": "ningguang-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -613,8 +613,8 @@
         {
             "id" : 15,
             "name" : "Qiqi",
-            "image": "qiqi.png",
-            "splashArt": "qiqi-wish.png",
+            "image": "qiqi",
+            "splashArt": "qiqi-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -655,8 +655,8 @@
         {
             "id" : 16,
             "name" : "Xingqiu",
-            "image": "xingqiu.png",
-            "splashArt": "xingqiu-wish.png",
+            "image": "xingqiu",
+            "splashArt": "xingqiu-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "4⭐",
@@ -697,8 +697,8 @@
         {
             "id" : 17,
             "name" : "Keqing",
-            "image": "keqing.png",
-            "splashArt": "keqing-wish.png",
+            "image": "keqing",
+            "splashArt": "keqing-wish",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -739,8 +739,8 @@
         {
             "id" : 18,
             "name" : "Chongyun",
-            "image": "chongyun.png",
-            "splashArt": "chongyun-wish.png",
+            "image": "chongyun",
+            "splashArt": "chongyun-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -781,8 +781,8 @@
         {
             "id" : 19,
             "name" : "Xiangling",
-            "image": "xiangling.png",
-            "splashArt": "xiangling-wish.png",
+            "image": "xiangling",
+            "splashArt": "xiangling-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -823,8 +823,8 @@
         {
             "id" : 20,
             "name" : "Beidou",
-            "image": "beidou.png",
-            "splashArt": "beidou-wish.png",
+            "image": "beidou",
+            "splashArt": "beidou-wish",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -865,8 +865,8 @@
         {
             "id" : 21,
             "name" : "Sangonomiya Kokomi",
-            "image": "kokomi.png",
-            "splashArt": "kokomi-wish.png",
+            "image": "kokomi",
+            "splashArt": "kokomi-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -907,8 +907,8 @@
         {
             "id" : 22,
             "name" : "Nilou",
-            "image": "nilou.png",
-            "splashArt": "nilou-wish.png",
+            "image": "nilou",
+            "splashArt": "nilou-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -949,8 +949,8 @@
         {
             "id" : 23,
             "name" : "Candace",
-            "image": "candace.png",
-            "splashArt": "candace-wish.png",
+            "image": "candace",
+            "splashArt": "candace-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "4⭐",
@@ -991,8 +991,8 @@
         {
             "id" : 24,
             "name" : "Tartaglia",
-            "image": "tartaglia.png",
-            "splashArt": "tartaglia-wish.png",
+            "image": "tartaglia",
+            "splashArt": "tartaglia-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1033,8 +1033,8 @@
         {
             "id" : 25,
             "name" : "Neuvilette",
-            "image": "neuvilette.png",
-            "splashArt": "neuvilette-wish.png",
+            "image": "neuvilette",
+            "splashArt": "neuvilette-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1075,8 +1075,8 @@
         {
             "id" : 26,
             "name" : "Kamisato Ayato",
-            "image": "ayato.png",
-            "splashArt": "ayato-wish.png",
+            "image": "ayato",
+            "splashArt": "ayato-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1117,8 +1117,8 @@
         {
             "id" : 27,
             "name" : "Yelan",
-            "image": "yelan.png",
-            "splashArt": "yelan-wish.png",
+            "image": "yelan",
+            "splashArt": "yelan-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1159,8 +1159,8 @@
         {
             "id" : 28,
             "name" : "Sigewinne",
-            "image": "sigewinne.png",
-            "splashArt": "sigewinne-wish.png",
+            "image": "sigewinne",
+            "splashArt": "sigewinne-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1201,8 +1201,8 @@
         {
             "id" : 29,
             "name" : "Furina",
-            "image": "furina.png",
-            "splashArt": "furina-wish.png",
+            "image": "furina",
+            "splashArt": "furina-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1243,8 +1243,8 @@
         {
             "id" : 30,
             "name" : "Mualani",
-            "image": "mualani.png",
-            "splashArt": "mualani-wish.png",
+            "image": "mualani",
+            "splashArt": "mualani-wish",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1285,8 +1285,8 @@
         {
             "id" : 31,
             "name" : "Collei",
-            "image": "collei.png",
-            "splashArt": "collei-wish.png",
+            "image": "collei",
+            "splashArt": "collei-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1327,8 +1327,8 @@
         {
             "id" : 32,
             "name" : "Alhaitham",
-            "image": "alhaitham.png",
-            "splashArt": "alhaitham-wish.png",
+            "image": "alhaitham",
+            "splashArt": "alhaitham-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1369,8 +1369,8 @@
         {
             "id" : 33,
             "name" : "Emilie",
-            "image": "emilie.png",
-            "splashArt": "emilie-wish.png",
+            "image": "emilie",
+            "splashArt": "emilie-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1411,8 +1411,8 @@
         {
             "id" : 34,
             "name" : "Kirara",
-            "image": "kirara.png",
-            "splashArt": "kirara-wish.png",
+            "image": "kirara",
+            "splashArt": "kirara-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1453,8 +1453,8 @@
         {
             "id" : 35,
             "name" : "Kaveh",
-            "image": "kaveh.png",
-            "splashArt": "kaveh-wish.png",
+            "image": "kaveh",
+            "splashArt": "kaveh-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1495,8 +1495,8 @@
         {
             "id" : 36,
             "name" : "Kinich",
-            "image": "kinich.png",
-            "splashArt": "kinich-wish.png",
+            "image": "kinich",
+            "splashArt": "kinich-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1537,8 +1537,8 @@
         {
             "id" : 37,
             "name" : "Baizhu",
-            "image": "baizhu.png",
-            "splashArt": "baizhu-wish.png",
+            "image": "baizhu",
+            "splashArt": "baizhu-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1579,8 +1579,8 @@
         {
             "id" : 38,
             "name" : "Nahida",
-            "image": "nahida.png",
-            "splashArt": "nahida-wish.png",
+            "image": "nahida",
+            "splashArt": "nahida-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1621,8 +1621,8 @@
         {
             "id" : 39,
             "name" : "Yaoyao",
-            "image": "yaoyao.png",
-            "splashArt": "yaoyao-wish.png",
+            "image": "yaoyao",
+            "splashArt": "yaoyao-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1663,8 +1663,8 @@
         {
             "id" : 40,
             "name" : "Tighnari",
-            "image": "tighnari.png",
-            "splashArt": "tighnari-wish.png",
+            "image": "tighnari",
+            "splashArt": "tighnari-wish",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1705,8 +1705,8 @@
         {
             "id" : 41,
             "name" : "Thoma",
-            "image": "thoma.png",
-            "splashArt": "thoma-wish.png",
+            "image": "thoma",
+            "splashArt": "thoma-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1747,8 +1747,8 @@
         {
             "id" : 42,
             "name" : "Xinyan",
-            "image": "xinyan.png",
-            "splashArt": "xinyan-wish.png",
+            "image": "xinyan",
+            "splashArt": "xinyan-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1789,8 +1789,8 @@
         {
             "id" : 43,
             "name" : "Hu Tao",
-            "image": "hutao.png",
-            "splashArt": "hutao-wish.png",
+            "image": "hutao",
+            "splashArt": "hutao-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -1831,8 +1831,8 @@
         {
             "id" : 44,
             "name" : "Gaming",
-            "image": "gaming.png",
-            "splashArt": "gaming-wish.png",
+            "image": "gaming",
+            "splashArt": "gaming-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1873,8 +1873,8 @@
         {
             "id" : 45,
             "name" : "Yanfei",
-            "image": "yanfei.png",
-            "splashArt": "yanfei-wish.png",
+            "image": "yanfei",
+            "splashArt": "yanfei-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1915,8 +1915,8 @@
         {
             "id" : 46,
             "name" : "Naganohara Yoimiya",
-            "image": "yoimiya.png",
-            "splashArt": "yoimiya-wish.png",
+            "image": "yoimiya",
+            "splashArt": "yoimiya-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -1957,8 +1957,8 @@
         {
             "id" : 47,
             "name" : "Dehya",
-            "image": "dehya.png",
-            "splashArt": "dehya-wish.png",
+            "image": "dehya",
+            "splashArt": "dehya-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -1999,8 +1999,8 @@
         {
             "id" : 48,
             "name" : "Chevreuse",
-            "image": "chevreuse.png",
-            "splashArt": "chevreuse-wish.png",
+            "image": "chevreuse",
+            "splashArt": "chevreuse-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -2041,8 +2041,8 @@
         {
             "id" : 49,
             "name" : "Lyney Sneznevich",
-            "image": "lyney.png",
-            "splashArt": "lyney-wish.png",
+            "image": "lyney",
+            "splashArt": "lyney-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -2083,8 +2083,8 @@
         {
             "id" : 50,
             "name" : "Arlecchino",
-            "image": "arlecchino.png",
-            "splashArt": "arlecchino-wish.png",
+            "image": "arlecchino",
+            "splashArt": "arlecchino-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -2125,8 +2125,8 @@
         {
             "id" : 51,
             "name" : "Mavuika",
-            "image": "mavuika.png",
-            "splashArt": "mavuika-wish.png",
+            "image": "mavuika",
+            "splashArt": "mavuika-wish",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -2167,8 +2167,8 @@
         {
             "id" : 52,
             "name" : "Albedo Kreideprinz",
-            "image": "albedo.png",
-            "splashArt": "mavuika-wish.png",
+            "image": "albedo",
+            "splashArt": "mavuika-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2209,8 +2209,8 @@
         {
             "id" : 53,
             "name" : "Chiori",
-            "image": "chiori.png",
-            "splashArt": "chiori-wish.png",
+            "image": "chiori",
+            "splashArt": "chiori-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2251,8 +2251,8 @@
         {
             "id" : 54,
             "name" : "Arataki Itto",
-            "image": "itto.png",
-            "splashArt": "itto-wish.png",
+            "image": "itto",
+            "splashArt": "itto-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2293,8 +2293,8 @@
         {
             "id" : 55,
             "name" : "Xilonen",
-            "image": "xilonen.png",
-            "splashArt": "xilonen-wish.png",
+            "image": "xilonen",
+            "splashArt": "xilonen-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2334,8 +2334,8 @@
         {
             "id": 56,
             "name": "Navia",
-            "image": "navia.png",
-            "splashArt": "navia-wish.png",
+            "image": "navia",
+            "splashArt": "navia-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2372,8 +2372,8 @@
         {
             "id": 57,
             "name": "Zhongli",
-            "image": "zhongli.png",
-            "splashArt": "zhongli-wish.png",
+            "image": "zhongli",
+            "splashArt": "zhongli-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2410,8 +2410,8 @@
         {
             "id": 58,
             "name": "Yun Jin",
-            "image": "yunjin.png",
-            "splashArt": "yunjin-wish.png",
+            "image": "yunjin",
+            "splashArt": "yunjin-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -2449,8 +2449,8 @@
         {
             "id": 59,
             "name": "Gorou",
-            "image": "gorou.png",
-            "splashArt": "gorou-wish.png",
+            "image": "gorou",
+            "splashArt": "gorou-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -2487,8 +2487,8 @@
         {
             "id": 60,
             "name": "Kachina",
-            "image": "kachina.png",
-            "splashArt": "kachina-wish.png",
+            "image": "kachina",
+            "splashArt": "kachina-wish",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -2525,8 +2525,8 @@
         {
             "id": 61,
             "name": "Kaedehara Kazuha",
-            "image": "kazuha.png",
-            "splashArt": "kazuha-wish.png",
+            "image": "kazuha",
+            "splashArt": "kazuha-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2564,8 +2564,8 @@
         {
             "id": 62,
             "name": "Wanderer",
-            "image": "wanderer.png",
-            "splashArt": "wanderer-wish.png",
+            "image": "wanderer",
+            "splashArt": "wanderer-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2602,8 +2602,8 @@
         {
             "id": 63,
             "name": "Shikanoin Heizou",
-            "image": "heizou.png",
-            "splashArt": "heizou-wish.png",
+            "image": "heizou",
+            "splashArt": "heizou-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2640,8 +2640,8 @@
         {
             "id": 64,
             "name": "Xiao",
-            "image": "xiao.png",
-            "splashArt": "xiao-wish.png",
+            "image": "xiao",
+            "splashArt": "xiao-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2678,8 +2678,8 @@
         {
             "id": 65,
             "name": "Lynette Snezhnevna",
-            "image": "lynette.png",
-            "splashArt": "lynette-wish.png",
+            "image": "lynette",
+            "splashArt": "lynette-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2717,8 +2717,8 @@
         {
             "id": 66,
             "name": "Xianyun",
-            "image": "xianyun.png",
-            "splashArt": "xianyun-wish.png",
+            "image": "xianyun",
+            "splashArt": "xianyun-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2756,8 +2756,8 @@
         {
             "id": 67,
             "name": "Chasca",
-            "image": "chasca.png",
-            "splashArt": "chasca-wish.png",
+            "image": "chasca",
+            "splashArt": "chasca-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2794,8 +2794,8 @@
         {
             "id": 68,
             "name": "Lan Yan",
-            "image": "lanyan.png",
-            "splashArt": "lanyan-wish.png",
+            "image": "lanyan",
+            "splashArt": "lanyan-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2832,8 +2832,8 @@
         {
             "id": 69,
             "name": "Sucrose",
-            "image": "sucrose.png",
-            "splashArt": "sucrose-wish.png",
+            "image": "sucrose",
+            "splashArt": "sucrose-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2870,8 +2870,8 @@
         {
             "id": 70,
             "name": "Sayu",
-            "image": "sayu.png",
-            "splashArt": "sayu-wish.png",
+            "image": "sayu",
+            "splashArt": "sayu-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2908,8 +2908,8 @@
         {
             "id": 71,
             "name": "Mika",
-            "image": "mika.png",
-            "splashArt": "mika-wish.png",
+            "image": "mika",
+            "splashArt": "mika-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -2946,8 +2946,8 @@
         {
             "id": 72,
             "name": "Layla",
-            "image": "layla.png",
-            "splashArt": "layla-wish.png",
+            "image": "layla",
+            "splashArt": "layla-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -2984,8 +2984,8 @@
         {
             "id": 73,
             "name": "Faruzan",
-            "image": "faruzan.png",
-            "splashArt": "faruzan-wish.png",
+            "image": "faruzan",
+            "splashArt": "faruzan-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -3022,8 +3022,8 @@
         {
             "id": 74,
             "name": "Shenhe",
-            "image": "shenhe.png",
-            "splashArt": "shenhe-wish.png",
+            "image": "shenhe",
+            "splashArt": "shenhe-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3060,8 +3060,8 @@
         {
             "id": 75,
             "name": "Freminet",
-            "image": "freminet.png",
-            "splashArt": "freminet-wish.png",
+            "image": "freminet",
+            "splashArt": "freminet-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3099,8 +3099,8 @@
         {
             "id": 76,
             "name": "Ganyu",
-            "image": "ganyu.png",
-            "splashArt": "ganyu-wish.png",
+            "image": "ganyu",
+            "splashArt": "ganyu-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3137,8 +3137,8 @@
         {
             "id": 77,
             "name": "Eula",
-            "image": "eula.png",
-            "splashArt": "eula-wish.png",
+            "image": "eula",
+            "splashArt": "eula-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3175,8 +3175,8 @@
         {
             "id": 78,
             "name": "Diona",
-            "image": "diona.png",
-            "splashArt": "diona-wish.png",
+            "image": "diona",
+            "splashArt": "diona-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3213,8 +3213,8 @@
         {
             "id": 79,
             "name": "Rosaria",
-            "image": "rosaria.png",
-            "splashArt": "rosaria-wish.png",
+            "image": "rosaria",
+            "splashArt": "rosaria-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3251,8 +3251,8 @@
         {
             "id": 80,
             "name": "Citlali",
-            "image": "citlali.png",
-            "splashArt": "citlali-wish.png",
+            "image": "citlali",
+            "splashArt": "citlali-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3290,8 +3290,8 @@
         {
             "id": 81,
             "name": "Wriothesley",
-            "image": "wriothesley.png",
-            "splashArt": "wriothesley-wish.png",
+            "image": "wriothesley",
+            "splashArt": "wriothesley-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3328,8 +3328,8 @@
         {
             "id": 82,
             "name": "Kamisato Ayaka",
-            "image": "ayaka.png",
-            "splashArt": "ayaka-wish.png",
+            "image": "ayaka",
+            "splashArt": "ayaka-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3366,8 +3366,8 @@
         {
             "id": 83,
             "name": "Charlotte",
-            "image": "charlotte.png",
-            "splashArt": "charlotte-wish.png",
+            "image": "charlotte",
+            "splashArt": "charlotte-wish",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3404,8 +3404,8 @@
         {
             "id": 84,
             "name": "Yumemizuki Mizuki",
-            "image": "mizuki.png",
-            "splashArt": "mizuki-wish.png",
+            "image": "mizuki",
+            "splashArt": "mizuki-wish",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -3442,8 +3442,8 @@
         {
             "id": 85,
             "name": "Varesa",
-            "image": "varesa.png",
-            "splashArt": "varesa-wish.png",
+            "image": "varesa",
+            "splashArt": "varesa-wish",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -3480,8 +3480,8 @@
             {
         "id": 86,
         "name": "Kujou Sara",
-        "image": "kujou_sara.png",
-        "splashArt": "kujou_sara-wish.png",
+        "image": "kujou_sara",
+        "splashArt": "kujou_sara-wish",
         "properties": {
             "element": "electro",
             "rarity": "4⭐",
@@ -3518,8 +3518,8 @@
     {
         "id": 87,
         "name": "Yae Miko",
-        "image": "yaemiko.png",
-        "splashArt": "yaemiko-wish.png",
+        "image": "yaemiko",
+        "splashArt": "yaemiko-wish",
         "properties": {
             "element": "electro",
             "rarity": "5⭐",
@@ -3556,8 +3556,8 @@
     {
         "id": 88,
         "name": "Cyno",
-        "image": "cyno.png",
-        "splashArt": "cyno-wish.png",
+        "image": "cyno",
+        "splashArt": "cyno-wish",
         "properties": {
             "element": "electro",
             "rarity": "5⭐",
@@ -3594,8 +3594,8 @@
     {
         "id": 89,
         "name": "Raiden Ei",
-        "image": "raiden.png",
-        "splashArt": "raiden-wish.png",
+        "image": "raiden",
+        "splashArt": "raiden-wish",
         "properties": {
             "element": "electro",
             "rarity": "5⭐",
@@ -3632,8 +3632,8 @@
     {
         "id": 90,
         "name": "Sethos",
-        "image": "sethos.png",
-        "splashArt": "sethos-wish.png",
+        "image": "sethos",
+        "splashArt": "sethos-wish",
         "properties": {
             "element": "electro",
             "rarity": "4⭐",
@@ -3670,8 +3670,8 @@
     {
         "id": 91,
         "name": "Dori Sangemah Bay",
-        "image": "dori.png",
-        "splashArt": "dori-wish.png",
+        "image": "dori",
+        "splashArt": "dori-wish",
         "properties": {
             "element": "electro",
             "rarity": "4⭐",
@@ -3708,8 +3708,8 @@
     {
         "id": 92,
         "name": "Iansan",
-        "image": "iansan.png",
-        "splashArt": "iansan-wish.png",
+        "image": "iansan",
+        "splashArt": "iansan-wish",
         "properties": {
             "element": "electro",
             "rarity": "5⭐",
@@ -3746,8 +3746,8 @@
     {
         "id": 93,
         "name": "Ororon",
-        "image": "ororon.png",
-        "splashArt": "ororon-wish.png",
+        "image": "ororon",
+        "splashArt": "ororon-wish",
         "properties": {
             "element": "electro",
             "rarity": "4⭐",
@@ -3784,8 +3784,8 @@
     {
         "id": 94,
         "name": "Kuki Shinobu",
-        "image": "kuki_shinobu.png",
-        "splashArt": "kuki_shinobu-wish.png",
+        "image": "kuki_shinobu",
+        "splashArt": "kuki_shinobu-wish",
         "properties": {
             "element": "electro",
             "rarity": "4⭐",
@@ -3822,8 +3822,8 @@
     {
         "id": 95,
         "name": "Clorinde",
-        "image": "clorinde.png",
-        "splashArt": "clorinde-wish.png",
+        "image": "clorinde",
+        "splashArt": "clorinde-wish",
         "properties": {
             "element": "electro",
             "rarity": "5⭐",
@@ -3860,8 +3860,8 @@
      {
         "id": 96,
         "name": "Ifa",
-        "image": "ifa.png",
-        "splashArt": "ifa-wish.png",
+        "image": "ifa",
+        "splashArt": "ifa-wish",
         "properties": {
             "element": "anemo",
             "rarity": "4⭐",
@@ -3898,8 +3898,8 @@
     {
         "id": 97,
         "name": "Escoffier",
-        "image": "escoffier.png",
-        "splashArt": "escoffier-wish.png",
+        "image": "escoffier",
+        "splashArt": "escoffier-wish",
         "properties": {
             "element": "cryo",
             "rarity": "5⭐",
