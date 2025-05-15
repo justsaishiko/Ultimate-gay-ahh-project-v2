@@ -1,10 +1,10 @@
 {
-    "genshinCharacters" : [
+    "genshinCharacters": [
         {
-            "id" : 1,
-            "name" : "Lisa Minci",
-            "image": "lisa",
-            "splashArt": "lisa-wish",
+            "id": 1,
+            "name": "Lisa Minci",
+            "image": "../images/genshin/profile/lisa.png",
+            "splashArt": "../images/genshin/wish/lisa-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -18,7 +18,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "slime"
             },
-
             "cons": {
                 "conName": "Tempus Fugit",
                 "c1": "Infinite Circuit",
@@ -28,9 +27,16 @@
                 "c5": "Electrocute",
                 "c6": "Pulsating Witch"
             },
-
-            "colors": ["#463687", "#F9EEE0", "#FFFEFE", "#D9BEB5", "#5244AC", "#342876", "#E3A9FA", "#2B253A"],
-
+            "colors": [
+                "#463687",
+                "#F9EEE0",
+                "#FFFEFE",
+                "#D9BEB5",
+                "#5244AC",
+                "#342876",
+                "#E3A9FA",
+                "#2B253A"
+            ],
             "talents": {
                 "NA": "Lightning Touch",
                 "eSkill": "Violet Arc",
@@ -40,13 +46,12 @@
                 "passive": "General Pharmaceutics",
                 "extra": null
             }
-
         },
         {
-            "id" : 2,
-            "name" : "Razor",
-            "image": "razor",
-            "splashArt": "razor-wish",
+            "id": 2,
+            "name": "Razor",
+            "image": "../images/genshin/profile/razor.png",
+            "splashArt": "../images/genshin/wish/razor-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -60,7 +65,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "hilichurl"
             },
-
             "cons": {
                 "conName": "Lupus Minor",
                 "c1": "Wolf's Instinct",
@@ -70,9 +74,16 @@
                 "c5": "Sharpened Claws",
                 "c6": "Lupus Fulguris"
             },
-
-            "colors": ["#F0F0F0", "#E0D0F0", "#C0B0F0", "#201010", "#9080F0", "#909050", "#100000", "#403030"],
-
+            "colors": [
+                "#F0F0F0",
+                "#E0D0F0",
+                "#C0B0F0",
+                "#201010",
+                "#9080F0",
+                "#909050",
+                "#100000",
+                "#403030"
+            ],
             "talents": {
                 "NA": "Steel Fang",
                 "eSkill": "Claw and Thunder",
@@ -82,14 +93,12 @@
                 "passive": "Wolvensprint",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 3,
-            "name" : "Bennett",
-            "image": "bennett",
-            "splashArt": "bennett-wish",
+            "id": 3,
+            "name": "Bennett",
+            "image": "../images/genshin/profile/bennett.png",
+            "splashArt": "../images/genshin/wish/bennett-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -103,7 +112,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "treasure hoarders"
             },
-
             "cons": {
                 "conName": "Rota Calamitas",
                 "c1": "Grand Expectation",
@@ -113,8 +121,16 @@
                 "c5": "True Explorer",
                 "c6": "Fire Ventures With Me"
             },
-
-            "colors": ["#F0EAE8", "#F0F0F0", "#4A4150", "#FEEBCC", "#BD9B73", "#AE6732", "#F86105", "#524A5F"],
+            "colors": [
+                "#F0EAE8",
+                "#F0F0F0",
+                "#4A4150",
+                "#FEEBCC",
+                "#BD9B73",
+                "#AE6732",
+                "#F86105",
+                "#524A5F"
+            ],
             "talents": {
                 "NA": "Strike of Fortune",
                 "eSkill": "Passion Overload",
@@ -124,14 +140,12 @@
                 "passive": "It Should Be Safe",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 4,
-            "name" : "Diluc Ragnvindr",
-            "image": "diluc",
-            "splashArt": "diluc-wish",
+            "id": 4,
+            "name": "Diluc Ragnvindr",
+            "image": "../images/genshin/profile/diluc.png",
+            "splashArt": "../images/genshin/wish/diluc-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -145,7 +159,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "fatui"
             },
-
             "cons": {
                 "conName": "Noctua",
                 "c1": "Conviction",
@@ -155,9 +168,16 @@
                 "c5": "Phoenix, Harbringer of Dawn",
                 "c6": "Flaming Sword, Nemesis of the Dark"
             },
-
-            "colors": ["#C64936", "#F5E3C3", "#412923", "#DDC5AF", "#613222", "#C49D7C", "#481A12", "#88170A" ],
-
+            "colors": [
+                "#C64936",
+                "#F5E3C3",
+                "#412923",
+                "#DDC5AF",
+                "#613222",
+                "#C49D7C",
+                "#481A12",
+                "#88170A"
+            ],
             "talents": {
                 "NA": "Tempered Sword",
                 "eSkill": "Searing Onslaught",
@@ -167,13 +187,12 @@
                 "passive": "Tradition of the Dawn Knight",
                 "extra": null
             }
-
         },
         {
-            "id" : 5,
-            "name" : "Kaeya Alberich",
-            "image": "kaeya",
-            "splashArt": "kaeya-wish",
+            "id": 5,
+            "name": "Kaeya Alberich",
+            "image": "../images/genshin/profile/kaeya.png",
+            "splashArt": "../images/genshin/wish/kaeya-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -187,7 +206,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "treasure hoarders"
             },
-
             "cons": {
                 "conName": "Pavo Ocellus",
                 "c1": "Excellent Blood",
@@ -197,9 +215,16 @@
                 "c5": "Frostbiting Embrace",
                 "c6": "Glacial Whirlwind"
             },
-
-            "colors": ["#266288", "#E3B790", "#3E2A1A", "#37394D", "#BFBDCD", "#454A5E", "#E0E3E8", "#3B3D54" ],
-
+            "colors": [
+                "#266288",
+                "#E3B790",
+                "#3E2A1A",
+                "#37394D",
+                "#BFBDCD",
+                "#454A5E",
+                "#E0E3E8",
+                "#3B3D54"
+            ],
             "talents": {
                 "NA": "Ceremonial Bladework",
                 "eSkill": "Frostgnaw",
@@ -209,14 +234,12 @@
                 "passive": "Hidden Strenght",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 6,
-            "name" : "Mona Megistus",
-            "image": "mona",
-            "splashArt": "mona-wish",
+            "id": 6,
+            "name": "Mona Megistus",
+            "image": "../images/genshin/profile/mona.png",
+            "splashArt": "../images/genshin/wish/mona-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -230,7 +253,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "whopperflower"
             },
-
             "cons": {
                 "conName": "Astrolabos",
                 "c1": "Prophecy of Submersion",
@@ -240,9 +262,16 @@
                 "c5": "Mockery of Fortuna",
                 "c6": "Rhetorics of Calamitas"
             },
-
-            "colors": ["#4F4EAC", "#972844", "#F4D1C7", "#FCF0DC", "#50445D", "#A3B9EE", "#8D6672", "#26223D"],
-
+            "colors": [
+                "#4F4EAC",
+                "#972844",
+                "#F4D1C7",
+                "#FCF0DC",
+                "#50445D",
+                "#A3B9EE",
+                "#8D6672",
+                "#26223D"
+            ],
             "talents": {
                 "NA": "Ripple of Fate",
                 "eSkill": "Mirror Reflection of Doom",
@@ -252,14 +281,12 @@
                 "passive": "Principium of Astrology",
                 "extra": "Illusory Torrent"
             }
-
-
         },
         {
-            "id" : 7,
-            "name" : "Fischl",
-            "image": "fischl",
-            "splashArt": "fischl-wish",
+            "id": 7,
+            "name": "Fischl",
+            "image": "../images/genshin/profile/fischl.png",
+            "splashArt": "../images/genshin/wish/fischl-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -273,7 +300,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "hilichurl shooter"
             },
-
             "cons": {
                 "conName": "Corvus",
                 "c1": "Gaze of the Deep",
@@ -283,9 +309,16 @@
                 "c5": "Against the Fleeting Light",
                 "c6": "Evernight Raven"
             },
-
-            "colors": ["#A27482", "#F6E7D9", "#F8D7B1", "#402427", "#61478C", "#BB85D0", "#381975", "#AB6D56" ],
-
+            "colors": [
+                "#A27482",
+                "#F6E7D9",
+                "#F8D7B1",
+                "#402427",
+                "#61478C",
+                "#BB85D0",
+                "#381975",
+                "#AB6D56"
+            ],
             "talents": {
                 "NA": "Bolts of Downfall",
                 "eSkill": "Nightrider",
@@ -295,14 +328,12 @@
                 "passive": "Mein Hausgarten",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 8,
-            "name" : "Jean Gunnhildr",
-            "image": "jean",
-            "splashArt": "jean-wish",
+            "id": 8,
+            "name": "Jean Gunnhildr",
+            "image": "../images/genshin/profile/jean.png",
+            "splashArt": "../images/genshin/wish/jean-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -316,7 +347,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "hilichurl"
             },
-
             "cons": {
                 "conName": "Leo Minor",
                 "c1": "Spiraling Tempest",
@@ -326,9 +356,9 @@
                 "c5": "Outbursting Gust",
                 "c6": "Lion's Fang, Fair Protector of Mondstadt"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Favonius Bladework",
                 "eSkill": "Gale Blade",
@@ -340,10 +370,10 @@
             }
         },
         {
-            "id" : 9,
-            "name" : "Barbara Pegg",
-            "image": "barbara",
-            "splashArt": "barbara-wish",
+            "id": 9,
+            "name": "Barbara Pegg",
+            "image": "../images/genshin/profile/barbara.png",
+            "splashArt": "../images/genshin/wish/barbara-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "4⭐",
@@ -357,7 +387,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "samachurl"
             },
-
             "cons": {
                 "conName": "Crater",
                 "c1": "Gleeful Songs",
@@ -367,9 +396,9 @@
                 "c5": "The Purest Companionship",
                 "c6": "Dedicating Everything to You"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Whisper of Water",
                 "eSkill": "Let The Show Begin",
@@ -379,14 +408,12 @@
                 "passive": "With My Whole Heart",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 10,
-            "name" : "Noelle",
-            "image": "noelle",
-            "splashArt": "noelle-wish",
+            "id": 10,
+            "name": "Noelle",
+            "image": "../images/genshin/profile/noelle.png",
+            "splashArt": "../images/genshin/wish/noelle-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -400,7 +427,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "hilichurl"
             },
-
             "cons": {
                 "conName": "Parma Cordis",
                 "c1": "I Got Your Back",
@@ -410,9 +436,9 @@
                 "c5": "Favonius Sweeper Master",
                 "c6": "Must Be Spotless"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Favonius Bladework - Maid",
                 "eSkill": "Breastplate",
@@ -422,14 +448,12 @@
                 "passive": "Maid's Knighthood",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 11,
-            "name" : "Amber",
-            "image": "amber",
-            "splashArt": "amber-wish",
+            "id": 11,
+            "name": "Amber",
+            "image": "../images/genshin/profile/amber.png",
+            "splashArt": "../images/genshin/wish/amber-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -443,7 +467,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "hilichurl shooter"
             },
-
             "cons": {
                 "conName": "Lepus",
                 "c1": "One Arrow To Rule Them All",
@@ -453,9 +476,9 @@
                 "c5": "It's Baron Bunny!",
                 "c6": "Wildfire"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Sharphooter",
                 "eSkill": "Explosive Puppet",
@@ -465,14 +488,12 @@
                 "passive": "Gliding Champion",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 12,
-            "name" : "Klee",
-            "image": "klee",
-            "splashArt": "klee-wish",
+            "id": 12,
+            "name": "Klee",
+            "image": "../images/genshin/profile/klee.png",
+            "splashArt": "../images/genshin/wish/klee-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -486,7 +507,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "samachurl"
             },
-
             "cons": {
                 "conName": "Trifolium",
                 "c1": "Chained Reactions",
@@ -496,9 +516,9 @@
                 "c5": "Nova Burst",
                 "c6": "Blazing Delight"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Kaboom!",
                 "eSkill": "Jumpy Dumpty",
@@ -508,13 +528,12 @@
                 "passive": "All Of My Treasures!",
                 "extra": null
             }
-
         },
         {
-            "id" : 13,
-            "name" : "Venti",
-            "image": "venti",
-            "splashArt": "venti-wish",
+            "id": 13,
+            "name": "Venti",
+            "image": "../images/genshin/profile/venti.png",
+            "splashArt": "../images/genshin/wish/venti-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -528,7 +547,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "slime"
             },
-
             "cons": {
                 "conName": "Carmen Dei",
                 "c1": "Splitting Gales",
@@ -538,9 +556,9 @@
                 "c5": "Concerto dal Cielo",
                 "c6": "Storm of Defiance"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Divine Marksmanship",
                 "eSkill": "Skyward Sonnet",
@@ -550,14 +568,12 @@
                 "passive": "Windrider",
                 "extra": null
             }
-
-
         },
         {
-            "id" : 14,
-            "name" : "Ningguang",
-            "image": "ningguang",
-            "splashArt": "ningguang-wish",
+            "id": 14,
+            "name": "Ningguang",
+            "image": "../images/genshin/profile/ningguang.png",
+            "splashArt": "../images/genshin/wish/ningguang-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -571,7 +587,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "fatui"
             },
-
             "cons": {
                 "conName": "Opus Aequilibrium",
                 "c1": "Piercing Fragments",
@@ -581,9 +596,9 @@
                 "c5": "Invincible Be The Jade Screen",
                 "c6": "Grandeur Be The Seven Stars"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Sparkling Scatter",
                 "eSkill": "Jade Screen",
@@ -595,10 +610,10 @@
             }
         },
         {
-            "id" : 15,
-            "name" : "Qiqi",
-            "image": "qiqi",
-            "splashArt": "qiqi-wish",
+            "id": 15,
+            "name": "Qiqi",
+            "image": "../images/genshin/profile/qiqi.png",
+            "splashArt": "../images/genshin/wish/qiqi-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -612,7 +627,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "samachurl"
             },
-
             "cons": {
                 "conName": "Pristina Nola",
                 "c1": "Ascetics of Frost",
@@ -622,9 +636,9 @@
                 "c5": "Crimson Lotus Bloom",
                 "c6": "Rite of Resurrection"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Ancient Sword Art",
                 "eSkill": "Adeptus Art: Heralf of Frost",
@@ -636,10 +650,10 @@
             }
         },
         {
-            "id" : 16,
-            "name" : "Xingqiu",
-            "image": "xingqiu",
-            "splashArt": "xingqiu-wish",
+            "id": 16,
+            "name": "Xingqiu",
+            "image": "../images/genshin/profile/xingqiu.png",
+            "splashArt": "../images/genshin/wish/xingqiu-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "4⭐",
@@ -653,7 +667,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "hilichurl"
             },
-
             "cons": {
                 "conName": "Fabulae Textile",
                 "c1": "The Scent Remained",
@@ -663,9 +676,9 @@
                 "c5": "Embrace of Rain",
                 "c6": "Hence, Call Them My Own Verses"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Guhua Style",
                 "eSkill": "Guhua Sword: Fatal Rainscreen",
@@ -677,10 +690,10 @@
             }
         },
         {
-            "id" : 17,
-            "name" : "Keqing",
-            "image": "keqing",
-            "splashArt": "keqing-wish",
+            "id": 17,
+            "name": "Keqing",
+            "image": "../images/genshin/profile/keqing.png",
+            "splashArt": "../images/genshin/wish/keqing-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -694,7 +707,6 @@
                 "weeklyBoss": "andrius",
                 "mob": "whopperflower"
             },
-
             "cons": {
                 "conName": "Trulla Cementarii",
                 "c1": "Thundering Might",
@@ -704,9 +716,9 @@
                 "c5": "Beckoning Stars",
                 "c6": "Tenacious Star"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Yunlai Swordsmanship",
                 "eSkill": "Stellar Restoration",
@@ -718,10 +730,10 @@
             }
         },
         {
-            "id" : 18,
-            "name" : "Chongyun",
-            "image": "chongyun",
-            "splashArt": "chongyun-wish",
+            "id": 18,
+            "name": "Chongyun",
+            "image": "../images/genshin/profile/chongyun.png",
+            "splashArt": "../images/genshin/wish/chongyun-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -735,7 +747,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "hilichurl"
             },
-
             "cons": {
                 "conName": "Nubis Caesor",
                 "c1": "Ice Unleashed",
@@ -745,9 +756,9 @@
                 "c5": "The True Path",
                 "c6": "Rally of Four Blades"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Demonbane",
                 "eSkill": "Spirit Blade: Chonghua's Layered Frost",
@@ -759,10 +770,10 @@
             }
         },
         {
-            "id" : 19,
-            "name" : "Xiangling",
-            "image": "xiangling",
-            "splashArt": "xiangling-wish",
+            "id": 19,
+            "name": "Xiangling",
+            "image": "../images/genshin/profile/xiangling.png",
+            "splashArt": "../images/genshin/wish/xiangling-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -776,7 +787,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "slime"
             },
-
             "cons": {
                 "conName": "Trulla",
                 "c1": "Crispy Outside, Tender Inside",
@@ -786,9 +796,9 @@
                 "c5": "Guoba Mad",
                 "c6": "Condensed Pyronado"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Dough-Fu",
                 "eSkill": "Guoba Attack",
@@ -800,10 +810,10 @@
             }
         },
         {
-            "id" : 20,
-            "name" : "Beidou",
-            "image": "beidou",
-            "splashArt": "beidou-wish",
+            "id": 20,
+            "name": "Beidou",
+            "image": "../images/genshin/profile/beidou.png",
+            "splashArt": "../images/genshin/wish/beidou-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -817,7 +827,6 @@
                 "weeklyBoss": "dvalin",
                 "mob": "treasure hoarders"
             },
-
             "cons": {
                 "conName": "Victor Mare",
                 "c1": "Sea Beast's Scourge",
@@ -827,9 +836,9 @@
                 "c5": "Crimson Tidewalker",
                 "c6": "Bane of Evil"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Oceanborn",
                 "eSkill": "Tidecaller",
@@ -841,10 +850,10 @@
             }
         },
         {
-            "id" : 21,
-            "name" : "Sangonomiya Kokomi",
-            "image": "kokomi",
-            "splashArt": "kokomi-wish",
+            "id": 21,
+            "name": "Sangonomiya Kokomi",
+            "image": "../images/genshin/profile/kokomi.png",
+            "splashArt": "../images/genshin/wish/kokomi-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -858,7 +867,6 @@
                 "weeklyBoss": "signora",
                 "mob": "specter"
             },
-
             "cons": {
                 "conName": "Dracaena Somnolenta",
                 "c1": "At Water's Edge",
@@ -868,9 +876,9 @@
                 "c5": "All Streams Flow to the Sea",
                 "c6": "Sango Isshin"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "The Shape of Water",
                 "eSkill": "Kurage's Oath",
@@ -882,10 +890,10 @@
             }
         },
         {
-            "id" : 22,
-            "name" : "Nilou",
-            "image": "nilou",
-            "splashArt": "nilou-wish",
+            "id": 22,
+            "name": "Nilou",
+            "image": "../images/genshin/profile/nilou.png",
+            "splashArt": "../images/genshin/wish/nilou-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -899,7 +907,6 @@
                 "weeklyBoss": "raiden",
                 "mob": "fungi"
             },
-
             "cons": {
                 "conName": "Lotos Somno",
                 "c1": "Dance of the Waning Moon",
@@ -909,9 +916,9 @@
                 "c5": "Twirling Light",
                 "c6": "Frostbreaker's Melody"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Dance of Samser",
                 "eSkill": "Dance of Haftkarsvar",
@@ -923,10 +930,10 @@
             }
         },
         {
-            "id" : 23,
-            "name" : "Candace",
-            "image": "candace",
-            "splashArt": "candace-wish",
+            "id": 23,
+            "name": "Candace",
+            "image": "../images/genshin/profile/candace.png",
+            "splashArt": "../images/genshin/wish/candace-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "4⭐",
@@ -940,7 +947,6 @@
                 "weeklyBoss": "raiden",
                 "mob": "eremite"
             },
-
             "cons": {
                 "conName": "Sagitta Scutum",
                 "c1": "Returning Heiress of the Scarlet Sands",
@@ -950,9 +956,9 @@
                 "c5": "Heterochromatic Gaze",
                 "c6": "The Overflow"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Gleaming Spear - Guardian Stance",
                 "eSkill": "Sacred Rite: Heron's Sanctum",
@@ -964,10 +970,10 @@
             }
         },
         {
-            "id" : 24,
-            "name" : "Tartaglia",
-            "image": "tartaglia",
-            "splashArt": "tartaglia-wish",
+            "id": 24,
+            "name": "Tartaglia",
+            "image": "../images/genshin/profile/tartaglia.png",
+            "splashArt": "../images/genshin/wish/tartaglia-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -981,7 +987,6 @@
                 "weeklyBoss": "childe",
                 "mob": "fatui"
             },
-
             "cons": {
                 "conName": "Monoceros Caeli",
                 "c1": "Foul Legacy: Tide Withholder",
@@ -991,9 +996,9 @@
                 "c5": "Havoc: Formless Blade",
                 "c6": "Havoc: Annihilation"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Cutting Torrent",
                 "eSkill": "Foul Legacy: Raging Tide",
@@ -1005,10 +1010,10 @@
             }
         },
         {
-            "id" : 25,
-            "name" : "Neuvilette",
-            "image": "neuvilette",
-            "splashArt": "neuvilette-wish",
+            "id": 25,
+            "name": "Neuvilette",
+            "image": "../images/genshin/profile/neuvilette.png",
+            "splashArt": "../images/genshin/wish/neuvilette-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1022,7 +1027,6 @@
                 "weeklyBoss": "apep",
                 "mob": "fontemer aberrant"
             },
-
             "cons": {
                 "conName": "Leviathan Judicator",
                 "c1": "Venerable Institution",
@@ -1032,9 +1036,9 @@
                 "c5": "Axiomatic Judgment",
                 "c6": "Wrathful Recompense"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "As Water Seeks Equilibrium",
                 "eSkill": "O Tears, I Shall Repay",
@@ -1046,10 +1050,10 @@
             }
         },
         {
-            "id" : 26,
-            "name" : "Kamisato Ayato",
-            "image": "ayato",
-            "splashArt": "ayato-wish",
+            "id": 26,
+            "name": "Kamisato Ayato",
+            "image": "../images/genshin/profile/ayato.png",
+            "splashArt": "../images/genshin/wish/ayato-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1063,7 +1067,6 @@
                 "weeklyBoss": "raiden",
                 "mob": "nobushi"
             },
-
             "cons": {
                 "conName": "Cypressus Custos",
                 "c1": "Kyouka Fuushi",
@@ -1073,9 +1076,9 @@
                 "c5": "Bansui Ichiro",
                 "c6": "Boundless Origin"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Kamisato Art: Marobashi",
                 "eSkill": "Kamisato Art: Kyouka",
@@ -1087,10 +1090,10 @@
             }
         },
         {
-            "id" : 27,
-            "name" : "Yelan",
-            "image": "yelan",
-            "splashArt": "yelan-wish",
+            "id": 27,
+            "name": "Yelan",
+            "image": "../images/genshin/profile/yelan.png",
+            "splashArt": "../images/genshin/wish/yelan-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1104,7 +1107,6 @@
                 "weeklyBoss": "azdaha",
                 "mob": "fatui"
             },
-
             "cons": {
                 "conName": "Umbrabilis Orchis",
                 "c1": "Enter the Plotters",
@@ -1114,9 +1116,9 @@
                 "c5": "Dealer's Sleight",
                 "c6": "Winner Takes All"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Stealthy Bowshot",
                 "eSkill": "Lingering Lifeline",
@@ -1128,10 +1130,10 @@
             }
         },
         {
-            "id" : 28,
-            "name" : "Sigewinne",
-            "image": "sigewinne",
-            "splashArt": "sigewinne-wish",
+            "id": 28,
+            "name": "Sigewinne",
+            "image": "../images/genshin/profile/sigewinne.png",
+            "splashArt": "../images/genshin/wish/sigewinne-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1145,7 +1147,6 @@
                 "weeklyBoss": "narwhal",
                 "mob": "fontemer aberrant"
             },
-
             "cons": {
                 "conName": "Nereides",
                 "c1": "Can the Happiest of Spirits Understand Anxiety?",
@@ -1155,9 +1156,9 @@
                 "c5": "Can the Most Joyful of Spirits Alleviate Agony?",
                 "c6": "Can the Most Radiant of Spirits Pray For Me?"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Targeted Treatment",
                 "eSkill": "Rebound Hydrotherapy",
@@ -1169,10 +1170,10 @@
             }
         },
         {
-            "id" : 29,
-            "name" : "Furina",
-            "image": "furina",
-            "splashArt": "furina-wish",
+            "id": 29,
+            "name": "Furina",
+            "image": "../images/genshin/profile/furina.png",
+            "splashArt": "../images/genshin/wish/furina-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1186,7 +1187,6 @@
                 "weeklyBoss": "narwhal",
                 "mob": "whopperflower"
             },
-
             "cons": {
                 "conName": "Animula Choragi",
                 "c1": "Love Is a Rebellious Bird That None Can Tame",
@@ -1196,9 +1196,9 @@
                 "c5": "His Name I Now Know, It Is...!",
                 "c6": "Hear Me — Let Us Raise the Chalice of Love!"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Soloist's Solicitation",
                 "eSkill": "Salon Solitaire",
@@ -1210,10 +1210,10 @@
             }
         },
         {
-            "id" : 30,
-            "name" : "Mualani",
-            "image": "mualani",
-            "splashArt": "mualani-wish",
+            "id": 30,
+            "name": "Mualani",
+            "image": "../images/genshin/profile/mualani.png",
+            "splashArt": "../images/genshin/wish/mualani-wish.png",
             "properties": {
                 "element": "hydro",
                 "rarity": "5⭐",
@@ -1227,7 +1227,6 @@
                 "weeklyBoss": "narwhal",
                 "mob": "saurian warrior"
             },
-
             "cons": {
                 "conName": "Phoca Neomonachus",
                 "c1": "The Leisurely 'Meztli'...",
@@ -1237,9 +1236,9 @@
                 "c5": "Same Style of Surfboard on Sale!",
                 "c6": "Spirit of the Springs' People"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Cooling Treatment",
                 "eSkill": "Surfshark Wavebreaker",
@@ -1251,10 +1250,10 @@
             }
         },
         {
-            "id" : 31,
-            "name" : "Collei",
-            "image": "collei",
-            "splashArt": "collei-wish",
+            "id": 31,
+            "name": "Collei",
+            "image": "../images/genshin/profile/collei.png",
+            "splashArt": "../images/genshin/wish/collei-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1268,7 +1267,6 @@
                 "weeklyBoss": "raiden",
                 "mob": "hilichurl shooter"
             },
-
             "cons": {
                 "conName": "Leptailurus Cervarius",
                 "c1": "Deepwood Patrol",
@@ -1278,9 +1276,9 @@
                 "c5": "All Embers",
                 "c6": "Forest of Falling Arrows"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Supplicant's Bowmanship",
                 "eSkill": "Floral Brush",
@@ -1292,10 +1290,10 @@
             }
         },
         {
-            "id" : 32,
-            "name" : "Alhaitham",
-            "image": "alhaitham",
-            "splashArt": "alhaitham-wish",
+            "id": 32,
+            "name": "Alhaitham",
+            "image": "../images/genshin/profile/alhaitham.png",
+            "splashArt": "../images/genshin/wish/alhaitham-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1309,7 +1307,6 @@
                 "weeklyBoss": "scaramouche",
                 "mob": "eremite"
             },
-
             "cons": {
                 "conName": "Vultur Volans",
                 "c1": "Intuition",
@@ -1319,9 +1316,9 @@
                 "c5": "Sagacity",
                 "c6": "Structuration"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Abductive Reasoning",
                 "eSkill": "Universality: An Elaboration on Form",
@@ -1333,10 +1330,10 @@
             }
         },
         {
-            "id" : 33,
-            "name" : "Emilie",
-            "image": "emilie",
-            "splashArt": "emilie-wish",
+            "id": 33,
+            "name": "Emilie",
+            "image": "../images/genshin/profile/emilie.png",
+            "splashArt": "../images/genshin/wish/emilie-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1350,7 +1347,6 @@
                 "weeklyBoss": "peruere",
                 "mob": "meka"
             },
-
             "cons": {
                 "conName": "Pomum de Ambra",
                 "c1": "Light Fragrance Leaching",
@@ -1360,9 +1356,9 @@
                 "c5": "Puredew Aroma",
                 "c6": "Marcotte Sillage"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Shadow-Hunting Spear",
                 "eSkill": "Fragrance Extraction",
@@ -1374,10 +1370,10 @@
             }
         },
         {
-            "id" : 34,
-            "name" : "Kirara",
-            "image": "kirara",
-            "splashArt": "kirara-wish",
+            "id": 34,
+            "name": "Kirara",
+            "image": "../images/genshin/profile/kirara.png",
+            "splashArt": "../images/genshin/wish/kirara-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1391,7 +1387,6 @@
                 "weeklyBoss": "apep",
                 "mob": "specter"
             },
-
             "cons": {
                 "conName": "Arcella",
                 "c1": "Material Circulation",
@@ -1401,9 +1396,9 @@
                 "c5": "A Thousand Miles in a Day",
                 "c6": "Countless Sights to See"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Boxcutter",
                 "eSkill": "Meow-teor Kick",
@@ -1415,10 +1410,10 @@
             }
         },
         {
-            "id" : 35,
-            "name" : "Kaveh",
-            "image": "kaveh",
-            "splashArt": "kaveh-wish",
+            "id": 35,
+            "name": "Kaveh",
+            "image": "../images/genshin/profile/kaveh.png",
+            "splashArt": "../images/genshin/wish/kaveh-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1432,7 +1427,6 @@
                 "weeklyBoss": "apep",
                 "mob": "fungi"
             },
-
             "cons": {
                 "conName": "Paradisaea",
                 "c1": "Sublime Salutations",
@@ -1442,9 +1436,9 @@
                 "c5": "Treasures of Bonkhanak",
                 "c6": "Pairidaeza's Dreams"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Schematic Setup",
                 "eSkill": "Artistic Ingenuity",
@@ -1456,10 +1450,10 @@
             }
         },
         {
-            "id" : 36,
-            "name" : "Kinich",
-            "image": "kinich",
-            "splashArt": "kinich-wish",
+            "id": 36,
+            "name": "Kinich",
+            "image": "../images/genshin/profile/kinich.png",
+            "splashArt": "../images/genshin/wish/kinich-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1473,7 +1467,6 @@
                 "weeklyBoss": "peruere",
                 "mob": "saurians"
             },
-
             "cons": {
                 "conName": "Chimaera Alebriius",
                 "c1": "Parrot's Beak",
@@ -1483,9 +1476,9 @@
                 "c5": "Howler Monkey's Tail",
                 "c6": "Auspicious Beast's Shape"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Nightsun Style",
                 "eSkill": "Canopy Hunter: Riding High",
@@ -1497,10 +1490,10 @@
             }
         },
         {
-            "id" : 37,
-            "name" : "Baizhu",
-            "image": "baizhu",
-            "splashArt": "baizhu-wish",
+            "id": 37,
+            "name": "Baizhu",
+            "image": "../images/genshin/profile/baizhu.png",
+            "splashArt": "../images/genshin/wish/baizhu-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1514,7 +1507,6 @@
                 "weeklyBoss": "apep",
                 "mob": "fungi"
             },
-
             "cons": {
                 "conName": "Lagenaria",
                 "c1": "Attentive Observation",
@@ -1524,9 +1516,9 @@
                 "c5": "The Hidden Ebb and Flow",
                 "c6": "Elimination of Malicious Qi"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "The Classics of Acupuncture",
                 "eSkill": "Universal Diagnosis",
@@ -1538,10 +1530,10 @@
             }
         },
         {
-            "id" : 38,
-            "name" : "Nahida",
-            "image": "nahida",
-            "splashArt": "nahida-wish",
+            "id": 38,
+            "name": "Nahida",
+            "image": "../images/genshin/profile/nahida.png",
+            "splashArt": "../images/genshin/wish/nahida-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1555,7 +1547,6 @@
                 "weeklyBoss": "scaramouche",
                 "mob": "fungi"
             },
-
             "cons": {
                 "conName": "Sapientia Oromasdis",
                 "c1": "The Seed of Stored Knowledge",
@@ -1565,9 +1556,9 @@
                 "c5": "The Leaves of Enlightening Speech",
                 "c6": "The Fruit of Reason's Culmination"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Akara",
                 "eSkill": "All Schemes to Know",
@@ -1579,10 +1570,10 @@
             }
         },
         {
-            "id" : 39,
-            "name" : "Yaoyao",
-            "image": "yaoyao",
-            "splashArt": "yaoyao-wish",
+            "id": 39,
+            "name": "Yaoyao",
+            "image": "../images/genshin/profile/yaoyao.png",
+            "splashArt": "../images/genshin/wish/yaoyao-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "4⭐",
@@ -1596,7 +1587,6 @@
                 "weeklyBoss": "scaramouche",
                 "mob": "slime"
             },
-
             "cons": {
                 "conName": "Osmanthus",
                 "c1": "Adeptus' Tutelage",
@@ -1606,9 +1596,9 @@
                 "c5": "Compassionate",
                 "c6": "Beneficent"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Toss 'N' Turn Spear",
                 "eSkill": "Raphanus Sky Cluster",
@@ -1620,10 +1610,10 @@
             }
         },
         {
-            "id" : 40,
-            "name" : "Tighnari",
-            "image": "tighnari",
-            "splashArt": "tighnari-wish",
+            "id": 40,
+            "name": "Tighnari",
+            "image": "../images/genshin/profile/tighnari.png",
+            "splashArt": "../images/genshin/wish/tighnari-wish.png",
             "properties": {
                 "element": "dendro",
                 "rarity": "5⭐",
@@ -1637,7 +1627,6 @@
                 "weeklyBoss": "raiden",
                 "mob": "fungi"
             },
-
             "cons": {
                 "conName": "Vulpes Zerda",
                 "c1": "Beginnings Determined at the Roots",
@@ -1647,9 +1636,9 @@
                 "c5": "Comprehension Amidst the Flowers",
                 "c6": "Karma Adjudged From the Leaden Fruit"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Khanda Barrier-Buster",
                 "eSkill": "Vijnana-Phala Mine",
@@ -1661,10 +1650,10 @@
             }
         },
         {
-            "id" : 41,
-            "name" : "Thoma",
-            "image": "thoma",
-            "splashArt": "thoma-wish",
+            "id": 41,
+            "name": "Thoma",
+            "image": "../images/genshin/profile/thoma.png",
+            "splashArt": "../images/genshin/wish/thoma-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1678,7 +1667,6 @@
                 "weeklyBoss": "signora",
                 "mob": "treasure hoarders"
             },
-
             "cons": {
                 "conName": "Rubeum Scutum",
                 "c1": "A Comrade's Duty",
@@ -1688,9 +1676,9 @@
                 "c5": "Raging Wildfire",
                 "c6": "Burning Heart"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Swiftshatter Spear",
                 "eSkill": "Blazing Blessing",
@@ -1702,10 +1690,10 @@
             }
         },
         {
-            "id" : 42,
-            "name" : "Xinyan",
-            "image": "xinyan",
-            "splashArt": "xinyan-wish",
+            "id": 42,
+            "name": "Xinyan",
+            "image": "../images/genshin/profile/xinyan.png",
+            "splashArt": "../images/genshin/wish/xinyan-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1719,7 +1707,6 @@
                 "weeklyBoss": "childe",
                 "mob": "treasure hoarders"
             },
-
             "cons": {
                 "conName": "Fila Ignium",
                 "c1": "Fatal Acceleration",
@@ -1729,9 +1716,9 @@
                 "c5": "Screamin' for an Encore",
                 "c6": "Rockin' in a Flaming World"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Dance on Fire",
                 "eSkill": "Sweeping Fervor",
@@ -1743,10 +1730,10 @@
             }
         },
         {
-            "id" : 43,
-            "name" : "Hu Tao",
-            "image": "hutao",
-            "splashArt": "hutao-wish",
+            "id": 43,
+            "name": "Hu Tao",
+            "image": "../images/genshin/profile/hutao.png",
+            "splashArt": "../images/genshin/wish/hutao-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -1760,7 +1747,6 @@
                 "weeklyBoss": "childe",
                 "mob": "whopperflower"
             },
-
             "cons": {
                 "conName": "Papillo Charontis",
                 "c1": "Crimson Bouquet",
@@ -1770,9 +1756,9 @@
                 "c5": "Floral Incense",
                 "c6": "Butterfly's Embrace"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Secret Spear of Wangsheng",
                 "eSkill": "Guide to Afterlife",
@@ -1784,10 +1770,10 @@
             }
         },
         {
-            "id" : 44,
-            "name" : "Gaming",
-            "image": "gaming",
-            "splashArt": "gaming-wish",
+            "id": 44,
+            "name": "Gaming",
+            "image": "../images/genshin/profile/gaming.png",
+            "splashArt": "../images/genshin/wish/gaming-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1801,7 +1787,6 @@
                 "weeklyBoss": "narwhal",
                 "mob": "slime"
             },
-
             "cons": {
                 "conName": "Leo Expergiscens",
                 "c1": "Bringer of Blessing",
@@ -1811,9 +1796,9 @@
                 "c5": "Evil-Daunting Roar",
                 "c6": "To Tame All Beasts"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Stellar Rend",
                 "eSkill": "Bestial Ascent",
@@ -1825,10 +1810,10 @@
             }
         },
         {
-            "id" : 45,
-            "name" : "Yanfei",
-            "image": "yanfei",
-            "splashArt": "yanfei-wish",
+            "id": 45,
+            "name": "Yanfei",
+            "image": "../images/genshin/profile/yanfei.png",
+            "splashArt": "../images/genshin/wish/yanfei-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1842,7 +1827,6 @@
                 "weeklyBoss": "azdaha",
                 "mob": "treasure hoarders"
             },
-
             "cons": {
                 "conName": "Bestia Iustitia",
                 "c1": "The Law Knows No Kindness",
@@ -1852,9 +1836,9 @@
                 "c5": "Abiding Affidavit",
                 "c6": "Extra Clause"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Seal of Approval",
                 "eSkill": "Signed Edict",
@@ -1866,10 +1850,10 @@
             }
         },
         {
-            "id" : 46,
-            "name" : "Naganohara Yoimiya",
-            "image": "yoimiya",
-            "splashArt": "yoimiya-wish",
+            "id": 46,
+            "name": "Naganohara Yoimiya",
+            "image": "../images/genshin/profile/yoimiya.png",
+            "splashArt": "../images/genshin/wish/yoimiya-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -1883,7 +1867,6 @@
                 "weeklyBoss": "azdaha",
                 "mob": "samachurl"
             },
-
             "cons": {
                 "conName": "Carassius Auratus",
                 "c1": "Agate Ryuukin",
@@ -1893,9 +1876,9 @@
                 "c5": "A Summer Festival's Eve",
                 "c6": "Naganohara Meteor Swarm"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Firework Flare-Up",
                 "eSkill": "Niwabi Fire-Dance",
@@ -1907,10 +1890,10 @@
             }
         },
         {
-            "id" : 47,
-            "name" : "Dehya",
-            "image": "dehya",
-            "splashArt": "dehya-wish",
+            "id": 47,
+            "name": "Dehya",
+            "image": "../images/genshin/profile/dehya.png",
+            "splashArt": "../images/genshin/wish/dehya-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -1924,7 +1907,6 @@
                 "weeklyBoss": "scaramouche",
                 "mob": "eremite"
             },
-
             "cons": {
                 "conName": "Mantichora",
                 "c1": "The Flame Incandescent",
@@ -1934,9 +1916,9 @@
                 "c5": "The Alpha Unleashed",
                 "c6": "The Burning Claws Cleaving"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Sandstorm Assault",
                 "eSkill": "Molten Inferno",
@@ -1948,10 +1930,10 @@
             }
         },
         {
-            "id" : 48,
-            "name" : "Chevreuse",
-            "image": "chevreuse",
-            "splashArt": "chevreuse-wish",
+            "id": 48,
+            "name": "Chevreuse",
+            "image": "../images/genshin/profile/chevreuse.png",
+            "splashArt": "../images/genshin/wish/chevreuse-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "4⭐",
@@ -1965,7 +1947,6 @@
                 "weeklyBoss": "narwhal",
                 "mob": "meka"
             },
-
             "cons": {
                 "conName": "Sclopetum Ensiferum",
                 "c1": "Stable Front Line's Resolve",
@@ -1975,9 +1956,9 @@
                 "c5": "Enhanced Incendiary Firepower",
                 "c6": "In Pursuit of Ending Evil"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Line Bayonet Thrust EX",
                 "eSkill": "Short-Range Rapid Interdiction Fire",
@@ -1989,10 +1970,10 @@
             }
         },
         {
-            "id" : 49,
-            "name" : "Lyney Sneznevich",
-            "image": "lyney",
-            "splashArt": "lyney-wish",
+            "id": 49,
+            "name": "Lyney Sneznevich",
+            "image": "../images/genshin/profile/lyney.png",
+            "splashArt": "../images/genshin/wish/lyney-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -2006,7 +1987,6 @@
                 "weeklyBoss": "apep",
                 "mob": "fatui"
             },
-
             "cons": {
                 "conName": "Felis Fuscus",
                 "c1": "Whimsical Wonders",
@@ -2016,9 +1996,9 @@
                 "c5": "To Pierce Enigmas",
                 "c6": "Guarded Smile"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Card Force Translocation",
                 "eSkill": "Bewildering Lights",
@@ -2030,10 +2010,10 @@
             }
         },
         {
-            "id" : 50,
-            "name" : "Arlecchino",
-            "image": "arlecchino",
-            "splashArt": "arlecchino-wish",
+            "id": 50,
+            "name": "Arlecchino",
+            "image": "../images/genshin/profile/arlecchino.png",
+            "splashArt": "../images/genshin/wish/arlecchino-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -2047,7 +2027,6 @@
                 "weeklyBoss": "peruere",
                 "mob": "fatui"
             },
-
             "cons": {
                 "conName": "Ignis Purgatorius",
                 "c1": "All Reprisals and Arrears, Mine to Bear...",
@@ -2057,9 +2036,9 @@
                 "c5": "For Alone, We Are as Good as Dead...",
                 "c6": "From This Day On, We Shall Delight in New Life Together."
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Invitation to a Beheading",
                 "eSkill": "All Is Ash",
@@ -2071,10 +2050,10 @@
             }
         },
         {
-            "id" : 51,
-            "name" : "Mavuika",
-            "image": "mavuika",
-            "splashArt": "mavuika-wish",
+            "id": 51,
+            "name": "Mavuika",
+            "image": "../images/genshin/profile/mavuika.png",
+            "splashArt": "../images/genshin/wish/mavuika-wish.png",
             "properties": {
                 "element": "pyro",
                 "rarity": "5⭐",
@@ -2088,7 +2067,6 @@
                 "weeklyBoss": "eroded fire",
                 "mob": "saurian warrior"
             },
-
             "cons": {
                 "conName": "Sol Invictus",
                 "c1": "The Night-Lord's Explication",
@@ -2098,9 +2076,9 @@
                 "c5": "The Meaning of Truth",
                 "c6": "'Humanity's Name' Unfettered"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Flames Weave Life",
                 "eSkill": "The Named Moment",
@@ -2112,10 +2090,10 @@
             }
         },
         {
-            "id" : 52,
-            "name" : "Albedo Kreideprinz",
-            "image": "albedo",
-            "splashArt": "albedo-wish",
+            "id": 52,
+            "name": "Albedo Kreideprinz",
+            "image": "../images/genshin/profile/albedo.png",
+            "splashArt": "../images/genshin/wish/albedo-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2129,7 +2107,6 @@
                 "weeklyBoss": "childe",
                 "mob": "samachurl"
             },
-
             "cons": {
                 "conName": "Princeps Cretaceus",
                 "c1": "Flower of Eden",
@@ -2139,9 +2116,9 @@
                 "c5": "Tide of Hadean",
                 "c6": "Dust of Purification"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Favonius Bladework - Weiss",
                 "eSkill": "Abiogenesis: Solar Isotoma",
@@ -2153,10 +2130,10 @@
             }
         },
         {
-            "id" : 53,
-            "name" : "Chiori",
-            "image": "chiori",
-            "splashArt": "chiori-wish",
+            "id": 53,
+            "name": "Chiori",
+            "image": "../images/genshin/profile/chiori.png",
+            "splashArt": "../images/genshin/wish/chiori-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2170,7 +2147,6 @@
                 "weeklyBoss": "narwhal",
                 "mob": "specter"
             },
-
             "cons": {
                 "conName": "Cisoria",
                 "c1": "Six Paths of Sage Silkcraft",
@@ -2180,9 +2156,9 @@
                 "c5": "Two Silken Plumules",
                 "c6": "Sole Principle Pursuit"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Weaving Blade",
                 "eSkill": "Fluttering Hasode",
@@ -2194,10 +2170,10 @@
             }
         },
         {
-            "id" : 54,
-            "name" : "Arataki Itto",
-            "image": "itto",
-            "splashArt": "itto-wish",
+            "id": 54,
+            "name": "Arataki Itto",
+            "image": "../images/genshin/profile/itto.png",
+            "splashArt": "../images/genshin/wish/itto-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2211,7 +2187,6 @@
                 "weeklyBoss": "signora",
                 "mob": "slime"
             },
-
             "cons": {
                 "conName": "Taurus Iracundus",
                 "c1": "Stay a While and Listen Up",
@@ -2221,9 +2196,9 @@
                 "c5": "10 Years of Hanamizaka Fame",
                 "c6": "Arataki Itto, Present!"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Fight Club Legend",
                 "eSkill": "Masatsu Zetsugi: Akaushi Burst!",
@@ -2235,10 +2210,10 @@
             }
         },
         {
-            "id" : 55,
-            "name" : "Xilonen",
-            "image": "xilonen",
-            "splashArt": "xilonen-wish",
+            "id": 55,
+            "name": "Xilonen",
+            "image": "../images/genshin/profile/xilonen.png",
+            "splashArt": "../images/genshin/wish/xilonen-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2252,7 +2227,6 @@
                 "weeklyBoss": "scaramouche",
                 "mob": "saurian warrior"
             },
-
             "cons": {
                 "conName": "Panthera Ocelota",
                 "c1": "Sabbatical Phrase",
@@ -2262,9 +2236,9 @@
                 "c5": "Tlaltecuhtli's Crossfade",
                 "c6": "Imperishable Night Carnival"
             },
-
-            "colors": ["na razie neh"],
-
+            "colors": [
+                "na razie neh"
+            ],
             "talents": {
                 "NA": "Ehecatl's Roar",
                 "eSkill": "Yohual's Scratch",
@@ -2278,8 +2252,8 @@
         {
             "id": 56,
             "name": "Navia",
-            "image": "navia",
-            "splashArt": "navia-wish",
+            "image": "../images/genshin/profile/navia.png",
+            "splashArt": "../images/genshin/wish/navia-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2316,8 +2290,8 @@
         {
             "id": 57,
             "name": "Zhongli",
-            "image": "zhongli",
-            "splashArt": "zhongli-wish",
+            "image": "../images/genshin/profile/zhongli.png",
+            "splashArt": "../images/genshin/wish/zhongli-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "5⭐",
@@ -2354,8 +2328,8 @@
         {
             "id": 58,
             "name": "Yun Jin",
-            "image": "yunjin",
-            "splashArt": "yunjin-wish",
+            "image": "../images/genshin/profile/yunjin.png",
+            "splashArt": "../images/genshin/wish/yunjin-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -2392,8 +2366,8 @@
         {
             "id": 59,
             "name": "Gorou",
-            "image": "gorou",
-            "splashArt": "gorou-wish",
+            "image": "../images/genshin/profile/gorou.png",
+            "splashArt": "../images/genshin/wish/gorou-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -2430,8 +2404,8 @@
         {
             "id": 60,
             "name": "Kachina",
-            "image": "kachina",
-            "splashArt": "kachina-wish",
+            "image": "../images/genshin/profile/kachina.png",
+            "splashArt": "../images/genshin/wish/kachina-wish.png",
             "properties": {
                 "element": "geo",
                 "rarity": "4⭐",
@@ -2468,8 +2442,8 @@
         {
             "id": 61,
             "name": "Kaedehara Kazuha",
-            "image": "kazuha",
-            "splashArt": "kazuha-wish",
+            "image": "../images/genshin/profile/kazuha.png",
+            "splashArt": "../images/genshin/wish/kazuha-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2506,8 +2480,8 @@
         {
             "id": 62,
             "name": "Wanderer",
-            "image": "wanderer",
-            "splashArt": "wanderer-wish",
+            "image": "../images/genshin/profile/wanderer.png",
+            "splashArt": "../images/genshin/wish/wanderer-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2544,8 +2518,8 @@
         {
             "id": 63,
             "name": "Shikanoin Heizou",
-            "image": "heizou",
-            "splashArt": "heizou-wish",
+            "image": "../images/genshin/profile/heizou.png",
+            "splashArt": "../images/genshin/wish/heizou-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2582,8 +2556,8 @@
         {
             "id": 64,
             "name": "Xiao",
-            "image": "xiao",
-            "splashArt": "xiao-wish",
+            "image": "../images/genshin/profile/xiao.png",
+            "splashArt": "../images/genshin/wish/xiao-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2620,8 +2594,8 @@
         {
             "id": 65,
             "name": "Lynette Snezhnevna",
-            "image": "lynette",
-            "splashArt": "lynette-wish",
+            "image": "../images/genshin/profile/lynette.png",
+            "splashArt": "../images/genshin/wish/lynette-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2658,8 +2632,8 @@
         {
             "id": 66,
             "name": "Xianyun",
-            "image": "xianyun",
-            "splashArt": "xianyun-wish",
+            "image": "../images/genshin/profile/xianyun.png",
+            "splashArt": "../images/genshin/wish/xianyun-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2696,8 +2670,8 @@
         {
             "id": 67,
             "name": "Chasca",
-            "image": "chasca",
-            "splashArt": "chasca-wish",
+            "image": "../images/genshin/profile/chasca.png",
+            "splashArt": "../images/genshin/wish/chasca-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -2734,8 +2708,8 @@
         {
             "id": 68,
             "name": "Lan Yan",
-            "image": "lanyan",
-            "splashArt": "lanyan-wish",
+            "image": "../images/genshin/profile/lanyan.png",
+            "splashArt": "../images/genshin/wish/lanyan-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2772,8 +2746,8 @@
         {
             "id": 69,
             "name": "Sucrose",
-            "image": "sucrose",
-            "splashArt": "sucrose-wish",
+            "image": "../images/genshin/profile/sucrose.png",
+            "splashArt": "../images/genshin/wish/sucrose-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2810,8 +2784,8 @@
         {
             "id": 70,
             "name": "Sayu",
-            "image": "sayu",
-            "splashArt": "sayu-wish",
+            "image": "../images/genshin/profile/sayu.png",
+            "splashArt": "../images/genshin/wish/sayu-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2848,8 +2822,8 @@
         {
             "id": 71,
             "name": "Mika",
-            "image": "mika",
-            "splashArt": "mika-wish",
+            "image": "../images/genshin/profile/mika.png",
+            "splashArt": "../images/genshin/wish/mika-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -2886,8 +2860,8 @@
         {
             "id": 72,
             "name": "Layla",
-            "image": "layla",
-            "splashArt": "layla-wish",
+            "image": "../images/genshin/profile/layla.png",
+            "splashArt": "../images/genshin/wish/layla-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -2924,8 +2898,8 @@
         {
             "id": 73,
             "name": "Faruzan",
-            "image": "faruzan",
-            "splashArt": "faruzan-wish",
+            "image": "../images/genshin/profile/faruzan.png",
+            "splashArt": "../images/genshin/wish/faruzan-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -2962,8 +2936,8 @@
         {
             "id": 74,
             "name": "Shenhe",
-            "image": "shenhe",
-            "splashArt": "shenhe-wish",
+            "image": "../images/genshin/profile/shenhe.png",
+            "splashArt": "../images/genshin/wish/shenhe-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3000,8 +2974,8 @@
         {
             "id": 75,
             "name": "Freminet Snezhnevich",
-            "image": "freminet",
-            "splashArt": "freminet-wish",
+            "image": "../images/genshin/profile/freminet.png",
+            "splashArt": "../images/genshin/wish/freminet-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3038,8 +3012,8 @@
         {
             "id": 76,
             "name": "Ganyu",
-            "image": "ganyu",
-            "splashArt": "ganyu-wish",
+            "image": "../images/genshin/profile/ganyu.png",
+            "splashArt": "../images/genshin/wish/ganyu-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3076,8 +3050,8 @@
         {
             "id": 77,
             "name": "Eula Lawrence",
-            "image": "eula",
-            "splashArt": "eula-wish",
+            "image": "../images/genshin/profile/eula.png",
+            "splashArt": "../images/genshin/wish/eula-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3114,8 +3088,8 @@
         {
             "id": 78,
             "name": "Diona Katzlein",
-            "image": "diona",
-            "splashArt": "diona-wish",
+            "image": "../images/genshin/profile/diona.png",
+            "splashArt": "../images/genshin/wish/diona-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3152,8 +3126,8 @@
         {
             "id": 79,
             "name": "Rosaria",
-            "image": "rosaria",
-            "splashArt": "rosaria-wish",
+            "image": "../images/genshin/profile/rosaria.png",
+            "splashArt": "../images/genshin/wish/rosaria-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3190,8 +3164,8 @@
         {
             "id": 80,
             "name": "Citlali",
-            "image": "citlali",
-            "splashArt": "citlali-wish",
+            "image": "../images/genshin/profile/citlali.png",
+            "splashArt": "../images/genshin/wish/citlali-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3228,8 +3202,8 @@
         {
             "id": 81,
             "name": "Wriothesley",
-            "image": "wriothesley",
-            "splashArt": "wriothesley-wish",
+            "image": "../images/genshin/profile/wriothesley.png",
+            "splashArt": "../images/genshin/wish/wriothesley-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3266,8 +3240,8 @@
         {
             "id": 82,
             "name": "Kamisato Ayaka",
-            "image": "ayaka",
-            "splashArt": "ayaka-wish",
+            "image": "../images/genshin/profile/ayaka.png",
+            "splashArt": "../images/genshin/wish/ayaka-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3304,8 +3278,8 @@
         {
             "id": 83,
             "name": "Charlotte",
-            "image": "charlotte",
-            "splashArt": "charlotte-wish",
+            "image": "../images/genshin/profile/charlotte.png",
+            "splashArt": "../images/genshin/wish/charlotte-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "4⭐",
@@ -3342,8 +3316,8 @@
         {
             "id": 84,
             "name": "Yumemizuki Mizuki",
-            "image": "mizuki",
-            "splashArt": "mizuki-wish",
+            "image": "../images/genshin/profile/mizuki.png",
+            "splashArt": "../images/genshin/wish/mizuki-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "5⭐",
@@ -3380,8 +3354,8 @@
         {
             "id": 85,
             "name": "Varesa",
-            "image": "varesa",
-            "splashArt": "varesa-wish",
+            "image": "../images/genshin/profile/varesa.png",
+            "splashArt": "../images/genshin/wish/varesa-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -3416,48 +3390,48 @@
             }
         },
         {
-        "id": 86,
-        "name": "Kujou Sara",
-        "image": "kujou_sara",
-        "splashArt": "kujou_sara-wish",
-        "properties": {
-            "element": "electro",
-            "rarity": "4⭐",
-            "weapon": "bow",
-            "region": "inazuma",
-            "version": "2.1",
-            "stat": "atk",
-            "talentBook": "elegance",
-            "boss": "storm beads",
-            "specialty": "dendrobium",
-            "weeklyBoss": "signora",
-            "mob": "hilichurl"
-        },
-        "cons": {
-            "conName": "Flabellum",
-            "c1": "Crow's Eye",
-            "c2": "Dark Wings",
-            "c3": "The War Within",
-            "c4": "Conclusive Proof",
-            "c5": "Spellsinger",
-            "c6": "Sin of Pride"
-        },
-        "colors": [],
-        "talents": {
-            "NA": "Tengu Bowmanship",
-            "eSkill": "Tengu Stormcall",
-            "burst": "Subjugation: Koukou Sendou",
-            "firstAsc": "Immovable Will",
-            "secondAsc": "Decorum",
-            "passive": "Land Survey",
-            "extra": null
-        }
+            "id": 86,
+            "name": "Kujou Sara",
+            "image": "../images/genshin/profile/kujou_sara.png",
+            "splashArt": "../images/genshin/wish/kujou_sara-wish.png",
+            "properties": {
+                "element": "electro",
+                "rarity": "4⭐",
+                "weapon": "bow",
+                "region": "inazuma",
+                "version": "2.1",
+                "stat": "atk",
+                "talentBook": "elegance",
+                "boss": "storm beads",
+                "specialty": "dendrobium",
+                "weeklyBoss": "signora",
+                "mob": "hilichurl"
+            },
+            "cons": {
+                "conName": "Flabellum",
+                "c1": "Crow's Eye",
+                "c2": "Dark Wings",
+                "c3": "The War Within",
+                "c4": "Conclusive Proof",
+                "c5": "Spellsinger",
+                "c6": "Sin of Pride"
+            },
+            "colors": [],
+            "talents": {
+                "NA": "Tengu Bowmanship",
+                "eSkill": "Tengu Stormcall",
+                "burst": "Subjugation: Koukou Sendou",
+                "firstAsc": "Immovable Will",
+                "secondAsc": "Decorum",
+                "passive": "Land Survey",
+                "extra": null
+            }
         },
         {
             "id": 87,
             "name": "Yae Miko",
-            "image": "yaemiko",
-            "splashArt": "yaemiko-wish",
+            "image": "../images/genshin/profile/yaemiko.png",
+            "splashArt": "../images/genshin/wish/yaemiko-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -3494,8 +3468,8 @@
         {
             "id": 88,
             "name": "Cyno",
-            "image": "cyno",
-            "splashArt": "cyno-wish",
+            "image": "../images/genshin/profile/cyno.png",
+            "splashArt": "../images/genshin/wish/cyno-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -3518,7 +3492,10 @@
                 "c5": "Funerary Rite: Passing of Starlight",
                 "c6": "Raiment: Just Scales"
             },
-            "colors": ["#FFD700", "#00008B"],
+            "colors": [
+                "#FFD700",
+                "#00008B"
+            ],
             "talents": {
                 "NA": "Invoker's Spear",
                 "eSkill": "Secret Rite: Chasmic Soulfarer",
@@ -3532,8 +3509,8 @@
         {
             "id": 89,
             "name": "Raiden Ei",
-            "image": "raiden",
-            "splashArt": "raiden-wish",
+            "image": "../images/genshin/profile/raiden.png",
+            "splashArt": "../images/genshin/wish/raiden-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -3570,8 +3547,8 @@
         {
             "id": 90,
             "name": "Sethos",
-            "image": "sethos",
-            "splashArt": "sethos-wish",
+            "image": "../images/genshin/profile/sethos.png",
+            "splashArt": "../images/genshin/wish/sethos-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -3608,8 +3585,8 @@
         {
             "id": 91,
             "name": "Dori Sangemah Bay",
-            "image": "dori",
-            "splashArt": "dori-wish",
+            "image": "../images/genshin/profile/dori.png",
+            "splashArt": "../images/genshin/wish/dori-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -3646,8 +3623,8 @@
         {
             "id": 92,
             "name": "Iansan",
-            "image": "iansan",
-            "splashArt": "iansan-wish",
+            "image": "../images/genshin/profile/iansan.png",
+            "splashArt": "../images/genshin/wish/iansan-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -3684,8 +3661,8 @@
         {
             "id": 93,
             "name": "Ororon",
-            "image": "ororon",
-            "splashArt": "ororon-wish",
+            "image": "../images/genshin/profile/ororon.png",
+            "splashArt": "../images/genshin/wish/ororon-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -3722,8 +3699,8 @@
         {
             "id": 94,
             "name": "Kuki Shinobu",
-            "image": "kuki_shinobu",
-            "splashArt": "kuki_shinobu-wish",
+            "image": "../images/genshin/profile/kuki_shinobu.png",
+            "splashArt": "../images/genshin/wish/kuki_shinobu-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "4⭐",
@@ -3760,8 +3737,8 @@
         {
             "id": 95,
             "name": "Clorinde",
-            "image": "clorinde",
-            "splashArt": "clorinde-wish",
+            "image": "../images/genshin/profile/clorinde.png",
+            "splashArt": "../images/genshin/wish/clorinde-wish.png",
             "properties": {
                 "element": "electro",
                 "rarity": "5⭐",
@@ -3798,8 +3775,8 @@
         {
             "id": 96,
             "name": "Ifa",
-            "image": "ifa",
-            "splashArt": "ifa-wish",
+            "image": "../images/genshin/profile/ifa.png",
+            "splashArt": "../images/genshin/wish/ifa-wish.png",
             "properties": {
                 "element": "anemo",
                 "rarity": "4⭐",
@@ -3836,8 +3813,8 @@
         {
             "id": 97,
             "name": "Escoffier",
-            "image": "escoffier",
-            "splashArt": "escoffier-wish",
+            "image": "../images/genshin/profile/escoffier.png",
+            "splashArt": "../images/genshin/wish/escoffier-wish.png",
             "properties": {
                 "element": "cryo",
                 "rarity": "5⭐",
@@ -3871,5 +3848,5 @@
                 "extra": null
             }
         }
-]
+    ]
 }

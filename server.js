@@ -4,6 +4,7 @@ const app = express()
 const PORT = 3000;
 const path = require("path");
 const { handlebars } = require('hbs');
+const context = require("./public/data/genshin-characters.json")
 
 app.use(express.static(__dirname + '/public'));
 
@@ -14,15 +15,28 @@ app.engine('hbs', hbs({
     extname: '.hbs',
     partialsDir  : [
         path.join(__dirname, '/views/partials'),
-    ]
+    ],
+    helpers: {
+        json: function(context) {
+            return JSON.stringify(context);
+        }
+    }
 
 }));
 
 app.set('view engine', 'hbs');
 
 app.get("/", function (req, res) {
-    res.render('main.hbs');
+    const dane = {
+        genshinCharacters: context.genshinCharacters,
+    };
+
+    res.render('main.hbs', dane);
 })
+
+
+
+
 
 
 

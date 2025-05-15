@@ -44,3 +44,77 @@ body{
     margin-top: 20px;
     background-color: rgba(48, 48, 48, 0.7);
 }
+
+
+#normalModeImage{
+    border: 2px solid chocolate;
+
+}
+
+  .custom-select {
+        position: relative;
+        width: 300px;
+        font-family: Arial, sans-serif;
+    }
+
+    .select-header {
+        padding: 12px;
+        background: #2c2f33;
+        border: 2px solid #40444b;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+
+    .select-header:hover {
+        background: #36393f;
+    }
+
+    .arrow {
+        font-size: 0.8em;
+        color: #7289da;
+    }
+
+    .select-options {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #2c2f33;
+        border: 2px solid #40444b;
+        border-radius: 8px;
+        margin-top: 5px;
+        max-height: 300px;
+        overflow-y: auto;
+        z-index: 1000;
+    }
+
+    .option {
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .option:hover {
+        background: #36393f;
+    }
+
+    .option-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 15px;
+        object-fit: cover;
+    }
+
+    .option-text {
+        color: #ffffff;
+        font-weight: 500;
+        flex-grow: 1;
+    }

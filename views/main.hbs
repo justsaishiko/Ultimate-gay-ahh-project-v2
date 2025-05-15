@@ -4,10 +4,22 @@
         <div class="normalMode">
             <div class="gameArea">
                 <div class="playTime">
-                    <img id="normalModeImage" alt="skibidi" src="">
-                    <select>
-    
-                    </select>
+                    <img id="normalModeImage" alt="skibidi" src="../public/images/placeholder.png" width="200" height="200">
+                <div class="custom-select">
+                    <div class="select-header" onclick="toggleDropdown()">
+                        <span>Select a character</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="select-options" id="characterOptions">
+                        {{#each genshinCharacters}}
+                        <div class="option" data-value="{{id}}" onclick="selectCharacter(this)">
+                            <img src="{{image}}" class="option-image">
+                            <span class="option-text">{{name}}</span>
+                        </div>
+                        {{/each}}
+                    </div>
+                    <input type="hidden" id="selectedCharacter" name="character">
+                </div>
                 </div>
                 <div class="winScreen">
 
@@ -42,3 +54,49 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+<script>
+    function toggleDropdown() {
+        const options = document.getElementById('characterOptions');
+        options.style.display = options.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function selectCharacter(element) {
+        const selectedId = element.getAttribute('data-value');
+        const selectedCharacter = characters.find(c => c.id === parseInt(selectedId));
+        
+        document.getElementById('selectedCharacter').value = selectedId;
+        
+        document.querySelector('.select-header span:first-child').innerHTML = `
+            <img src="${selectedCharacter.image}" class="option-image">
+            <span class="option-text">${selectedCharacter.name}</span>
+        `;
+        
+        document.getElementById('characterOptions').style.display = 'none';
+        
+        document.getElementById('normalModeImage').src = selectedCharacter.image;
+        document.querySelector('.characterImage').src = selectedCharacter.image;
+        document.querySelector('.charElem img').src = selectedCharacter.elementImage;
+        document.querySelector('.charWeap img').src = selectedCharacter.weaponImage;
+        document.querySelector('.charVer p').textContent = selectedCharacter.version;
+    }
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.custom-select')) {
+            document.getElementById('characterOptions').style.display = 'none';
+        }
+    });
+
+    window.onload = function() {
+        const firstCharacter = characters[0];
+        document.querySelector('.select-header span:first-child').innerHTML = `
+            <img src="${firstCharacter.image}" class="option-image">
+            <span class="option-text">${firstCharacter.name}</span>
+        `;
+        document.getElementById('selectedCharacter').value = firstCharacter.id;
+    };
+</script>
