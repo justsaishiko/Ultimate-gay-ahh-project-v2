@@ -309,16 +309,7 @@
                 "c5": "Against the Fleeting Light",
                 "c6": "Evernight Raven"
             },
-            "colors": [
-                "#A27482",
-                "#F6E7D9",
-                "#F8D7B1",
-                "#402427",
-                "#61478C",
-                "#BB85D0",
-                "#381975",
-                "#AB6D56"
-            ],
+            "colors": ["e9ce9f","cbf19c","2d3252","141318","886f73","4a3f81","9c81d2","eed7b5"],
             "talents": {
                 "NA": "Bolts of Downfall",
                 "eSkill": "Nightrider",
@@ -356,9 +347,8 @@
                 "c5": "Outbursting Gust",
                 "c6": "Lion's Fang, Fair Protector of Mondstadt"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["28272c","3f738b","f7f7f7","e5cdac","edd7c0","4d699a","b29b78","ddbe8c"]
+,
             "talents": {
                 "NA": "Favonius Bladework",
                 "eSkill": "Gale Blade",
@@ -396,9 +386,8 @@
                 "c5": "The Purest Companionship",
                 "c6": "Dedicating Everything to You"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["363336","e4ddd2","f3eeeb","7c6b56","3e424e","212330","38425b","999fa5"]
+,
             "talents": {
                 "NA": "Whisper of Water",
                 "eSkill": "Let The Show Begin",
@@ -436,9 +425,8 @@
                 "c5": "Favonius Sweeper Master",
                 "c6": "Must Be Spotless"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors":["dfdada","372a2b","94314a","847a7d","7e6d5c","a88e8a","b8a290","5c741e"]
+,
             "talents": {
                 "NA": "Favonius Bladework - Maid",
                 "eSkill": "Breastplate",
@@ -476,9 +464,8 @@
                 "c5": "It's Baron Bunny!",
                 "c6": "Wildfire"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["ffedd7","432c2c","97292c","ae2628","f4f1ec","2b201b","ad9978","4e3a3b"]
+,
             "talents": {
                 "NA": "Sharphooter",
                 "eSkill": "Explosive Puppet",
@@ -516,9 +503,8 @@
                 "c5": "Nova Burst",
                 "c6": "Blazing Delight"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors":["923220","421915","f1e4d6","9c725e","9c887d","c9937d","d7aa91","64645b"]
+,
             "talents": {
                 "NA": "Kaboom!",
                 "eSkill": "Jumpy Dumpty",
@@ -556,9 +542,8 @@
                 "c5": "Concerto dal Cielo",
                 "c6": "Storm of Defiance"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["ebe7db","0f151d","76a584","46786d","7c7562","0b86a7","426051","14956e"]
+,
             "talents": {
                 "NA": "Divine Marksmanship",
                 "eSkill": "Skyward Sonnet",
@@ -596,9 +581,8 @@
                 "c5": "Invincible Be The Jade Screen",
                 "c6": "Grandeur Be The Seven Stars"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors":["3b2a0e","f9f4e8","e12826","c39651","f4e2a1","201804","fefefe","dda92f"]
+,
             "talents": {
                 "NA": "Sparkling Scatter",
                 "eSkill": "Jade Screen",
@@ -636,9 +620,8 @@
                 "c5": "Crimson Lotus Bloom",
                 "c6": "Rite of Resurrection"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors":["282348","e6e5eb","874775","8483b4","a79abe","c1bd9d","7d7660","524d83"]
+,
             "talents": {
                 "NA": "Ancient Sword Art",
                 "eSkill": "Adeptus Art: Heralf of Frost",
@@ -716,9 +699,8 @@
                 "c5": "Beckoning Stars",
                 "c6": "Tenacious Star"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["251f36","b1abc1","f4efea","584574","6e698e","725c50","887796","b59885"]
+,
             "talents": {
                 "NA": "Yunlai Swordsmanship",
                 "eSkill": "Stellar Restoration",
@@ -756,9 +738,8 @@
                 "c5": "The True Path",
                 "c6": "Rally of Four Blades"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["30445c","678fab","7795aa","313f52","15192d","f9fbfc","5a8cb5","d7eef1"]
+,
             "talents": {
                 "NA": "Demonbane",
                 "eSkill": "Spirit Blade: Chonghua's Layered Frost",
@@ -796,9 +777,8 @@
                 "c5": "Guoba Mad",
                 "c6": "Condensed Pyronado"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["3d4b6e","f1e9db","221112","d0604c","eaae55","906d68","a3acaf","210c0d"]
+,
             "talents": {
                 "NA": "Dough-Fu",
                 "eSkill": "Guoba Attack",
@@ -836,9 +816,8 @@
                 "c5": "Crimson Tidewalker",
                 "c6": "Bane of Evil"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["291a1f","723741","ece5df","7c9097","af948e","7c6b5c","d5bb95","35c0e2"]
+,
             "talents": {
                 "NA": "Oceanborn",
                 "eSkill": "Tidecaller",
@@ -876,9 +855,8 @@
                 "c5": "All Streams Flow to the Sea",
                 "c6": "Sango Isshin"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["2b2f52","5357b3","fee6dc","4247a2","c3deef","2e64c8","5e52a1","e8a595"]
+,
             "talents": {
                 "NA": "The Shape of Water",
                 "eSkill": "Kurage's Oath",
@@ -916,9 +894,8 @@
                 "c5": "Twirling Light",
                 "c6": "Frostbreaker's Melody"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["b74538","1b2934","ffffff","b6d4e1","3c7b82","a3b8c9","ecd0a0","cfb787"]
+,
             "talents": {
                 "NA": "Dance of Samser",
                 "eSkill": "Dance of Haftkarsvar",
@@ -956,9 +933,8 @@
                 "c5": "Heterochromatic Gaze",
                 "c6": "The Overflow"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["dfbb99","423c65","231915","c19124","3451a4","3f3760","f5ddb1","816371"]
+,
             "talents": {
                 "NA": "Gleaming Spear - Guardian Stance",
                 "eSkill": "Sacred Rite: Heron's Sanctum",
@@ -996,9 +972,8 @@
                 "c5": "Havoc: Formless Blade",
                 "c6": "Havoc: Annihilation"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["986040","f3e9df","281a1a","6d2012","92827e","baaead","da8b4e","406ca0"]
+,
             "talents": {
                 "NA": "Cutting Torrent",
                 "eSkill": "Foul Legacy: Raging Tide",
@@ -1036,9 +1011,8 @@
                 "c5": "Axiomatic Judgment",
                 "c6": "Wrathful Recompense"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors":["34364b","1851a2","bba991","d4d4d4","387fa9","3894d2","ccbfae","443729"]
+,
             "talents": {
                 "NA": "As Water Seeks Equilibrium",
                 "eSkill": "O Tears, I Shall Repay",
@@ -1076,9 +1050,8 @@
                 "c5": "Bansui Ichiro",
                 "c6": "Boundless Origin"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["35304d","dcdde5","828caa","c7b489","353374","c2b093","e6e0d4","c8d4ea"]
+,
             "talents": {
                 "NA": "Kamisato Art: Marobashi",
                 "eSkill": "Kamisato Art: Kyouka",
@@ -1156,9 +1129,8 @@
                 "c5": "Can the Most Joyful of Spirits Alleviate Agony?",
                 "c6": "Can the Most Radiant of Spirits Pray For Me?"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["d8dde8","3a4a67","ca4a6a","81a6c4","d97d8d","8a7062","c4a799","4cc4e4"]
+,
             "talents": {
                 "NA": "Targeted Treatment",
                 "eSkill": "Rebound Hydrotherapy",
@@ -1196,9 +1168,8 @@
                 "c5": "His Name I Now Know, It Is...!",
                 "c6": "Hear Me — Let Us Raise the Chalice of Love!"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["3e4c89","e3e7ec","aedaf7","2c314e","efe9e9","0e6fda","e5d8cf","5876e3"]
+,
             "talents": {
                 "NA": "Soloist's Solicitation",
                 "eSkill": "Salon Solitaire",
@@ -1236,9 +1207,8 @@
                 "c5": "Same Style of Surfboard on Sale!",
                 "c6": "Spirit of the Springs' People"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["f4c2a7","3a4758","53c6e0","d2e0e9","f9dd64","e2eaee","1970a3","e66148"]
+,
             "talents": {
                 "NA": "Cooling Treatment",
                 "eSkill": "Surfshark Wavebreaker",
@@ -1276,9 +1246,8 @@
                 "c5": "All Embers",
                 "c6": "Forest of Falling Arrows"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["ee6ca4","38331e","c2cd93","767839","6a4f3e","cbb466","9d8264","54741c"]
+,
             "talents": {
                 "NA": "Supplicant's Bowmanship",
                 "eSkill": "Floral Brush",
@@ -1316,9 +1285,8 @@
                 "c5": "Sagacity",
                 "c6": "Structuration"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["191d19","a0a19e","3c4338","088f82","6dfafa","3e7d7f","9d8f71","f5e0b0"]
+,
             "talents": {
                 "NA": "Abductive Reasoning",
                 "eSkill": "Universality: An Elaboration on Form",
@@ -1356,9 +1324,8 @@
                 "c5": "Puredew Aroma",
                 "c6": "Marcotte Sillage"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["fdfdfd","534447","2f2f31","2e4844","f3b3b8","fdefd0","eac97c","d893bf"]
+,
             "talents": {
                 "NA": "Shadow-Hunting Spear",
                 "eSkill": "Fragrance Extraction",
@@ -1396,9 +1363,8 @@
                 "c5": "A Thousand Miles in a Day",
                 "c6": "Countless Sights to See"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["fdedde","3f2b2a","9cb7c9","382a29","d7ccb0","e5bd4e","9bbe85","7dafbb"]
+,
             "talents": {
                 "NA": "Boxcutter",
                 "eSkill": "Meow-teor Kick",
@@ -1436,9 +1402,8 @@
                 "c5": "Treasures of Bonkhanak",
                 "c6": "Pairidaeza's Dreams"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["665c5b","f7e7ce","38958a","792620","c6b299","252521","1d5180","494138"]
+,
             "talents": {
                 "NA": "Schematic Setup",
                 "eSkill": "Artistic Ingenuity",
@@ -1476,9 +1441,8 @@
                 "c5": "Howler Monkey's Tail",
                 "c6": "Auspicious Beast's Shape"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["e5cda9","383d50","85eeac","254c4d","f1a64a","e6b867","17100f","50817c"]
+,
             "talents": {
                 "NA": "Nightsun Style",
                 "eSkill": "Canopy Hunter: Riding High",
@@ -1516,9 +1480,8 @@
                 "c5": "The Hidden Ebb and Flow",
                 "c6": "Elimination of Malicious Qi"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors":["f9eff7","8db8a5","56896e","fde694","e3fdfc","690e01","012839","273d6d"]
+,
             "talents": {
                 "NA": "The Classics of Acupuncture",
                 "eSkill": "Universal Diagnosis",
@@ -1556,9 +1519,8 @@
                 "c5": "The Leaves of Enlightening Speech",
                 "c6": "The Fruit of Reason's Culmination"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["333726","e2e2dd","8b8e81","7c8d5a","69665a","b2b68f","a5a3a8","5a8c60"]
+,
             "talents": {
                 "NA": "Akara",
                 "eSkill": "All Schemes to Know",
@@ -1636,9 +1598,8 @@
                 "c5": "Comprehension Amidst the Flowers",
                 "c6": "Karma Adjudged From the Leaden Fruit"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["1f3240","afd439","f1dc35","8c275a","16244b","6f8642","117d8a","a97842"]
+,
             "talents": {
                 "NA": "Khanda Barrier-Buster",
                 "eSkill": "Vijnana-Phala Mine",
@@ -1676,9 +1637,7 @@
                 "c5": "Raging Wildfire",
                 "c6": "Burning Heart"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["580f1a","5d832e","e4b37b","c7ac7d","322e2f","ac364c","2e3231","faca8a"],
             "talents": {
                 "NA": "Swiftshatter Spear",
                 "eSkill": "Blazing Blessing",
@@ -1756,9 +1715,8 @@
                 "c5": "Floral Incense",
                 "c6": "Butterfly's Embrace"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["4b3134","2f2023","895252","942c21","493a3d","2b2122","c2ab89","302c45"]
+,
             "talents": {
                 "NA": "Secret Spear of Wangsheng",
                 "eSkill": "Guide to Afterlife",
@@ -1796,9 +1754,8 @@
                 "c5": "Evil-Daunting Roar",
                 "c6": "To Tame All Beasts"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["3b2720","ecd4c1","db5a32","8e5d4d","51735a","9f9e95","5e5b5c","949494"]
+,
             "talents": {
                 "NA": "Stellar Rend",
                 "eSkill": "Bestial Ascent",
@@ -1916,9 +1873,8 @@
                 "c5": "The Alpha Unleashed",
                 "c6": "The Burning Claws Cleaving"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["d6a774","3f3335","f1c1ab","e2d0aa","b5060c","6b0c18","697ebb","e4b667"]
+,
             "talents": {
                 "NA": "Sandstorm Assault",
                 "eSkill": "Molten Inferno",
@@ -1956,9 +1912,8 @@
                 "c5": "Enhanced Incendiary Firepower",
                 "c6": "In Pursuit of Ending Evil"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["3b2631","efdecf","7b6398","c32139","7d0321","402f5f","bda981","503030"]
+,
             "talents": {
                 "NA": "Line Bayonet Thrust EX",
                 "eSkill": "Short-Range Rapid Interdiction Fire",
@@ -1996,9 +1951,8 @@
                 "c5": "To Pierce Enigmas",
                 "c6": "Guarded Smile"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["443942","e9e0d8","995f72","c95f8d","aeaaa9","7c7670","7b7881","9f98ae"]
+,
             "talents": {
                 "NA": "Card Force Translocation",
                 "eSkill": "Bewildering Lights",
@@ -2036,9 +1990,8 @@
                 "c5": "For Alone, We Are as Good as Dead...",
                 "c6": "From This Day On, We Shall Delight in New Life Together."
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["dedede","252325","6a565a","80818a","505457","a39a9c","a81616","f12e31"]
+,
             "talents": {
                 "NA": "Invitation to a Beheading",
                 "eSkill": "All Is Ash",
@@ -2076,9 +2029,8 @@
                 "c5": "The Meaning of Truth",
                 "c6": "'Humanity's Name' Unfettered"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["f7ebda","2c1814","b9412c","d89d6c","743529","f6ac5b","eec67c","242424"]
+,
             "talents": {
                 "NA": "Flames Weave Life",
                 "eSkill": "The Named Moment",
@@ -2116,9 +2068,8 @@
                 "c5": "Tide of Hadean",
                 "c6": "Dust of Purification"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["383447","e5dece","845b4a","bb9b80","fcce80","96a1b3","6571c1","9edacb"]
+,
             "talents": {
                 "NA": "Favonius Bladework - Weiss",
                 "eSkill": "Abiogenesis: Solar Isotoma",
@@ -2156,9 +2107,8 @@
                 "c5": "Two Silken Plumules",
                 "c6": "Sole Principle Pursuit"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["221212","5f3a35","ece6de","e48d34","cb3e09","aa0505","f6c057","786d70"]
+,
             "talents": {
                 "NA": "Weaving Blade",
                 "eSkill": "Fluttering Hasode",
@@ -2196,9 +2146,8 @@
                 "c5": "10 Years of Hanamizaka Fame",
                 "c6": "Arataki Itto, Present!"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["fefefe","b5241c","6c4683","ce7628","33302b","fcd2a0","a19ea5","9f2f2b"]
+,
             "talents": {
                 "NA": "Fight Club Legend",
                 "eSkill": "Masatsu Zetsugi: Akaushi Burst!",
@@ -2236,9 +2185,8 @@
                 "c5": "Tlaltecuhtli's Crossfade",
                 "c6": "Imperishable Night Carnival"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["ebe0c8","3d3728","7c5730","b68a3e","b29d71","b2dd95","5fa793","f0a1b5"]
+,
             "talents": {
                 "NA": "Ehecatl's Roar",
                 "eSkill": "Yohual's Scratch",
@@ -2276,7 +2224,8 @@
                 "c5": "Negotiator's Resolute Negotiations",
                 "c6": "The Flexible Finesse of the Spina's President"
             },
-            "colors": [],
+            "colors": ["3b4763","323438","f5ce7e","4879c9","e3cba5","a68b6f","424450","3b4d78"]
+,
             "talents": {
                 "NA": "Blunt Refusal",
                 "eSkill": "Ceremonial Crystalshot",
@@ -2390,7 +2339,7 @@
                 "c5": "Striking Hound: Thunderous Force",
                 "c6": "Valiant Hound: Mountainous Fealty"
             },
-            "colors": [],
+            "colors": ["92f5fa","348b9e","790208","d1b188","322e2b","fefefe","caad8d","a78045"],
             "talents": {
                 "NA": "Ripping Fang Fletching",
                 "eSkill": "Inuzaka All-Round Defense",
@@ -2428,7 +2377,8 @@
                 "c5": "All I've Collected Till Now",
                 "c6": "This Time, I've Gotta Win"
             },
-            "colors": [],
+            "colors": ["372718","f9d4c1","dfd0b7","c3cc57","f5ce55","3fdaea","55243a","d6bd9e"]
+,
             "talents": {
                 "NA": "Cragbiter",
                 "eSkill": "Go, Go Turbo Twirly!",
@@ -2466,7 +2416,8 @@
                 "c5": "Wisdom of Bansei",
                 "c6": "Crimson Momiji"
             },
-            "colors": [],
+            "colors": ["291717","f7e7da","993420","e25b39","fde2c7","433938","be481e","281614"]
+,
             "talents": {
                 "NA": "Garyuu Bladework",
                 "eSkill": "Chihayaburu",
@@ -2504,7 +2455,8 @@
                 "c5": "Matsuban: Ancient Illuminator From Abroad",
                 "c6": "Shugen: The Curtains' Melancholic Sway"
             },
-            "colors": [],
+            "colors": ["c1cce8","ededed","c2aa90","224d92","24386a","74b7ca","413f44","3b3e5f"]
+,
             "talents": {
                 "NA": "Yuuban Meigen",
                 "eSkill": "Hanega: Song of the Wind",
@@ -2542,7 +2494,8 @@
                 "c5": "Secret Archive",
                 "c6": "Curious Casefiles"
             },
-            "colors": [],
+            "colors": ["473f3c","6d2f40","d5a555","9d6d70","949f63","f1ecf0","81162e","170c0a"]
+,
             "talents": {
                 "NA": "Fudou Style Martial Arts",
                 "eSkill": "Heartstopper Strike",
@@ -2580,7 +2533,8 @@
                 "c5": "Evolution Eon: Origin of Ignorance",
                 "c6": "Conqueror of Evil: Guardian Yaksha"
             },
-            "colors": [],
+            "colors": ["e8e0d3","465456","87c0a8","d4bca0","4b7b7b","7a89a9","6dc6c6","d49ccb"],
+
             "talents": {
                 "NA": "Whirlwind Thrust",
                 "eSkill": "Lemniscatic Wind Cycling",
@@ -2618,7 +2572,8 @@
                 "c5": "Obscuring Ambuguity",
                 "c6": "Watchful Eye"
             },
-            "colors": [],
+            "colors": ["fefefc","004251","035b71","505052","44b9ca","604a4d","764c34","cdc2bc"]
+,
             "talents": {
                 "NA": "Rapid Ritesword",
                 "eSkill": "Enigmatic Feint",
@@ -2656,7 +2611,8 @@
                 "c5": "Astride Rose-Colored Clouds",
                 "c6": "They Call Her Cloud Retainer"
             },
-            "colors": [],
+            "colors": ["9ae1c7","32384c","92beb4","e27e60","5c5052","477e6d","bd624f","8b9bac"]
+,
             "talents": {
                 "NA": "Word of Wind and Flower",
                 "eSkill": "White Clouds at Dawn",
@@ -2694,7 +2650,8 @@
                 "c5": "Brim, the Sandshadow's Silhouette",
                 "c6": "Showdown, the Glory of Battle"
             },
-            "colors": [],
+            "colors": ["eedfd6","34181e","85243a","365ebc","969ca1","45306a","bb1034","636262"]
+,
             "talents": {
                 "NA": "Phantom Feather Flurry",
                 "eSkill": "Spirit Reins, Shadow Hunt",
@@ -2732,7 +2689,8 @@
                 "c5": "Having Met You, My Heart is Gladdened",
                 "c6": "Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring"
             },
-            "colors": [],
+            "colors": ["e2dfd7","2c333e","92aeb4","807a7f","5e737c","8a93ad","616176","c15ee2"]
+,
             "talents": {
                 "NA": "Black Pheasant Strides on Water",
                 "eSkill": "Swallow-Wisp Pinion Dance",
@@ -2770,7 +2728,8 @@
                 "c5": "Caution: Standard Flask",
                 "c6": "Chaotic Entropy"
             },
-            "colors": [],
+            "colors": ["e39346","82281f","e5fffe","2e8e95","494448","344a73","d9c4a0","8aaebb"]
+,
             "talents": {
                 "NA": "Wind Spirit Creation",
                 "eSkill": "Astable Anemohypostasis Creation - 6308",
@@ -2808,7 +2767,8 @@
                 "c5": "Speed Comes First",
                 "c6": "Sleep O'Clock"
             },
-            "colors": [],
+            "colors": ["ffe7b9","cfcab6","463a48","211e1b","777292","443844","b3ab71","445c2a"]
+,
             "talents": {
                 "NA": "Shuumatsuban Ninja Blade",
                 "eSkill": "Yoohoo Art: Fuuin Dash",
@@ -2846,7 +2806,7 @@
                 "c5": "Signal Arrow",
                 "c6": "Companion's Counsel"
             },
-            "colors": [],
+            "colors": ["839ab9","70cbdd","f5f5f5","bebcaf","537ca8","474e7c","d4a740","e4ddaf"],
             "talents": {
                 "NA": "Spear of Favonius - Arrow's Passage",
                 "eSkill": "Starfrost Swirl",
@@ -2884,7 +2844,8 @@
                 "c5": "Stream of Consciousness",
                 "c6": "Radiant Soulfire"
             },
-            "colors": [],
+            "colors": ["fefefe","3441a6","5c6287","3f48b0","bde8f5","cbb195","12216a","c0783d"]
+,
             "talents": {
                 "NA": "Sword of the Radiant Path",
                 "eSkill": "Nights of Formal Focus",
@@ -2922,7 +2883,8 @@
                 "c5": "Wonderland of Rumination",
                 "c6": "The Wondrous path of Truth"
             },
-            "colors": [],
+            "colors":["bdd9dd","6e9eb2","f0f8c4","fefefe","cebb9c","fcf4d8","deae51","a3c6d3"]
+,
             "talents": {
                 "NA": "Parthian Shot",
                 "eSkill": "Wind Realm of Nasamjnin",
@@ -2960,7 +2922,8 @@
                 "c5": "Divine Attainment",
                 "c6": "Mystical Abandon"
             },
-            "colors": [],
+            "colors": ["454744","dedede","c05251","989dbb","eff6fc","e9c89f","b8895c","a7f5fb"]
+,
             "talents": {
                 "NA": "Dawnstar Piercer",
                 "eSkill": "Spring Spirit Summoning",
@@ -2998,7 +2961,8 @@
                 "c5": "Nights of Hearth and Happiness",
                 "c6": "Moment of Waking and Resolve"
             },
-            "colors": [],
+            "colors": ["2b2733","e4dbc9","6b5747","b39c81","8a8172","847155","27a5bf","a89b98"]
+,
             "talents": {
                 "NA": "Flowing Eddies",
                 "eSkill": "Pressurized Floe",
@@ -3036,7 +3000,8 @@
                 "c5": "The Merciful",
                 "c6": "The Clement"
             },
-            "colors": [],
+            "colors": ["d0ddee","9daee6","674f5d","7790bf","2e263b","d9bb94","c94e50","6daef6"]
+,
             "talents": {
                 "NA": "Liutian Archery",
                 "eSkill": "Trail of the Qilin",
@@ -3074,7 +3039,7 @@
                 "c5": "Chivalric Quality",
                 "c6": "Noble Obligation"
             },
-            "colors": [],
+            "colors": ["#89bac7", "#5c95a6", "#466ab7", "#283760", "#2b2b39", "#eaebed", "#363d47", "#c8b08e"],
             "talents": {
                 "NA": "Favonius Bladework - Edel",
                 "eSkill": "Icetide Vortex",
@@ -3112,7 +3077,8 @@
                 "c5": "Double Shot, On The Rocks",
                 "c6": "Cat's Tail Closing Time"
             },
-            "colors": [],
+            "colors": ["4e4c60","34313d","ffcbc9","a26060","f7c5c3","e9a55a","fff8f8","569b93"]
+,
             "talents": {
                 "NA": "Katzlein Style",
                 "eSkill": "Icy Paws",
@@ -3150,7 +3116,8 @@
                 "c5": "Last Rites",
                 "c6": "Divine Retribution"
             },
-            "colors": [],
+            "colors": ["e7e0e0","5e2c42","b0a9a7","a17b85","1b0e16","837279","756968","b290a4"]
+,
             "talents": {
                 "NA": "Spear of the Church",
                 "eSkill": "Ravaging Confession",
@@ -3188,7 +3155,8 @@
                 "c5": "Nemontemi's Hex",
                 "c6": "Teoiztac's Secret Pact"
             },
-            "colors": [],
+            "colors": ["2b2536","ede3e7","f3ecf4","5748a2","d277b4","8b89db","d768be","6faedb"]
+,
             "talents": {
                 "NA": "Shadow-Stealing Spirit Vessel",
                 "eSkill": "Dawnfrost Darkstar",
@@ -3226,7 +3194,8 @@
                 "c5": "Mercy for the Wronged",
                 "c6": "Esteem for the Innocent"
             },
-            "colors": [],
+            "colors": ["797881","1b1c21","2a292e","767681","3a393f","6b6273","742731","491321"]
+,
             "talents": {
                 "NA": "Forceful Fists of Frost",
                 "eSkill": "Icefang Rush",
@@ -3264,7 +3233,8 @@
                 "c5": "Blossom Cloud Irutsuki",
                 "c6": "Dance of Suigetsu"
             },
-            "colors": [],
+            "colors": ["30303e","e8e9e9","bf3f6a","9ac6e9","303462","fdf3e6","a7946d","424753"]
+,
             "talents": {
                 "NA": "Kamisato Art: Kabuki",
                 "eSkill": "Kamisato Art: Hyouka",
@@ -3302,7 +3272,7 @@
                 "c5": "A Principle of Conscience",
                 "c6": "A Summation of Interest"
             },
-            "colors": [],
+            "colors": ["#e8bdc7", "#7a032d", "#2e292f", "#fefefe", "#8e794a", "3c3c5e", "#3abfaf", "#096c8c"],
             "talents": {
                 "NA": "Cool-Color Capture",
                 "eSkill": "Framing: Freezing Point Composition",
@@ -3340,7 +3310,8 @@
                 "c5": "As Setting Moon Brings Year's End",
                 "c6": "The Heart Lingers Long"
             },
-            "colors": [],
+            "colors": ["35335f","dedce0","843fa0","7380a2","b38caf","efd3df","3d3539","5c8c9c"]
+,
             "talents": {
                 "NA": "Pure Heart, Pure Dreams",
                 "eSkill": "Aisa Utamakura Pilgrimage",
@@ -3378,7 +3349,8 @@
                 "c5": "Thoughts Floating on the Warm Breeze",
                 "c6": "A Hero of Justice's Triumph"
             },
-            "colors": [],
+            "colors": ["e37479","febcbc","7ee4d7","635252","7c3f97","fefbf4","f2e8c4","383438"]
+,
             "talents": {
                 "NA": "By the Horns",
                 "eSkill": "Riding the Night-Rainbow",
@@ -3416,7 +3388,8 @@
                 "c5": "Spellsinger",
                 "c6": "Sin of Pride"
             },
-            "colors": [],
+            "colors": ["c04d4d","edeae2","28262b","717380","ae8e47","a59991","d9c69c","445465"]
+,
             "talents": {
                 "NA": "Tengu Bowmanship",
                 "eSkill": "Tengu Stormcall",
@@ -3492,10 +3465,8 @@
                 "c5": "Funerary Rite: Passing of Starlight",
                 "c6": "Raiment: Just Scales"
             },
-            "colors": [
-                "#FFD700",
-                "#00008B"
-            ],
+            "colors": ["493d49","372d36","be976a","faf3ed","8b7c8f","7372c8","ecc8b0","ae562f"]
+,
             "talents": {
                 "NA": "Invoker's Spear",
                 "eSkill": "Secret Rite: Chasmic Soulfarer",
@@ -3533,7 +3504,8 @@
                 "c5": "Shogun's Descent",
                 "c6": "Wishbearer"
             },
-            "colors": [],
+            "colors": ["ebe1e1","2c2751","4c4fc6","957963","817bd1","51468d","9f1748","b09fd5"]
+,
             "talents": {
                 "NA": "Origin",
                 "eSkill": "Transcendence: Baleful Omen",
@@ -3571,7 +3543,8 @@
                 "c5": "Record of the Desolate God's Burning Sands",
                 "c6": "Pylon of the Sojourning Sun Temple"
             },
-            "colors": [],
+            "colors": ["e9c0a5","3f312f","217310","edb356","391f42","ebe3d6","d7c39b","938762"]
+,
             "talents": {
                 "NA": "Royal Reed Archery",
                 "eSkill": "Ancient Rite: The Thundering Sands",
@@ -3609,7 +3582,8 @@
                 "c5": "Value for Mora",
                 "c6": "Sprinkling Weight"
             },
-            "colors": [],
+            "colors": ["d8b88f","9f1141","a78ed0","6346bd","d59728","1b1927","4b3c41","f1c0c6"]
+,
             "talents": {
                 "NA": "Marvelous Sword-Dance (Modified)",
                 "eSkill": "Spirit-Warding Lamp: Troubleshooter Cannon",
@@ -3647,7 +3621,8 @@
                 "c5": "We Can Push It Further!",
                 "c6": "Teachings of the Collective of Plenty"
             },
-            "colors": [],
+            "colors": ["201c1b","d2cfc4","9d7f69","613f31","db812b","fbd166","a977a1","e5e2df"]
+,
             "talents": {
                 "NA": "Weighted Spike",
                 "eSkill": "Thunderbolt Rush",
@@ -3685,7 +3660,8 @@
                 "c5": "A Gift For the Soul",
                 "c6": "Ode to Deep Springs"
             },
-            "colors": [],
+            "colors": ["202439","62bdec","434671","2a3142","76a1ef","6bdeef","c74198","2b3243"]
+,
             "talents": {
                 "NA": "Spiritvessel Snapshot",
                 "eSkill": "Night's Sling",
@@ -3723,7 +3699,8 @@
                 "c5": "To Cease Courtesies",
                 "c6": "To Ward Weakness"
             },
-            "colors": [],
+            "colors": ["acb989","7b3856","322a2f","e9e6e4","666952","8f6d65","5a5f38","44642b"]
+,
             "talents": {
                 "NA": "Shinobu's Shadowsword",
                 "eSkill": "Sanctifying Ring",
@@ -3761,7 +3738,8 @@
                 "c5": "Holding Dawn's Coming as My Votive",
                 "c6": "And So Shall I Never Despair"
             },
-            "colors": [],
+            "colors": ["ddd5cd","242436","545ac6","2e3154","6791bb","b2a28b","46489b","fdfdfd"]
+,
             "talents": {
                 "NA": "Oath of Hunting Shadows",
                 "eSkill": "Hunter's Vigil",
@@ -3799,7 +3777,7 @@
                 "c5": "Vow of Universal Coexistence",
                 "c6": "Oath on a Feathered Knot"
             },
-            "colors": [],
+            "colors": ["#e6eeee", "#bb9884", "#3abbac", "#faa446", "#aca9b7", "#f2f0f0", "#43362f", "#f4ba67"],
             "talents": {
                 "NA": "Rite of Dispelling Winds",
                 "eSkill": "Airborne Disease Prevention",
@@ -3837,7 +3815,7 @@
                 "c5": "Symphony of a Thousand Sauces",
                 "c6": "Tea Parties Bursting With Color"
             },
-            "colors": [],
+            "colors": ["#fdc384", "#9f2f61", "#EDEDEE", "#57495a", "#b7edf7", "#dec2aa", "#1e90b2", "#60acae"],
             "talents": {
                 "NA": "Kitchen Skills",
                 "eSkill": "Low-Temperature Cooking",
