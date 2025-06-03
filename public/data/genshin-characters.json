@@ -659,9 +659,8 @@
                 "c5": "Embrace of Rain",
                 "c6": "Hence, Call Them My Own Verses"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["e4dacb","22262b","4d7d93","3f6882","7d6146","6799b1","7fb8c7","a8681c"]
+,
             "talents": {
                 "NA": "Guhua Style",
                 "eSkill": "Guhua Sword: Fatal Rainscreen",
@@ -1089,9 +1088,8 @@
                 "c5": "Dealer's Sleight",
                 "c6": "Winner Takes All"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["5fdddb","c8cce6","9bc2d5","6177dc","020224","2c3546","686d6f","169ddd"]
+,
             "talents": {
                 "NA": "Stealthy Bowshot",
                 "eSkill": "Lingering Lifeline",
@@ -1558,9 +1556,8 @@
                 "c5": "Compassionate",
                 "c6": "Beneficent"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["251913","bea47a","efeae1","f3d88e","6c4131","a1a25c","cdc874","986f59"]
+,
             "talents": {
                 "NA": "Toss 'N' Turn Spear",
                 "eSkill": "Raphanus Sky Cluster",
@@ -1675,9 +1672,8 @@
                 "c5": "Screamin' for an Encore",
                 "c6": "Rockin' in a Flaming World"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["d5c3b6","352428","8a493e","9e9992","b11712","65626b","565061","968b94"]
+,
             "talents": {
                 "NA": "Dance on Fire",
                 "eSkill": "Sweeping Fervor",
@@ -1793,9 +1789,8 @@
                 "c5": "Abiding Affidavit",
                 "c6": "Extra Clause"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["372423","ecd4ca","aa3a52","f0af99","c1a371","dfc56e","ffffff","51a68b"]
+,
             "talents": {
                 "NA": "Seal of Approval",
                 "eSkill": "Signed Edict",
@@ -1833,9 +1828,8 @@
                 "c5": "A Summer Festival's Eve",
                 "c6": "Naganohara Meteor Swarm"
             },
-            "colors": [
-                "na razie neh"
-            ],
+            "colors": ["9b4037","eedfcf","482825","c29577","c27c57","f4d6bc","a33d2e","2d3866"]
+,
             "talents": {
                 "NA": "Firework Flare-Up",
                 "eSkill": "Niwabi Fire-Dance",
@@ -2263,7 +2257,8 @@
                 "c5": "Lazuli, Herald of the Order",
                 "c6": "Chrysos, Bounty of Dominator"
             },
-            "colors": [],
+            "colors": ["925b43","a19ca0","fab61c","a19d9e","3f3f4b","000000","342d27","a26c40"]
+,
             "talents": {
                 "NA": "Rain of Stone",
                 "eSkill": "Dominus Lapidis",
@@ -2301,7 +2296,8 @@
                 "c5": "Famed Throughout the Land",
                 "c6": "Decorous Harmony"
             },
-            "colors": [],
+            "colors": ["4b3857","e6dbde","281f35","677f90","bc7a8d","48365c","ffd152","3c7c84"]
+,
             "talents": {
                 "NA": "Cloud-Grazing Strike",
                 "eSkill": "Opening Flourish",
@@ -3427,7 +3423,8 @@
                 "c5": "Mischievous Teasing",
                 "c6": "Forbidden Art: Daisesshou"
             },
-            "colors": [],
+            "colors": ["efcecb","44272e","944147","bc737b","9a6455","cc9f86","a49da6","6b7471"]
+,
             "talents": {
                 "NA": "Spiritfox Sin-Eater",
                 "eSkill": "Yakan Evocation: Sesshou Sakura",
