@@ -1,9 +1,28 @@
 <div class="navbar">
-            <button class="normalNav navi"> Normal mode</button>
-            <button class="weaponsNav navi"> Weapons: Gib minut!</button>
-            <button class="colorNav navi"> Colors: Gib minut</button>
-            <button class="consNav navi">Constellations: Not yet</button>
-            <button class="talentsNav navi"> Talents: Not yet</button>
+    <form action="/set-mode" method="POST" class="navi">
+        <input type="hidden" name="mode" value="normal">
+        <button type="submit" class="butt">Normal Mode</button>
+    </form>
+
+    <form action="/set-mode" method="POST" class="navi">
+        <input type="hidden" name="mode" value="weapon">
+        <button type="submit" class="butt" >Weapons</button>
+    </form>
+
+    <form action="/set-mode" method="POST" class="navi">
+        <input type="hidden" name="mode" value="color">
+        <button type="submit" class="butt">Colors</button>
+    </form>
+
+    <form action="/set-mode" method="POST" class="navi">
+        <input type="hidden" name="mode" value="cons">
+        <button type="submit" class="butt">Constellations</button>
+    </form>
+
+    <form action="/set-mode" method="POST" class="navi">
+        <input type="hidden" name="mode" value="talent">
+        <button type="submit" class="butt">Talents</button>
+    </form>
 </div>
 
 
@@ -33,5 +52,16 @@
     }
     .navi:hover{
         border: 12px #303030 solid;
+    }
+
+    .butt{
+        font-family: "Quicksand", sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+        background-color: #494949;
+        border: none;
+        color:rgb(190, 190, 190);
+        width: 70%;
+        height: 70%;
     }
 </style>

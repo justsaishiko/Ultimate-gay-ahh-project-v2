@@ -17,30 +17,31 @@ app.engine('hbs', hbs({
         path.join(__dirname, '/views/partials'),
     ],
     helpers: {
-        json: function(context) {
-            return JSON.stringify(context);
-        }
+        eq: function (a, b) { return a === b; },
+        json: function(context) { return JSON.stringify(context); }
     }
 
 }));
 
 app.set('view engine', 'hbs');
 
-app.get("/", function (req, res) {
+app.use(express.urlencoded({ extended: true }));
+
+app.post('/set-mode', (req, res) => {
+    const selectedMode = req.body.mode;
+    res.redirect(`/?mode=${selectedMode}`);
+});
+
+app.get("/", (req, res) => {
+    const currentMode = req.query.mode || "normal";
+    
     const dane = {
         genshinCharacters: context.genshinCharacters,
+        currentMode: currentMode
     };
-
+    
     res.render('main.hbs', dane);
-})
-
-
-
-
-
-
-
-
+});
 
 app.listen(PORT, function () {
     console.log("start serwera na porcie " + PORT )

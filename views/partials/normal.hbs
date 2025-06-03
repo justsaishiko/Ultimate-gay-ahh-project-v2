@@ -1,0 +1,330 @@
+<div class="normalMode">
+    <div class="gameArea">
+        <img id="normalModeImage" alt="Character Image" src="/images/placeholder.png" width="35" height="30">
+        <div class="yaoi_top">
+            <div class="select_i_counter">
+                <div class="guessCounter">
+                        Guesses left: <span id="guessesRemaining">5</span>/5
+                </div>
+                <div class="custom-select">
+                    <div class="select-header" onclick="toggleDropdown()">
+                        <span>Select a character</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                        <div class="select-options" id="characterOptions">
+                            <input type="text" id="characterSearch" placeholder="Search characters..." oninput="filterCharacters()">
+                            {{#each genshinCharacters}}
+                                <div class="option" data-value="{{id}}" onclick="selectCharacter(this)">
+                                    <img src="{{image}}" class="option-image">
+                                    <span class="option-text">{{name}}</span>
+                                </div>
+                            {{/each}}
+                        </div>
+                        <input type="hidden" id="selectedCharacter" name="character">
+                </div>
+                <button class="toggleTarget" onclick="toggleTargetVisibility()">Show Target Character</button>
+            </div>
+            <div class="side_wynik">
+                <div class="targetCharacter hidden" id="targetCharacter"></div>
+            </div>
+        </div>
+        <div class="yaoi_bottom">
+            <div class="characterStack" id="characterStack"></div>
+        </div>
+
+            <div class="winScreen hidden" id="winScreen">
+                <h2>Congratulations!</h2>
+                <p>You guessed the character correctly!</p>
+                <button onclick="startNewGame()">Play Again</button>
+            </div>
+            <div class="loseScreen hidden" id="loseScreen">
+                <h2>Game Over</h2>
+                <p>You didn't guess the character in time.</p>
+                <button onclick="startNewGame()">Try Again</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const characters = [
+        {{#each genshinCharacters}}
+        {
+            id: {{id}},
+            name: "{{name}}",
+            image: "{{image}}",
+            properties: {
+                element: "{{properties.element}}",
+                rarity: "{{properties.rarity}}",
+                weapon: "{{properties.weapon}}",
+                region: "{{properties.region}}",
+                version: "{{properties.version}}",
+                stat: "{{properties.stat}}",
+                talentBook: "{{properties.talentBook}}",
+                boss: "{{properties.boss}}",
+                specialty: "{{properties.specialty}}",
+                weeklyBoss: "{{properties.weeklyBoss}}",
+                mob: "{{properties.mob}}"
+            }
+        },
+        {{/each}}
+    ];
+
+    const propertyDisplayNames = {
+        element: "Element",
+        rarity: "Rarity",
+        weapon: "Weapon Type",
+        region: "Region",
+        version: "Version Added",
+        stat: "Ascension Stat",
+        talentBook: "Talent Book",
+        boss: "Boss Material",
+        specialty: "Local Specialty",
+        weeklyBoss: "Weekly Boss Material",
+        mob: "Common Enemy Drop"
+    };
+
+    let globalPropertyKeys = [];
+    let targetCharacter = null;
+    const characterStack = [];
+    const selectedCharacterIds = new Set();
+    let guessesLeft = 5;
+    let gameOver = false;
+
+    function toggleDropdown() {
+        const options = document.getElementById('characterOptions');
+        options.style.display = options.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function filterCharacters() {
+        const searchTerm = document.getElementById('characterSearch').value.toLowerCase();
+        const options = document.querySelectorAll('.option');
+        
+        options.forEach(option => {
+            if (option.querySelector) {
+                const name = option.querySelector('.option-text').textContent.toLowerCase();
+                option.style.display = name.includes(searchTerm) ? 'flex' : 'none';
+            }
+        });
+    }
+
+    function getRandomProperties(count = 5) {
+        const allProperties = Object.keys(propertyDisplayNames);
+        const shuffled = [...allProperties].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
+    }
+
+    function createCharacterCard(character, isTarget = false) {
+        const card = document.createElement('div');
+        card.className = 'characterCard';
+        if (isTarget) {
+            card.classList.add('targetCard');
+        }
+        
+        const header = document.createElement('div');
+        header.className = 'cardHeader';
+        
+        const charImage = document.createElement('img');
+        charImage.src = character.image;
+        charImage.alt = character.name;
+        charImage.className = 'cardImage';
+        
+        const charName = document.createElement('div');
+        charName.className = 'cardName';
+        charName.textContent = character.name;
+        
+        header.appendChild(charImage);
+        header.appendChild(charName);
+        
+        const propertiesContainer = document.createElement('div');
+        propertiesContainer.className = 'cardProperties';
+        
+        globalPropertyKeys.forEach(propKey => {
+            const propValue = character.properties[propKey];
+            const propDiv = document.createElement('div');
+            propDiv.className = 'propertyItem';
+            
+            const propName = document.createElement('span');
+            propName.className = 'propName';
+            propName.textContent = propertyDisplayNames[propKey] || propKey;
+            
+            const propVal = document.createElement('span');
+            propVal.className = 'propValue';
+            propVal.textContent = propValue;
+            
+            if (!isTarget && targetCharacter) {
+                const targetValue = targetCharacter.properties[propKey];
+                if (propValue === targetValue) {
+                    propVal.classList.add('match');
+                } else {
+                    propVal.classList.add('no-match');
+                }
+                
+                if (character.name === targetCharacter.name) {
+                    charName.classList.add('match');
+                } else {
+                    charName.classList.add('no-match');
+                }
+            }
+            
+            propDiv.appendChild(propName);
+            propDiv.appendChild(propVal);
+            propertiesContainer.appendChild(propDiv);
+        });
+        
+        card.appendChild(header);
+        card.appendChild(propertiesContainer);
+        
+        if (!isTarget && targetCharacter && 
+            character.name === targetCharacter.name && 
+            globalPropertyKeys.every(prop => 
+                character.properties[prop] === targetCharacter.properties[prop]
+            )) {
+            card.classList.add('full-match');
+            endGame(true);
+        }
+        
+        return card;
+    }
+
+    function renderCharacterStack() {
+        const stackContainer = document.getElementById('characterStack');
+        stackContainer.innerHTML = '';
+        
+        characterStack.forEach(character => {
+            const card = createCharacterCard(character);
+            stackContainer.appendChild(card);
+        });
+    }
+
+    function renderTargetCharacter() {
+        if (!targetCharacter) return;
+        
+        const targetContainer = document.getElementById('targetCharacter');
+        targetContainer.innerHTML = '';
+        
+        const card = createCharacterCard(targetCharacter, true);
+        targetContainer.appendChild(card);
+    }
+
+    function toggleTargetVisibility() {
+        const targetContainer = document.getElementById('targetCharacter');
+        targetContainer.classList.toggle('hidden');
+        
+        const button = document.querySelector('.toggleTarget');
+        if (targetContainer.classList.contains('hidden')) {
+            button.textContent = 'Show Target Character';
+        } else {
+            button.textContent = 'Hide Target Character';
+        }
+    }
+
+    function updateGuessCounter() {
+        document.getElementById('guessesRemaining').textContent = guessesLeft;
+    }
+
+    function endGame(isWin) {
+        gameOver = true;
+        
+        document.getElementById('targetCharacter').classList.remove('hidden');
+        document.querySelector('.toggleTarget').textContent = 'Hide Target Character';
+        
+        document.querySelector('.custom-select').style.opacity = '0.5';
+        document.querySelector('.custom-select').style.pointerEvents = 'none';
+        
+        if (isWin) {
+            document.getElementById('winScreen').classList.remove('hidden');
+        } else {
+            document.getElementById('loseScreen').classList.remove('hidden');
+        }
+    }
+
+    function selectCharacter(element) {
+        if (gameOver) return;
+        
+        const selectedId = parseInt(element.getAttribute('data-value'));
+        
+        if (selectedCharacterIds.has(selectedId)) {
+            alert('This character has already been selected!');
+            return;
+        }
+        
+        const selectedCharacter = characters.find(c => c.id === selectedId);
+        
+        if (!selectedCharacter) return;
+        
+        if (globalPropertyKeys.length === 0 && Object.keys(selectedCharacter.properties).length > 0) {
+            globalPropertyKeys = getRandomProperties();
+        }
+        
+        document.querySelector('.select-header span:first-child').innerHTML = `
+            <img src="${selectedCharacter.image}" class="option-image">
+            <span class="option-text">${selectedCharacter.name}</span>
+        `;
+        document.getElementById('selectedCharacter').value = selectedId;
+        document.getElementById('characterOptions').style.display = 'none';
+        
+        document.getElementById('normalModeImage').src = selectedCharacter.image;
+        
+        characterStack.unshift(selectedCharacter);
+        selectedCharacterIds.add(selectedId);
+        
+        guessesLeft--;
+        updateGuessCounter();
+        
+        if (guessesLeft <= 0) {
+            endGame(false);
+        }
+        
+        renderCharacterStack();
+    }
+
+    function resetGame() {
+        characterStack.length = 0;
+        selectedCharacterIds.clear();
+        guessesLeft = 5;
+        gameOver = false;
+        
+        updateGuessCounter();
+        document.getElementById('winScreen').classList.add('hidden');
+        document.getElementById('loseScreen').classList.add('hidden');
+        document.getElementById('targetCharacter').classList.add('hidden');
+        document.querySelector('.toggleTarget').textContent = 'Show Target Character';
+        document.querySelector('.custom-select').style.opacity = '1';
+        document.querySelector('.custom-select').style.pointerEvents = 'auto';
+        
+        if (characters.length > 0) {
+            const firstChar = characters[0];
+            document.querySelector('.select-header span:first-child').innerHTML = `
+                <img src="${firstChar.image}" class="option-image">
+                <span class="option-text">${firstChar.name}</span>
+            `;
+            document.getElementById('selectedCharacter').value = firstChar.id;
+            document.getElementById('normalModeImage').src = firstChar.image;
+        }
+    }
+
+    function startNewGame() {
+        resetGame();
+        
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        targetCharacter = characters[randomIndex];
+        
+        if (globalPropertyKeys.length === 0) {
+            globalPropertyKeys = getRandomProperties();
+        }
+        
+        renderTargetCharacter();
+        renderCharacterStack();
+    }
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.custom-select')) {
+            document.getElementById('characterOptions').style.display = 'none';
+        }
+    });
+
+    window.onload = function() {
+        startNewGame();
+    };
+</script>
