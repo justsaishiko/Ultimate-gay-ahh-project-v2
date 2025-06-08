@@ -15,7 +15,7 @@ Color: zgaduje sie po palecie kolorów, każda paleta byłą robiona przez yours
 
 Normal i pixel mają opcję odsłonięcia przed czasem, color też miało ale wywaliłam bo nie chciało mi sie myśleć jak to jakkolwiek presentably ostylować. 
 
-W sidebarze są linki do: wiki, oryginału genshindle, oficjalnej strony hoyoverse, hoyolab, tiktoka (mojego) pod hoyocreator, nie dotykanego od jakiegoś miesiąca bo nie mam co wstawiać oraz placeholdery na insta i domene własną albowiem ich nie posiadam, ale pomysł był.
+W sidebarze są linki do: wiki, oryginału genshindle, oficjalnej strony hoyoverse, hoyolab, tiktoka (mojego) pod hoyocreator, nie dotykanego od jakiegoś miesiąca bo nie mam co wstawiać, proszę uprzejmie o nie zastanawianie się nad contentem oraz placeholdery na insta i domene własną albowiem ich nie posiadam, ale pomysł był.
 
 W navbarze pierwsze 3 opcje to wyżej wymienione gameplaye, dwa ostatnie to coś w stylu coming soon, kiedyś je zrobię, może. 
 
@@ -39,7 +39,7 @@ Color: guessed by the color palette, each palette was made by yours truly, I spe
 
 Normal and pixel have the option to reveal before using up all attempts, color also had it but I threw it out because I didn't feel like thinking about how to style it in any way presentable.
 
-In the sidebar there are links to: wiki, original genshindle, official hoyoverse website, hoyolab, tiktok (mine) under the hoyocreator program, not touched for about a month because I have nothing to post and placeholders for insta and my own domain because I don't have them, but the idea exists.
+In the sidebar there are links to: wiki, original genshindle, official hoyoverse website, hoyolab, tiktok (mine) under the hoyocreator program, not touched for about a month because I have nothing to post, please do not dwell on the content and placeholders for insta and my own domain because I don't have them, but the idea exists.
 
 In the navbar the first 3 options are the above-mentioned gameplays, the last two are something like coming soon, I'll do them someday, maybe.
 
