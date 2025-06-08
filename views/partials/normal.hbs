@@ -34,12 +34,12 @@
 
             <div class="winScreen hidden" id="winScreen">
                 <h2>Congratulations!</h2>
-                <p>You guessed the character correctly!</p>
+                <p>You guessed it right!</p>
                 <button onclick="startNewGame()">Play Again</button>
             </div>
             <div class="loseScreen hidden" id="loseScreen">
                 <h2>Game Over</h2>
-                <p>You didn't guess the character in time.</p>
+                <p>Welp, too bad.</p>
                 <button onclick="startNewGame()">Try Again</button>
             </div>
         </div>
@@ -272,7 +272,9 @@
         guessesLeft--;
         updateGuessCounter();
         
-        if (guessesLeft <= 0) {
+        if (selectedCharacter.id === targetCharacter.id) {
+            endGame(true);
+        } else if (guessesLeft <= 0) {
             endGame(false);
         }
         

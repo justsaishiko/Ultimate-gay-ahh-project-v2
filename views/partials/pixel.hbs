@@ -1,0 +1,597 @@
+<div class="pixelGuess">
+    <div class="game">
+        <div class="imaże">
+            <div class="pixelImaże">
+                <canvas id="pixelCanvas" class="pixelCanvas" width="400" height="400"></canvas>
+            </div>
+        </div>
+        
+        <div class="selectionArea">
+            <div class="select_i_counter">
+                <div class="stats">
+                    <div class="pixelationLvl">
+                        Pixel Level: <span id="pixelationLvl">1</span>/5
+                    </div>
+                    <div class="guessCounter">
+                        Guesses left: <span id="guessLeft">5</span>/5
+                    </div>                
+                </div>
+                <div class="custom-select">
+                    <div class="select-header" onclick="toggleDropdown()">
+                        <span>Select a character</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="select-options" id="characterOptions">
+                        <input type="text" id="characterSearch" placeholder="Search characters..." oninput="filterCharacters()">
+                        {{#each genshinCharacters}}
+                            <div class="option" data-value="{{id}}" onclick="selectCharacter(this)">
+                                <img src="{{image}}" class="option-image">
+                                <span class="option-text">{{name}}</span>
+                            </div>
+                        {{/each}}
+                    </div>
+                    <input type="hidden" id="selectedCharacter" name="character">
+                </div>
+                <div class="controlki">
+                    <button class="controlBtn" onclick="toggleTargetVisibility()">
+                        Reveal Character
+                    </button>
+                    <button class="controlBtn" onclick="startNewGame()">
+                        New Game
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="history">
+        <div id="history"></div>
+    </div>
+</div>
+
+<div class="popups" id="winScreen">
+    <div class="content">
+        <h2>Congratulations!</h2>
+        <p>You guessed <span class="characterName" id="winCharacterName"></span> correctly!</p>
+        <img id="winCharacterImage" class="resultImage" alt="Character Image">
+        <button class="playAgainBtn" onclick="startNewGame()">
+            Play Again
+        </button>
+    </div>
+</div>
+
+<div class="popups" id="loseScreen">
+    <div class="content">
+        <h2>Game Over</h2>
+        <p>The character was <span class="characterName" id="correctCharacterName"></span>.</p>
+        <img id="correctCharacterImage" class="resultImage" alt="Character Image">
+        <button class="playAgainBtn" onclick="startNewGame()">
+            Try Again
+        </button>
+    </div>
+</div>
+
+<div class="popups" id="targetCharacterpopups">
+    <div class="content">
+        <h2>Target Character</h2>
+        <p>You're trying to guess:</p>
+        <img id="targetCharacterImage" class="resultImage" alt="Target Character">
+        <h3 id="targetCharacterName" class="characterName"></h3>
+        <button class="playAgainBtn" onclick="toggleTargetVisibility()">
+            Close
+        </button>
+    </div>
+</div>
+
+<script>
+    const genshinCharacters = [
+        {{#each genshinCharacters}}
+        {
+            id: {{id}},
+            name: "{{name}}",
+            image: "{{image}}",
+            splashArt: "{{splashArt}}",
+            properties: {
+                element: "{{properties.element}}",
+                rarity: "{{properties.rarity}}",
+                weapon: "{{properties.weapon}}",
+                region: "{{properties.region}}",
+                version: "{{properties.version}}",
+                stat: "{{properties.stat}}",
+                talentBook: "{{properties.talentBook}}",
+                boss: "{{properties.boss}}",
+                specialty: "{{properties.specialty}}",
+                weeklyBoss: "{{properties.weeklyBoss}}",
+                mob: "{{properties.mob}}"
+            },
+        },
+        {{/each}}
+    ];
+
+    let targetCharacter = null;
+    const history = [];
+    const selectedCharacterIds = new Set();
+    let guessesLeft = 5;
+    let gameOver = false;
+    let pixelationLvl = 1;
+    const maxpixelationLvl = 5;
+    let pixelatedCache = {};
+
+    const guessLeftEl = document.getElementById('guessLeft');
+    const pixelCanvasEl = document.getElementById('pixelCanvas');
+    const pixelationLvlEl = document.getElementById('pixelationLvl');
+    const historyEl = document.getElementById('history');
+    const winScreen = document.getElementById('winScreen');
+    const loseScreen = document.getElementById('loseScreen');
+    const targetpopups = document.getElementById('targetCharacterpopups');
+    const winCharacterNameEl = document.getElementById('winCharacterName');
+    const winCharacterImageEl = document.getElementById('winCharacterImage');
+    const correctCharacterNameEl = document.getElementById('correctCharacterName');
+    const correctCharacterImageEl = document.getElementById('correctCharacterImage');
+    const targetCharacterNameEl = document.getElementById('targetCharacterName');
+    const targetCharacterImageEl = document.getElementById('targetCharacterImage');
+
+    function toggleDropdown() {
+        const options = document.getElementById('characterOptions');
+        options.style.display = options.style.display === 'block' ? 'none' : 'block';
+        
+        if (options.style.display === 'block') {
+            document.getElementById('characterSearch').focus();
+        }
+    }
+
+    function filterCharacters() {
+        const searchTerm = document.getElementById('characterSearch').value.toLowerCase();
+        const options = document.querySelectorAll('.option');
+        
+        options.forEach(option => {
+            const name = option.querySelector('.option-text').textContent.toLowerCase();
+            option.style.display = name.includes(searchTerm) ? 'flex' : 'none';
+        });
+    }
+
+    function selectCharacter(element) {
+        if (gameOver) return;
+        
+        const selectedId = parseInt(element.getAttribute('data-value'));
+        
+        if (selectedCharacterIds.has(selectedId)) {
+            alert('This character has already been selected!');
+            return;
+        }
+        
+        const selectedCharacter = genshinCharacters.find(c => c.id === selectedId);
+        
+        if (!selectedCharacter) return;
+        
+        document.querySelector('.select-header span:first-child').innerHTML = `
+            <img src="${selectedCharacter.image}" class="option-image">
+            <span class="option-text">${selectedCharacter.name}</span>
+        `;
+        
+        document.getElementById('selectedCharacter').value = selectedId;
+        document.getElementById('characterOptions').style.display = 'none';
+        
+        history.unshift({
+            character: selectedCharacter,
+            timestamp: new Date(),
+            isCorrect: selectedCharacter.id === targetCharacter.id
+        });
+        
+        selectedCharacterIds.add(selectedId);
+        
+        guessesLeft--;
+        guessLeftEl.textContent = guessesLeft;
+        
+        if (selectedCharacter.id !== targetCharacter.id && pixelationLvl < maxpixelationLvl) {
+            pixelationLvl++;
+            updatePixelImage();
+        }
+        
+        renderhistory();
+        
+        if (selectedCharacter.id === targetCharacter.id) {
+            endGame(true);
+        } else if (guessesLeft <= 0) {
+            endGame(false);
+        }
+    }
+
+    function pixelateImage(img, pixelSize) {
+        const ctx = pixelCanvasEl.getContext('2d');
+        const width = pixelCanvasEl.width;
+        const height = pixelCanvasEl.height;
+        
+        ctx.clearRect(0, 0, width, height);
+        
+        const smallWidth = Math.floor(width / pixelSize);
+        const smallHeight = Math.floor(height / pixelSize);
+        
+        const tempCanvas = document.createElement('canvas');
+        const tempCtx = tempCanvas.getContext('2d');
+        tempCanvas.width = smallWidth;
+        tempCanvas.height = smallHeight;
+        
+        tempCtx.drawImage(img, 0, 0, smallWidth, smallHeight);
+        
+        ctx.imageSmoothingEnabled = false;
+        ctx.drawImage(tempCanvas, 0, 0, smallWidth, smallHeight, 0, 0, width, height);
+    }
+
+    function updatePixelImage() {
+        if (!targetCharacter) return;
+        
+        const pixelSizes = [20, 15, 10, 5, 1]; 
+        const pixelSize = pixelSizes[pixelationLvl - 1];
+        
+        if (pixelatedCache[pixelationLvl]) {
+            pixelCanvasEl.getContext('2d').drawImage(pixelatedCache[pixelationLvl], 0, 0);
+            return;
+        }
+        
+        const img = new Image();
+        img.crossOrigin = "Anonymous";
+        img.src = targetCharacter.splashArt;
+        img.onload = () => {
+            pixelateImage(img, pixelSize);
+            const cacheImg = new Image();
+            cacheImg.src = pixelCanvasEl.toDataURL();
+            pixelatedCache[pixelationLvl] = cacheImg;
+        };
+        
+        pixelationLvlEl.textContent = pixelationLvl;
+    }
+
+    function renderhistory() {
+        historyEl.innerHTML = '';
+        
+        if (history.length === 0) {
+            historyEl.innerHTML = '<p>No guesses yet</p>';
+            return;
+        }
+        
+        history.forEach(guess => {
+            const guessEntry = document.createElement('div');
+            guessEntry.className = 'guess-entry';
+            
+            guessEntry.innerHTML = `
+                <div class="char-info">
+                    <img src="${guess.character.image}" class="guess-image" alt="${guess.character.name}">
+                    <div class="guess-name">${guess.character.name}</div>
+                </div>
+                <div class="status-icon ${guess.isCorrect ? 'correct' : 'incorrect'}">
+                    ${guess.isCorrect ? '✓' : '✗'}
+                </div>
+            `;
+            
+            historyEl.appendChild(guessEntry);
+        });
+    }
+
+    function toggleTargetVisibility() {
+        if (!targetCharacter) return;
+        
+        targetCharacterNameEl.textContent = targetCharacter.name;
+        targetCharacterImageEl.src = targetCharacter.splashArt;
+        targetpopups.classList.toggle('active');
+    }
+
+    function endGame(isWin) {
+        gameOver = true;
+        
+        if (isWin) {
+            winCharacterNameEl.textContent = targetCharacter.name;
+            winCharacterImageEl.src = targetCharacter.splashArt;
+            winScreen.classList.add('active');
+        } else {
+            correctCharacterNameEl.textContent = targetCharacter.name;
+            correctCharacterImageEl.src = targetCharacter.splashArt;
+            loseScreen.classList.add('active');
+        }
+        
+        document.querySelector('.custom-select').style.opacity = '0.5';
+        document.querySelector('.custom-select').style.pointerEvents = 'none';
+    }
+
+    function resetGame() {
+        history.length = 0;
+        selectedCharacterIds.clear();
+        guessesLeft = 5;
+        gameOver = false;
+        pixelationLvl = 1;
+        pixelatedCache = {};
+        
+        guessLeftEl.textContent = guessesLeft;
+        pixelationLvlEl.textContent = pixelationLvl;
+        
+        winScreen.classList.remove('active');
+        loseScreen.classList.remove('active');
+        targetpopups.classList.remove('active');
+        
+        document.getElementById('history').innerHTML = '';
+        document.querySelector('.select-header span:first-child').innerHTML = 'Select a character';
+        document.getElementById('selectedCharacter').value = '';
+        document.querySelector('.custom-select').style.opacity = '1';
+        document.querySelector('.custom-select').style.pointerEvents = 'auto';
+    }
+
+    function startNewGame() {
+        resetGame();
+        
+        const randomIndex = Math.floor(Math.random() * genshinCharacters.length);
+        targetCharacter = genshinCharacters[randomIndex];
+        
+        updatePixelImage();
+    }
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.custom-select')) {
+            document.getElementById('characterOptions').style.display = 'none';
+        }
+    });
+
+    window.onload = function() {
+        startNewGame();
+    };
+</script>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    
+    .pixelGuess {
+        width: 90%;
+        height: 90%;
+        background-color: #00000070;
+        border: 1px solid black; 
+    }
+    
+    button{
+        background-color: #00000050;
+        color: white;
+
+    }
+    .game {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .imaże {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    .pixelImaże {
+        width: 300px;
+        height: 300px;
+        margin: 15px auto;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    }
+    
+    .pixelCanvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+        image-rendering: pixelated;
+    }
+    
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .pixelationLvl, .guessCounter {
+        color: black;
+        font-weight: 700;
+        gap: 10px;
+        padding: 10px;
+    }
+    .pixelationLvl{
+        font-weight: 900;
+    }
+    
+    .selectionArea {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .select_i_counter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .custom-select {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+    
+    .select-header {
+        padding: 12px 15px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        border-radius: 8px;
+    }
+    
+    .select-header span:first-child {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .select-options {
+        display: none;
+        position: absolute;
+        width: 100%;
+        max-height: 300px;
+        overflow-y: auto;
+        z-index: 100;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    #characterSearch {
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+    }
+    
+    .option {
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+    }
+    
+    .option-image {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .controlki {
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    
+    .controlBtn {
+        padding: 10px 20px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.3s;
+        background-color: #00000050;
+    }
+
+    
+    .history {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+    #history {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 10px;
+    }
+    
+    .guess-entry {
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #00000050;
+        border: 2px solid black;
+        border-radius: 8px;
+
+    }
+    
+    .char-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .guess-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+    
+    .guess-name {
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    
+    .status-icon {
+        font-weight: bold;
+    }
+    
+    .popups {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1000;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    .popups.active {
+        opacity: 1;
+        pointer-events: all;
+    }
+    
+    .content {
+        padding: 10px;
+        border-radius: 12px;
+        text-align: center;
+        width: 30%;
+        height: 60%;
+        background-color: #00000098;
+        border: 1px solid black;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content p, h2, h3{
+        margin: 5px;
+    }
+    
+    .resultImage {
+        width: 330px;
+        height: 330px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin: 15px auto;
+    }
+    
+    .playAgainBtn {
+        padding: 12px 30px;
+        border: none;
+        border-radius: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+</style>
